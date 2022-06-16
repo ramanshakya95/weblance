@@ -1,0 +1,77 @@
+@import "../../components/Var.scss";
+
+.banner_section {
+  .banner_content {
+    h1 {
+      @include banner_title;
+    }
+    p {
+      font-family: $font-family;
+      font-size: $font-size-30;
+      line-height: $line-height-45;
+      a {
+        color: $theme-color;
+      }
+    }
+  }
+  .banner_img {
+    img {
+      margin-bottom: -50px;
+    }
+  }
+}
+
+.brand_section {
+  background-color: #f7f7f7;
+  background-image: url(../../assets/Tablet_Image_bg.png);
+  background-repeat: no-repeat;
+  padding: 125px 0px;
+  .brand_first_section {
+    img {
+      max-width: 765px;
+    }
+  }
+  .brand_second_section {
+    h1 {
+      @include second_title;
+    }
+    p {
+      padding-right: 110px;
+    }
+  }
+}
+
+.digital_section {
+    padding: 150px 0px;
+    h1 {
+        @include second_title; 
+        margin-bottom: 70px;  
+    }
+    .theme-color {
+        color: $theme-color;
+    }
+    .each-agency {
+        display: flex;
+        align-items: center;
+        .number {
+            background: url(../../assets/num-bg.svg) no-repeat;
+            min-width: 163px;
+            height: 140px;
+            @include flex-center;
+            @include second_title;
+            color: #fff;
+            margin-right: 35px;
+        }
+        .content{
+            h3{
+                @include _title;
+                font-size: $font-size-40;
+                line-height: $line-height-80;
+                margin: 0px;
+            }
+            p{
+                @include paragraph;
+            }
+        }
+    }
+}

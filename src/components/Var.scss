@@ -1,0 +1,64 @@
+$font-family : 'Mulish';
+$font-weight-400: 400;
+$font-weight-900: 900;
+$font-size-70 : 70px;
+$font-size-90 : 90px;
+$font-size-30 : 30px;
+$font-size-40 : 40px;
+$font-size-18 : 18px;
+$font-size-16 : 16px;
+$line-height-16 : 16px;
+$line-height-26 : 26px;
+$line-height-45 : 45px;
+$line-height-80 : 80px;
+$line-height-100 : 100px;
+$theme-color: #FF5B54;
+$white-color : #fff;
+$color-2 : #222;
+$margin_bottom : 20px;
+
+@mixin flex-center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@mixin header-button {
+    background-color: $theme-color;
+    border-radius: 50px;
+    width: 153px;
+    margin: 0;
+    height: 52px;
+    line-height: 52px;
+    font-size: $font-size-16;
+    font-weight: $font-weight-900;
+    color: $white-color;
+    padding: 0px;
+    @include flex-center;
+}
+
+@mixin _title {
+    font-family: $font-family;
+    font-weight: $font-weight-900;
+    color: $color-2;
+    margin-bottom: $margin_bottom;
+}
+
+@mixin banner_title {
+    @include _title;
+    font-size: $font-size-90;
+    line-height: $line-height-100;
+}
+
+@mixin second_title {
+    @include _title;
+    font-size: $font-size-70;
+    line-height: 80px;
+}
+
+@mixin paragraph {
+    font-family: $font-family;
+    font-weight: $font-weight-400;
+    font-size: $font-size-16;
+    line-height: $line-height-26;
+}
