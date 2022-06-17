@@ -1,0 +1,53 @@
+@import "../../components/Var.scss";
+
+.footer_section {
+  padding: 115px 0px 95px;
+  background: url(../../assets/footer-bg.png);
+  .first_column {
+    max-width: 450px;
+    .logo {
+      filter: brightness(0) invert(1);
+      width: 352px;
+      margin-bottom: 39px;
+    }
+    h3 {
+      font-size: 33px;
+      line-height: 41px;
+      font-weight: 700;
+      color: $white-color;
+      margin-bottom: 39px;
+    }
+  }
+  .second_column {
+    max-width: 520px;
+    h3 {
+      font-size: 33px;
+      line-height: 41px;
+      font-weight: $font-weight-900;
+      margin-bottom: 25px;
+      color: $white-color;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        font-size: $font-size-16;
+        line-height: 38px;
+        color: $white-color;
+        flex-basis: calc(100% / 2);
+        // &:nth-child(2n+2) {
+        //     padding-left: 20px;
+        //   }
+      }
+    }
+  }
+}
+
+.copyright_section{
+    p{
+        @include paragraph;
+        color: $white-color;
+        padding: 23px 10px;
+        background: $text-000;
+    }
+}
