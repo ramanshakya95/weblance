@@ -35,6 +35,9 @@
       }
       .hireme-btn {
         @include header-button;
+        &:hover{
+          background: $text-000;
+        }
       }
     }
   }

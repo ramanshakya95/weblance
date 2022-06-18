@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
-import arrow from '../assets/arrow.svg';
-import makesomething from '../assets/make-something.svg';
+import arrow from '../../assets/arrow.svg';
+import makesomething from '../../assets/make-something.svg';
+import './MakeSomething.scss';
 
 const MakeSomething = () => {
     return (

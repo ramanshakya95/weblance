@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Tablet_Img from '../assets/Tablet_Image.png';
+import Tablet_Img from '../../assets/Tablet_Image.png';
+import './MakingBrands.scss'
 
-const ImgContent = () => {
+const MakingBrands = () => {
     return (
         <>
             <section className='making_brand_section'>
@@ -22,4 +23,4 @@ const ImgContent = () => {
     );
 };
 
-export default ImgContent;
+export default MakingBrands;

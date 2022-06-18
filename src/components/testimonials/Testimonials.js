@@ -1,11 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import arrow from '../assets/arrow.svg';
+import arrow from '../../assets/arrow.svg';
+import './Testimonials.scss';
 
 const testimonialdata = [
-    { id: 1, image: require('../assets/testimonial.png'), testimonial: 'I always appreciate the work Dezinestar does. The end result is always excellent.', name: 'Silentwyllow' },
-    { id: 2, image: require('../assets/testimonial.png'), testimonial: 'I always appreciate the work Dezinestar does. The end result is always excellent.', name: 'Silentwyllow' }
+    { id: 1, image: require('../../assets/testimonial.png'), testimonial: 'I always appreciate the work Dezinestar does. The end result is always excellent.', name: 'Silentwyllow' },
+    { id: 2, image: require('../../assets/testimonial.png'), testimonial: 'I always appreciate the work Dezinestar does. The end result is always excellent.', name: 'Silentwyllow' }
 ]
 
 const Testimonials = () => {

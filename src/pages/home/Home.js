@@ -1,19 +1,18 @@
 import React from 'react';
-import './Home.scss';
-import Worklist from '../../components/WorkList';
-import Banner from '../../components/Banner';
-import ImgContent from '../../components/ImgContent';
-import ThreeThings from '../../components/ThreeThings';
-import Services from '../../components/Services';
-import Clients from '../../components/Clients';
-import Testimonials from '../../components/Testimonials';
-import MakeSomething from '../../components/MakeSomething';
+import Banner from '../../components/banner/Banner';
+import Clients from '../../components/clients/Clients';
+import MakingBrands from '../../components/imgcontent/MakingBrands';
+import MakeSomething from '../../components/makesomething/MakeSomething';
+import Services from '../../components/services/Services';
+import Testimonials from '../../components/testimonials/Testimonials';
+import ThreeThings from '../../components/threethings/ThreeThings';
+import Worklist from '../../components/worklist/WorkList';
 
 const Home = () => {
     return (
         <>
             <Banner />
-            <ImgContent />
+            <MakingBrands />
             <ThreeThings />
             <Services />
             <Worklist />
