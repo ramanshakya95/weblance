@@ -36,7 +36,7 @@ const Header = () => {
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
-                                    About
+                                    About Us
                                 </NavLink>
                             </li>
                             <li className="nav-item">

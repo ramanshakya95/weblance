@@ -9,11 +9,11 @@ const Banner = () => {
             <section className='banner_section'>
                 <Container className='p-0'>
                     <Row className='banner align-items-center m-0'>
-                        <Col className='banner_content'>
+                        <Col className='banner_content pe-5 p-0'>
                             <h1>Rebel against boring</h1>
-                            <p>We’re a creative web design agency that crafts beautiful and original websites for brands who <a href="#/">refuse to blend in.</a></p>
+                            <h5>We’re a creative web design agency that crafts beautiful and original websites for brands who <a href="#/">refuse to blend in.</a></h5>
                         </Col>
-                        <Col className='banner_img'>
+                        <Col className='banner_img ps-5 p-0 text-right'>
                             <img src={bannerimg} alt='banner-img' />
                         </Col>
                     </Row>

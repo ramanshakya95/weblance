@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;900&display=swap");
 @import "../../Var.scss";
+
 .navbar {
   height: 110px;
   display: flex;
@@ -32,10 +32,23 @@
         text-decoration: none;
         height: 100%;
         font-size: $font-size-18;
+        position: relative;
+        &.active {
+          &:after{
+            content: '';
+            height: 5px;
+            width: 100%;
+            background: $theme-color;
+            display: block;
+            margin-top: 5px;
+            border-radius: 50px;
+            position:absolute;
+          }
+        }
       }
       .hireme-btn {
         @include header-button;
-        &:hover{
+        &:hover {
           background: $text-000;
         }
       }
@@ -47,12 +60,6 @@
 }
 .main-container {
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1400px;
-  }
 }
 
 @media screen and (max-width: 960px) {

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;900&display=swap");
 @import "~bootstrap/scss/bootstrap";
 @import "./Var.scss";
 * {
@@ -42,3 +43,10 @@ button.second_button {
   }
 }
 // button component styling end
+
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}

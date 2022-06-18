@@ -1,6 +1,5 @@
 @import "../../Var.scss";
 
-// making brand component styling start
 .making_brand_section {
     background-color: $bg-color;
     background-image: url("../../assets/Tablet_Image_bg.png");
@@ -14,6 +13,7 @@
     .brand_second_section {
       h1 {
         @include second_title;
+        margin-bottom: $margin_bottom;
       }
       p {
         font-size: 20px;
@@ -23,5 +23,4 @@
       }
     }
   }
-  // making brand component styling end
   

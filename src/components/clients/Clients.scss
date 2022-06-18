@@ -1,12 +1,11 @@
 @import '../../Var.scss';
 
-// client component styling start
 .client_section {
     padding: 150px 0px;
     h2 {
       @include second_title;
       color: $text-000;
+      margin-bottom: $margin_bottom;
     }
   }
-  // client component styling end
   

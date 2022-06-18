@@ -5,8 +5,9 @@
     .banner_content {
       h1 {
         @include banner_title;
+        margin-bottom: 25px;
       }
-      p {
+      h5 {
         font-family: $font-family;
         font-size: $font-size-30;
         line-height: $line-height-45;
@@ -19,6 +20,7 @@
       img {
         margin-bottom: -60px;
         animation: topbottom 2s infinite;
+        max-width: 670px;
       }
     }
   }

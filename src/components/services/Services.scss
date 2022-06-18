@@ -1,6 +1,5 @@
 @import "../../Var.scss";
 
-// services component styling start
 .services_section {
     padding: 0px 0px 168px;
     .row {
@@ -40,6 +39,7 @@
         }
         h1 {
           @include second_title;
+          margin-bottom: $margin_bottom;
         }
         p {
           font-size: $font-size-20;
@@ -101,5 +101,4 @@
       }
     }
   }
-  // services component styling end
   

@@ -45,8 +45,6 @@ const Footer = () => {
                 <p className='text-center'>© 2022 Dezinestar. All Rights Reserved.</p>
             </section>
 
-            <a href='#/'>click</a>
-
         </>
     );
 };
