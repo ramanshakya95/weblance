@@ -21,6 +21,15 @@ p {
     transform: translateY(-15px);
   }
 }
+@keyframes leftright {
+  0%,
+  100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
 @keyframes scale {
   0%,
   100% {
@@ -37,9 +46,12 @@ button.second_button {
   @include second-button;
   img {
     padding-left: 17px;
+    animation: leftright 1.6s ease-in-out infinite;
+    -webkit-animation: leftright 1.6s ease-in-out infinite;
   }
-  &:hover {
+  &:hover, &:active, &:focus {
     background: $text-000;
+    box-shadow: none !important;
   }
 }
 // button component styling end
