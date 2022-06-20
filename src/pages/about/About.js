@@ -1,10 +1,13 @@
 import React from 'react';
+import Banner from '../../components/banner/Banner';
+import MakeSomething from '../../components/makesomething/MakeSomething';
 
 const About = () => {
     return (
-        <div>
-            about
-        </div>
+        <>
+            <Banner />
+            <MakeSomething />
+        </>
     );
 };
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import './WorkList.scss';
 
@@ -27,7 +28,7 @@ const WorkList = () => {
                             <Col className='_column'>
                                 <img src={work.image} alt='project' />
                                 <h3>{work.title}</h3>
-                                <h4>{work.shorttitle}</h4>
+                                <h4><Link to='/'>{work.shorttitle}</Link></h4>
                             </Col>
                         ))}
                     </Row>

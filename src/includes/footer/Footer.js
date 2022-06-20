@@ -1,6 +1,7 @@
 import React from 'react';
-import './Footer.scss'
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
+import './Footer.scss';
 import footerlogo from '../../assets/logo.svg';
 import freelance from '../../assets/freelance.svg';
 
@@ -33,7 +34,7 @@ const Footer = () => {
                             <h3>Experts in</h3>
                             <ul className='p-0 list-unstyled'>
                                 {expertdata.map(expert => (
-                                    <li>{expert.title}</li>
+                                    <li><Link to='/'>{expert.title}</Link></li>
                                 ))}
                             </ul>
                         </Col>
@@ -44,7 +45,6 @@ const Footer = () => {
             <section className='copyright_section'>
                 <p className='text-center'>© 2022 Dezinestar. All Rights Reserved.</p>
             </section>
-
         </>
     );
 };
