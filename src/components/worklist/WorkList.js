@@ -25,7 +25,7 @@ const WorkList = () => {
                     </Row>
                     <Row xs={1} md={2} lg={2} className='projects_ first_row'>
                         {Worklist.map(work => (
-                            <Col className='_column'>
+                            <Col className='_column' key={work.id}>
                                 <img src={work.image} alt='project' />
                                 <h3>{work.title}</h3>
                                 <h4><Link to='/'>{work.shorttitle}</Link></h4>

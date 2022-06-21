@@ -7,12 +7,12 @@ import bannerimg from '../../assets/Banner-Img.svg';
 const BANNER_CONTENT = {
     "/": <section className='home_banner_section'>
         <Container className='p-0'>
-            <Row className='banner align-items-center m-0'>
-                <Col className='banner_content p-0'>
+            <Row className='banner align-items-center m-0 flex-wrap'>
+                <Col md={6} sm={12} className='banner_content p-0'>
                     <h1>Rebel against boring</h1>
                     <h5>We’re a creative web design agency that crafts beautiful and original websites for brands who <a href="#/">refuse to blend in.</a></h5>
                 </Col>
-                <Col className='banner_img ps-5 p-0 text-right'>
+                <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
                     <img src={bannerimg} alt='banner-img' />
                 </Col>
             </Row>
@@ -25,7 +25,7 @@ const BANNER_CONTENT = {
                     <h1>Rebel against boring</h1>
                     <h5>We’re a creative web design agency that crafts beautiful and original websites for brands who <a href="#/">refuse to blend in.</a></h5>
                 </Col>
-                <Col className='banner_img ps-5 p-0 text-right'>
+                <Col className='banner_img ps-5 ps-sm-3 ps-xs-1 p-0 text-right'>
                     <img src={bannerimg} alt='banner-img' />
                 </Col>
             </Row>

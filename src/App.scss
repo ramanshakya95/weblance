@@ -49,16 +49,22 @@ button.second_button {
     animation: leftright 1.6s ease-in-out infinite;
     -webkit-animation: leftright 1.6s ease-in-out infinite;
   }
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background: $text-000;
     box-shadow: none !important;
   }
 }
 // button component styling end
 
-
 @media (min-width: 1400px) {
   .container {
     max-width: 1400px;
+  }
+}
+@media (max-width: 1400px) {
+  img {
+    max-width: 100%;
   }
 }

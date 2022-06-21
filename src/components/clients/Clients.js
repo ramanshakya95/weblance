@@ -23,7 +23,7 @@ const Clients = () => {
                     <h2 className='text-center'>Our clients</h2>
                     <Row className='align-items-center'>
                         {clientdata.map(client => (
-                            <Col>
+                            <Col key={client.id}>
                                 <img src={client.image} alt='clients' />
                             </Col>
                         ))}

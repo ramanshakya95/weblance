@@ -34,7 +34,7 @@ const Footer = () => {
                             <h3>Experts in</h3>
                             <ul className='p-0 list-unstyled'>
                                 {expertdata.map(expert => (
-                                    <li><Link to='/'>{expert.title}</Link></li>
+                                    <li key={expert.id}><Link to='/'>{expert.title}</Link></li>
                                 ))}
                             </ul>
                         </Col>

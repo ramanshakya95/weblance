@@ -8,22 +8,24 @@ $font-size-40: 40px;
 $font-size-20: 20px;
 $font-size-18: 18px;
 $font-size-16: 16px;
+$font-size-15: 15px;
 $line-height-16: 16px;
+$line-height-20: 20px;
 $line-height-26: 26px;
 $line-height-30: 30px;
 $line-height-45: 45px;
 $line-height-80: 80px;
 $line-height-100: 100px;
+$margin_bottom: 20px;
+$margin_bottom_35: 35px;
+$border-radius: 32px;
 $theme-color: #ff5b54;
 $white-color: #fff;
 $text-222: #222;
 $text-000: #000;
 $text-555: #555;
-$margin_bottom: 20px;
-$margin_bottom_35: 35px;
 $bg-color: #f7f7f7;
 $bg-color-47: #474747;
-$border-radius: 32px;
 
 @mixin flex-center {
   display: flex;
@@ -43,6 +45,11 @@ $border-radius: 32px;
   color: $white-color;
   padding: 0px;
   @include flex-center;
+
+  @media only screen and (max-width: 1400px) {
+    width: 135px;
+    height: 45px;
+  }
 }
 
 @mixin second-button {
@@ -56,6 +63,12 @@ $border-radius: 32px;
   font-weight: $font-weight-900;
   color: $white-color;
   padding: 0px;
+
+  @media only screen and (max-width: 1400px) {
+    width: 220px;
+    height: 60px;
+    font-size: $font-size-20 - 2px;
+  }
 }
 
 @mixin _title {
@@ -78,12 +91,58 @@ $border-radius: 32px;
   @include _title;
   font-size: $font-size-90;
   line-height: $line-height-100;
+
+  @media only screen and (max-width: 1400px) {
+    font-size: $font-size-90 - 15px;
+    line-height: $line-height-100 - 20px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    font-size: $font-size-90 - 30px;
+    line-height: $line-height-100 - 35px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    font-size: $font-size-90 - 35px;
+    line-height: $line-height-100 - 40px;
+  }
+
+  @media only screen and (max-width: 991px) {
+    font-size: $font-size-90 - 40px;
+    line-height: $line-height-100 - 45px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    font-size: $font-size-90 - 50px;
+    line-height: $line-height-100 - 55px;
+  }
 }
 
 @mixin second_title {
   @include _title;
   font-size: $font-size-70;
   line-height: 80px;
+
+  @media only screen and (max-width: 1400px) {
+    font-size: $font-size-70 - 10px;
+    line-height: 70px;
+  }
+  @media only screen and (max-width: 1200px) {
+    font-size: $font-size-70 - 20px;
+    line-height: 60px;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: $font-size-70 - 30px;
+    line-height: 50px;
+  }
+  @media only screen and (max-width: 991px) {
+    font-size: $font-size-70 - 35px;
+    line-height: 40px;
+  }
+  @media only screen and (max-width: 767px) {
+    font-size: $font-size-70 - 40px;
+    line-height: 35px;
+  }
 }
 
 @mixin paragraph {
@@ -91,4 +150,8 @@ $border-radius: 32px;
   font-weight: $font-weight-400;
   font-size: $font-size-16;
   line-height: $line-height-26;
+  @media only screen and (max-width: 991px) {
+    font-size: $font-size-15;
+    line-height: $line-height-20;
+  }
 }

@@ -16,7 +16,7 @@ const ThreeThings = () => {
                     <h1>Our creative digital agency design and develop projects with <br /> <span className='theme-color'>three things in mind;</span></h1>
                     <Row>
                         {threethings.map(things => (
-                            <Col>
+                            <Col key={things.id}>
                                 <div className='each-agency'>
                                     <div className='number'>
                                         {things.id}

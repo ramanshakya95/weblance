@@ -29,7 +29,7 @@ const Testimonials = () => {
                             <div className='testimonial-slider'>
                                 <Carousel>
                                     {testimonialdata.map(testimonials => (
-                                        <Carousel.Item>
+                                        <Carousel.Item key={testimonials.id}>
                                             <img
                                                 className="d-block m-auto"
                                                 src={testimonials.image}

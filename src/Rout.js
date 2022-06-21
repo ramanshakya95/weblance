@@ -12,7 +12,7 @@ const Rout = () => {
                 <Route exact path="/" element={<Home/>}></Route>
                 <Route exact path="/about" element={<About/>}></Route>
                 <Route exact path="/services" element={<Services/>}></Route>
-                <Route path="*" element={<Error/>}></Route>
+                {/* <Route path="*" element={<Error/>}></Route> */}
             </Routes>
         </>
     );

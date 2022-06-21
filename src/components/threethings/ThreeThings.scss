@@ -1,39 +1,63 @@
 @import "../../Var.scss";
 
 .three_things_section {
-    padding: 150px 0px 215px;
-    h1 {
+  padding: 150px 0px 215px;
+  h1 {
+    @include second_title;
+    margin-bottom: 70px;
+    padding-right: 60px;
+  }
+  .theme-color {
+    color: $theme-color;
+  }
+  .each-agency {
+    display: flex;
+    align-items: center;
+    .number {
+      background: url("../../assets/num-bg.svg") no-repeat;
+      min-width: 163px;
+      height: 140px;
+      @include flex-center;
       @include second_title;
-      margin-bottom: 70px;
-      padding-right: 60px;
+      color: $white-color;
+      margin-right: 35px;
     }
-    .theme-color {
-      color: $theme-color;
+    .content {
+      h3 {
+        @include _title;
+        font-size: $font-size-40;
+        line-height: $line-height-80;
+        margin: 0px;
+      }
+      p {
+        @include paragraph;
+        color: $text-555;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    padding: 100px 0px 165px;
+    h1 {
+      margin-bottom: 50px;
+      padding-right: 260px;
+      br{
+        display: none;
+      }
     }
     .each-agency {
-      display: flex;
-      align-items: center;
       .number {
-        background: url("../../assets/num-bg.svg") no-repeat;
-        min-width: 163px;
-        height: 140px;
-        @include flex-center;
-        @include second_title;
-        color: $white-color;
-        margin-right: 35px;
+        min-width: 130px;
+        height: 110px;
+        background-size: contain;
+        margin-right: 20px;
       }
       .content {
         h3 {
-          @include _title;
-          font-size: $font-size-40;
-          line-height: $line-height-80;
-          margin: 0px;
-        }
-        p {
-          @include paragraph;
-          color: $text-555;
+          font-size: $font-size-30;
+          line-height: $line-height-45;
         }
       }
     }
   }
-  
+}

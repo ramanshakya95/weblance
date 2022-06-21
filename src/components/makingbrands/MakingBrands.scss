@@ -1,26 +1,58 @@
 @import "../../Var.scss";
 
 .making_brand_section {
-    background-color: $bg-color;
-    background-image: url("../../assets/Tablet_Image_bg.png");
-    background-repeat: no-repeat;
-    padding: 125px 0px;
+  background-color: $bg-color;
+  background-image: url("../../assets/Tablet_Image_bg.png");
+  background-repeat: no-repeat;
+  padding: 125px 0px;
+  .brand_first_section {
+    img {
+      max-width: 765px;
+    }
+  }
+  .brand_second_section {
+    h1 {
+      @include second_title;
+      margin-bottom: $margin_bottom;
+    }
+    p {
+      font-size: 20px;
+      line-height: $line-height-30;
+      padding-right: 90px;
+      color: $text-555;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    padding: 100px 0px;
+    background-size: 50% 100%;
     .brand_first_section {
       img {
-        max-width: 765px;
-      }
-    }
-    .brand_second_section {
-      h1 {
-        @include second_title;
-        margin-bottom: $margin_bottom;
-      }
-      p {
-        font-size: 20px;
-        line-height: $line-height-30;
-        padding-right: 90px;
-        color: $text-555;
+        max-width: 100%;
       }
     }
   }
-  
+  @media only screen and (max-width: 1200px) {
+    padding: 70px 0px;
+    .brand_second_section {
+      h1 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 18px;
+        line-height: $line-height-26;
+        padding-right: 40px;
+      }
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    padding: 60px 0px;
+    .brand_second_section {
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-right: 0px;
+      }
+    }
+  }
+}

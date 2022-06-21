@@ -21,7 +21,7 @@ const Services = () => {
                         </Col>
                         <Col className='second_column p-0 ps-5'>
                             {servicedata.map(service => (
-                                <div className='each_service bg-light-color'>
+                                <div className='each_service bg-light-color' key={service.id}>
                                     <img src={service.image} alt={service.image} />
                                     <div className='content'>
                                         <h4>{service.title}</h4>
