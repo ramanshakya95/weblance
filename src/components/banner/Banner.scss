@@ -28,6 +28,7 @@
   padding: 54px 0px 135px;
   h1{
     @include large_title;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.15);
   }
   .banner_content{
     padding:0px 0px 0px 140px;
@@ -43,7 +44,7 @@
   }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: $xl-large-1400) {
   .home_banner_section {
     .banner_content {
       h1 {
@@ -62,7 +63,7 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: $large-1200) {
   .home_banner_section {
     .banner_content {
       h1 {
@@ -81,7 +82,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: $tablet-1024) {
   .home_banner_section {
     .banner_content {
       h5 {

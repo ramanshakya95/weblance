@@ -1,7 +1,14 @@
 @import '../../Var.scss';
 
-.client_section {
+.logo_section {
+  &.client_section {
     padding: 150px 0px;
+  }
+  &.skill_section{
+    h2{
+      margin-bottom: 55px;
+    }
+  }
     h2 {
       @include second_title;
       color: $text-000;

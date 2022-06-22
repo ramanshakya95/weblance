@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import arrow from '../../assets/arrow.svg';
+import arrow from '../../assets/svg/arrow.svg';
 import './Testimonials.scss';
 
 const testimonialdata = [

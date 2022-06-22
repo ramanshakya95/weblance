@@ -1,0 +1,106 @@
+@import "../../Var.scss";
+
+@mixin badges-title {
+  font-weight: $font-weight-900;
+  font-size: $font-size-40;
+  line-height: $line-height-45;
+  color: $text-222;
+}
+
+.vision_mision_section {
+  padding: 120px 0px 110px;
+  .mision-vision {
+    padding: 90px;
+    @include bg-radius;
+    .first_column {
+      .nav-tabs {
+        border: 0px;
+        li {
+          button {
+            background: #e2e2e2;
+            border: 0px;
+            border-radius: 15px;
+            font-size: 20px;
+            padding: 19px 30px;
+            font-weight: 800;
+            color: $text-222;
+            margin-right: 8px;
+            &.active {
+              background: $theme-color;
+              color: $white-color;
+            }
+          }
+        }
+      }
+      h1 {
+        @include second_title;
+        margin-top: 16px;
+        margin-bottom: $margin_bottom;
+      }
+      p {
+        @include paragraph;
+        padding-right: 50px;
+      }
+    }
+    .second_column {
+      position: relative;
+      img {
+        position: absolute;
+        right: 0;
+        width: 97%;
+      }
+    }
+  }
+}
+
+.freelance_section {
+  padding: 125px 0px;
+  ._column {
+    max-width: 1110px;
+    margin-left: auto;
+    position: relative;
+    padding: 90px 100px;
+    @include bg-radius;
+    .profile {
+      position: absolute;
+      left: -280px;
+      background: url('../../assets/badges/profile_bg.png') no-repeat;
+      background-size: cover;
+      width: 343px;
+      height: 410px;
+      @include flex-center;
+      flex-direction: column;
+      h2{
+        @include badges-title;
+        color: $white-color;
+      }
+      p{
+        color: $white-color;
+        font-size: $font-size-20;
+        margin-bottom: $margin_bottom;
+      }
+    }
+    .badges_ {
+      .text_badges {
+        h3 {
+          @include badges-title;
+          margin-bottom: 15px;
+          .theme-color {
+            color: $theme-color;
+          }
+        }
+        &.active_reward {
+          padding: 33px 0px;
+          border-bottom: 1px solid #e0e0e0;
+        }
+        &.earn_badges {
+          padding-top: 33px;
+        }
+        img{
+          width: 100%;
+        }
+      }
+      
+    }
+  }
+}

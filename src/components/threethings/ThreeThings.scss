@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     .number {
-      background: url("../../assets/num-bg.svg") no-repeat;
+      background: url("../../assets/svg/num-bg.svg") no-repeat;
       min-width: 163px;
       height: 140px;
       @include flex-center;
@@ -35,13 +35,67 @@
       }
     }
   }
-
-  @media only screen and (max-width: 1400px) {
+  &.digital_experts {
+    background: $text-222;
+    padding: 100px 0px;
+    .container {
+      position: relative;
+      &:before {
+        content: "";
+        background: url('../../assets/svg/block.svg') no-repeat;
+        background-size: 126px;
+        width: 126px;
+        height: 136px;
+        position: absolute;
+        left: -60px;
+        top: -160px;
+        animation: topbottom 1.5s infinite;
+      }
+      &:after {
+        content: "";
+        background: url('../../assets/svg/block.svg') no-repeat;
+        background-size: 69px;
+        width: 69px;
+        height: 74px;
+        position: absolute;
+        right: -55px;
+        bottom: -130px;
+        animation: topbottom 1.5s infinite;
+      }
+      .spacing {
+        &:nth-child(1) {
+          padding: 0px 30px 38px 0px;
+          border-bottom: 1px dashed #757575;
+          border-right: 1px dashed #757575;
+        }
+        &:nth-child(2) {
+          padding: 0px 0px 38px 30px;
+          border-bottom: 1px dashed #757575;
+        }
+        &:nth-child(3) {
+          padding: 22px 30px 0px 0px;
+          border-right: 1px dashed #757575;
+        }
+        &:nth-child(4) {
+          padding: 22px 0px 0px 30px;
+        }
+        .each-agency {
+          .content {
+            h3,
+            p {
+              color: $white-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: $xl-large-1400) {
     padding: 100px 0px 165px;
     h1 {
       margin-bottom: 50px;
       padding-right: 260px;
-      br{
+      br {
         display: none;
       }
     }

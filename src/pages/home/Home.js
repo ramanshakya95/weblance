@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../../components/banner/Banner';
-import Clients from '../../components/clients/Clients';
+import LogoImages from '../../components/logoImages/LogoImages';
 import MakingBrands from '../../components/makingbrands/MakingBrands';
 import MakeSomething from '../../components/makesomething/MakeSomething';
 import Services from '../../components/services/Services';
@@ -16,7 +16,7 @@ const Home = () => {
             <ThreeThings />
             <Services />
             <Worklist />
-            <Clients />
+            <LogoImages />
             <Testimonials />
             <MakeSomething />
         </>

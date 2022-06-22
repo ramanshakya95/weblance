@@ -10,7 +10,7 @@
       .first_column {
         &:before {
           content: "";
-          background: url("../../assets/block.svg") no-repeat;
+          background: url("../../assets/svg/block.svg") no-repeat;
           background-size: 126px;
           width: 126px;
           height: 136px;
@@ -20,7 +20,7 @@
         }
         &:after {
           content: "";
-          background: url("../../assets/block.svg") no-repeat;
+          background: url("../../assets/svg/block.svg") no-repeat;
           background-size: 69px;
           width: 69px;
           height: 74px;
