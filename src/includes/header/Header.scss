@@ -1,15 +1,15 @@
 @import "../../Var.scss";
 
-.navbar {
-  height: 110px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
+header {
   position: sticky;
   top: 0;
-  z-index: 20;
-  padding: 0px 55px;
+  z-index: 1;
+  background: #fff;
+  .navbar {
+    @include flex-center;
+    height: 110px;
+    padding: 0px 55px;
+  }
 }
 .nav-container {
   display: flex;
@@ -27,6 +27,9 @@
     margin: 0px;
     .nav-item {
       padding: 0px 15px;
+      &.hireme {
+        padding-right: 0px;
+      }
       .nav-links {
         color: $text-222;
         text-decoration: none;
@@ -34,15 +37,15 @@
         font-size: $font-size-18;
         position: relative;
         &.active {
-          &:after{
-            content: '';
+          &:after {
+            content: "";
             height: 5px;
             width: 100%;
             background: $theme-color;
             display: block;
             margin-top: 5px;
             border-radius: 50px;
-            position:absolute;
+            position: absolute;
           }
         }
       }

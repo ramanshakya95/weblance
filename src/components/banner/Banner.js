@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import './Banner.scss';
 import bannerimg from '../../assets/svg/Banner-Img.svg';
+import downarrow from '../../assets/svg/down-arrow.svg';
 
 const BANNER_CONTENT = {
     "/": <section className='home_banner_section'>
@@ -40,6 +41,17 @@ const BANNER_CONTENT = {
                         <Col className='banner_content'>
                             <h2>A boutique team of designers, developers & strategists.</h2>
                             <p>We have an innovative way of working, removing unnecessary costs, offering lower prices than other similar agencies. If you are looking to find a digital agency then we’d love to hear from you.</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>,
+    "/services": <section className='services_banner_section'>
+                <Container className='p-0'>
+                    <Row className='banner align-items-center m-0'>
+                        <Col className='text-center large-title p-0'>
+                            <h1>Digital Marketing Services</h1>
+                            <p>Our forward-thinking approach to web technologies and digital marketing services combined with our strong relationship management means you’re in good hands.</p>
+                            <img id="click_bottom" src={downarrow} alt='down arrow'/>
                         </Col>
                     </Row>
                 </Container>

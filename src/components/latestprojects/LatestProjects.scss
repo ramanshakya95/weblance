@@ -1,0 +1,49 @@
+@import "../../Var.scss";
+
+.latest_project_ {
+  padding: 95px 0px 120px;
+  background: $theme-color;
+  .slider_container {
+    max-width: 1660px;
+    margin-left: auto;
+    padding-left: 10px;
+    h2 {
+      @include second_title;
+      color: $white-color;
+      margin-bottom: $margin_bottom_35;
+    }
+    .latest_project_slider {
+      .carouselItem {
+        padding-right: 40px;
+        h3 {
+          font-size: $font-size-40;
+          line-height: $line-height-30 + 10px;
+          margin-top: $margin_bottom_35 - 5px;
+          color: $white-color;
+          font-weight: $font-weight-900;
+        }
+        h5 {
+          font-size: $font-size-20;
+          line-height: $line-height-30 + 10px;
+          margin: 0px;
+          color: $white-color;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1399px) {
+    .slider_container {
+      max-width: 1270px;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .slider_container {
+      max-width: 1080px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .slider_container {
+      max-width: 855px;
+    }
+  }
+}

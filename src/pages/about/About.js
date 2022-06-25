@@ -9,11 +9,11 @@ import level from '../../assets/badges/level.png';
 import activeReward from '../../assets/badges/active-reward.png';
 import earnedBadges from '../../assets/badges/earned-badges.png';
 import profile_pic from '../../assets/badges/profile.png';
-import freelance from '../../assets/svg/freelance.svg'
+import freelance from '../../assets/svg/freelance.svg';
 import './About.scss';
 
 const About = () => {
-    const [tabKey, initTabKey] = useState('vision')
+    const [tabKey, initTabKey] = useState('vision');
     return (
         <>
             <Banner />

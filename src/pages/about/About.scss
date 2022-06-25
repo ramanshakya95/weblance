@@ -44,10 +44,11 @@
     }
     .second_column {
       position: relative;
+      background: url('../../assets/svg/watermark.svg') no-repeat;
       img {
         position: absolute;
         right: 0;
-        width: 97%;
+        animation: topbottom 1.5s infinite;
       }
     }
   }

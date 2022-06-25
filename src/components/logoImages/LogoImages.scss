@@ -1,18 +1,86 @@
-@import '../../Var.scss';
+@import "../../Var.scss";
+
+@mixin grid-layout {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 45px;
+}
 
 .logo_section {
+  h2 {
+    @include second_title;
+    color: $text-000;
+    margin-bottom: $margin_bottom;
+  }
   &.client_section {
     padding: 150px 0px;
+    img {
+      width: 100%;
+    }
+    .logo_row {
+      @include grid-layout;
+      .logos {
+        padding: 0px;
+      }
+    }
   }
-  &.skill_section{
-    h2{
+  &.skill_section {
+    h2 {
       margin-bottom: 55px;
     }
-  }
-    h2 {
-      @include second_title;
-      color: $text-000;
-      margin-bottom: $margin_bottom;
+    .logo_row {
+      @include grid-layout;
+      .logos {
+        padding: 40px;
+        box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.08);
+        border-radius: $border-radius;
+        max-height: 232px;
+        min-height: 232px;
+        @include flex-center;
+        transition: all .2s ease-in-out;
+        &:nth-child(5n + 2),
+        &:nth-child(5n + 4) {
+          margin-top: 45px;
+        }
+        &:hover{
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.08);
+          transition: all .2s ease-in-out;
+        }
+      }
     }
   }
-  
+  &.expertise_section {
+    background: $bg-color;
+    padding: 105px 0px;
+    border-radius: 100px 100px 0px 0px;
+    p {
+      font-size: $font-size-20;
+      line-height: $line-height-30;
+      color: $text-555;
+      max-width: 680px;
+      text-align: center;
+      margin: 0 auto 40px;
+    }
+    .logo_row {
+      @include grid-layout;
+      column-gap: 22px;
+      row-gap: 30px;
+      .logos {
+        height: 110px;
+        @include flex-center;
+        background: $white-color;
+        border-radius: $border-radius;
+      }
+    }
+
+    @media only screen and (max-width: $xl-large-1400) {
+      .logo_row {
+        .logos {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

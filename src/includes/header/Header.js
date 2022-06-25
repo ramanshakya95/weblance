@@ -21,7 +21,6 @@ const Header = () => {
                                 <NavLink
                                     exact
                                     to="/"
-                                    activeClassName="active"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
@@ -32,7 +31,6 @@ const Header = () => {
                                 <NavLink
                                     exact
                                     to="/about"
-                                    activeClassName="active"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
@@ -43,7 +41,6 @@ const Header = () => {
                                 <NavLink
                                     exact
                                     to="/services"
-                                    activeClassName="active"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
@@ -53,8 +50,7 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink
                                     exact
-                                    to="/services"
-                                    activeClassName="active"
+                                    to="/our-work"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
@@ -64,8 +60,7 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink
                                     exact
-                                    to="/services"
-                                    activeClassName="active"
+                                    to="/career"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
@@ -75,8 +70,7 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink
                                     exact
-                                    to="/services"
-                                    activeClassName="active"
+                                    to="/review"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
