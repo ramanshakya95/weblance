@@ -13,13 +13,12 @@ const Header = () => {
             <header className={click ? "main-container" : ""} onClick={() => Close()}>
                 <nav className="navbar" onClick={e => e.stopPropagation()}>
                     <div className="nav-container">
-                        <NavLink exact to="/" className="nav-logo">
+                        <NavLink to="/" className="nav-logo">
                             <img src={logo} alt='logo' />
                         </NavLink>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className="nav-item">
                                 <NavLink
-                                    exact
                                     to="/"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
@@ -29,7 +28,6 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    exact
                                     to="/about"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
@@ -39,7 +37,6 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    exact
                                     to="/services"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
@@ -49,7 +46,6 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    exact
                                     to="/our-work"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
@@ -59,7 +55,6 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    exact
                                     to="/career"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
@@ -69,9 +64,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink
-                                    exact
                                     to="/review"
-                                    activeClassName="active"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
