@@ -71,6 +71,7 @@ const Header = () => {
                                 <NavLink
                                     exact
                                     to="/review"
+                                    activeClassName="active"
                                     className="nav-links"
                                     onClick={click ? handleClick : null}
                                 >
