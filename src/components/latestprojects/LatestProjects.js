@@ -1,37 +1,8 @@
 import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "./LatestProjects.scss"
-
-const responsive = {
-    lg_desktop: {
-        breakpoint: { max: 3000, min: 1500 },
-        items: 3,
-        partialVisibilityGutter: 60
-    },
-    desktop: {
-        breakpoint: { max: 1500, min: 1024 },
-        items: 3,
-        partialVisibilityGutter: 40
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2,
-        partialVisibilityGutter: 30
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
-        partialVisibilityGutter: 20
-    }
-};
-
-const latestProjectData = [
-    { id: 1, image: require('../../assets/work/project.png'), title: 'Provenance Project', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../../assets/work/project1.png'), title: 'Proofreading World', subTitle: 'Advertisements' },
-    { id: 3, image: require('../../assets/work/project2.png'), title: 'Snap Car Wash', subTitle: 'Business Card' },
-    { id: 4, image: require('../../assets/work/project3.png'), title: 'The Mut Spa', subTitle: 'Logo Design' },
-]
+import { latest_project_data, responsive } from '../../APIs/LatestProjectApi';
+import "./latestprojects.scss";
 
 const LatestProjects = () => {
     return (
@@ -49,11 +20,11 @@ const LatestProjects = () => {
                             infinite={true}
                             partialVisible={true}
                             responsive={responsive}>
-                            {latestProjectData.map(latestProject => (
-                                <div className='item' key={latestProject.id}>
-                                    <img className='w-100' src={latestProject.image} alt={latestProject.title} />
-                                    <h3>{latestProject.title}</h3>
-                                    <h5>{latestProject.subTitle}</h5>
+                            {latest_project_data.map(latest_project => (
+                                <div className='item' key={latest_project.id}>
+                                    <img className='w-100' src={latest_project.image} alt={latest_project.title} />
+                                    <h3>{latest_project.title}</h3>
+                                    <h5>{latest_project.subTitle}</h5>
                                 </div>
                             ))}
                         </Carousel>

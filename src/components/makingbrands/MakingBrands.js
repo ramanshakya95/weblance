@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Tablet_Img from '../../assets/Tablet_Image.png';
-import './MakingBrands.scss'
+import './makingbrands.scss'
 
 const MakingBrands = () => {
     return (
