@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import {digital_services_data} from '../../APIs/DigitalServiceApi'
+import { digital_services_data } from '../../APIs/DigitalServiceApi'
 import './digitalservices.scss';
 
 const DigitalServices = () => {

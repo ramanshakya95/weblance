@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;800;900&display=swap");
 @import "~bootstrap/scss/bootstrap";
 @import "./utils/Var.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +42,7 @@ p {
     -webkit-transform: scale(1);
   }
 }
+
 // button component styling start
 button.second_button {
   @include second-button;
@@ -63,4 +65,3 @@ button.second_button {
     max-width: 1400px;
   }
 }
-
