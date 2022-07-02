@@ -1,8 +1,8 @@
 export const latest_project_data = [
-    { id: 1, image: require('../assets/work/project.png'), title: 'Provenance Project', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../assets/work/project1.png'), title: 'Proofreading World', subTitle: 'Advertisements' },
-    { id: 3, image: require('../assets/work/project2.png'), title: 'Snap Car Wash', subTitle: 'Business Card' },
-    { id: 4, image: require('../assets/work/project3.png'), title: 'The Mut Spa', subTitle: 'Logo Design' },
+    { id: 1, image: require('../assets/latestprojects/project.png'), title: 'Provenance Project', subTitle: 'Website Designing & Development' },
+    { id: 2, image: require('../assets/latestprojects/project1.png'), title: 'Proofreading World', subTitle: 'Advertisements' },
+    { id: 3, image: require('../assets/latestprojects/project2.png'), title: 'Snap Car Wash', subTitle: 'Business Card' },
+    { id: 4, image: require('../assets/latestprojects/project3.png'), title: 'The Mut Spa', subTitle: 'Logo Design' },
 ]
 
 export const responsive = {

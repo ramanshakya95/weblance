@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
-import {work_list} from '../../APIs/WorkListApi'
+import {latest_project_data} from '../../APIs/LatestProjectApi'
 import './worklist.scss';
 
 const WorkList = () => {
@@ -18,11 +18,11 @@ const WorkList = () => {
                         </Col>
                     </Row>
                     <Row xs={1} md={2} lg={2} className='projects_ first_row'>
-                        {work_list.map(work => (
-                            <Col className='_column' key={work.id}>
-                                <img src={work.image} alt='project' />
-                                <h3>{work.title}</h3>
-                                <h4><Link to='/'>{work.shorttitle}</Link></h4>
+                        {latest_project_data.map(latest_project => (
+                            <Col className='_column' key={latest_project.id}>
+                                <img src={latest_project.image} alt='project' />
+                                <h3>{latest_project.title}</h3>
+                                <h4><Link to='/'>{latest_project.subTitle}</Link></h4>
                             </Col>
                         ))}
                     </Row>

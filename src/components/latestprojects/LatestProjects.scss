@@ -15,6 +15,9 @@
     .latest_project_slider {
       .carouselItem {
         padding-right: 40px;
+        img{
+          border-radius: $border-radius;
+        }
         h3 {
           font-size: $font-size-40;
           line-height: $line-height-30 + 10px;
