@@ -1,5 +1,13 @@
 @import "../../utils/var.scss";
 
+@mixin banner_bgdark {
+  padding: 80px 0px 58px;
+  background: url("../../assets/service_bg.png") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 0px 0px 100px 100px;
+}
+
 .home_banner_section {
   padding: 15px 0px;
   .banner_content {
@@ -47,11 +55,7 @@
 }
 
 .services_banner_section {
-  padding: 80px 0px 58px;
-  background: url("../../assets/service_bg.png") no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  border-radius: 0px 0px 100px 100px;
+  @include banner_bgdark;
   h1 {
     font-size: 100px;
     line-height: 110px;
@@ -72,6 +76,16 @@
   img {
     padding: 10px;
     animation: topbottom 1.5s infinite;
+  }
+}
+
+.about_banner_section {
+  &.work_banner_section {
+    @include banner_bgdark;
+    h2,
+    p {
+      color: $white-color;
+    }
   }
 }
 
