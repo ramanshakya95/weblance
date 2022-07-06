@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import {latest_project_data} from '../../APIs/LatestProjectApi'
-import './worklist.scss';
+import './homelatest.scss';
 
-const WorkList = () => {
+const HomeLatest = () => {
     return (
         <>
             <section className='work_section'>
@@ -32,4 +32,4 @@ const WorkList = () => {
     );
 };
 
-export default WorkList;
+export default HomeLatest;

@@ -6,7 +6,7 @@ import MakeSomething from '../../components/makesomething/MakeSomething';
 import Services from '../../components/services/Services';
 import Testimonials from '../../components/testimonials/Testimonials';
 import ThreeThings from '../../components/threethings/ThreeThings';
-import Worklist from '../../components/worklist/WorkList';
+import HomeLatest from '../../components/homelatest/HomeLatest';
 
 const Home = () => {
     return (
@@ -15,7 +15,7 @@ const Home = () => {
             <MakingBrands />
             <ThreeThings />
             <Services />
-            <Worklist />
+            <HomeLatest />
             <LogoImages />
             <Testimonials />
             <MakeSomething />
