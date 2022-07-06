@@ -23,16 +23,3 @@ export const category_data =
 {id: 21, category: 'Postcards Design'},
 {id: 22, category: 'T-Shirts Design'},
 ]
-
-// export const work_data = [
-//     { id: 1, image: require('../assets/work/Fried.png'), title: 'Fried Turkeys', subTitle: 'Advertisements Design' },
-//     { id: 2, image: require('../assets/work/Carolyn.png'), title: 'Carolyn Kimber', subTitle: 'Advertisements Design' },
-//     { id: 3, image: require('../assets/work/Hygienitech.png'), title: 'Hygienitech', subTitle: 'Brochure & Catalogue Design' },
-//     { id: 4, image: require('../assets/work/Avantgrade.png'), title: 'Avantgrade', subTitle: 'Business Cards Design' },
-//     { id: 5, image: require('../assets/work/Panoroof.png'), title: 'Panoroof', subTitle: 'Flyers Design' },
-//     { id: 6, image: require('../assets/work/Firefactory.png'), title: 'Firefactory', subTitle: 'Flyers Design' },
-//     { id: 7, image: require('../assets/work/Business-Individual.png'), title: 'Business Individual', subTitle: 'Infographics & Flowcharts' },
-//     { id: 8, image: require('../assets/work/Giovane-Skin.png'), title: 'Giovane Skin', subTitle: 'Label & Packaging Design' },
-//     { id: 9, image: require('../assets/work/Nascent-Breach.png'), title: 'Nascent Breach', subTitle: 'Logo Design' },
-//     { id: 10, image: require('../assets/work/Dollarsaver.png'), title: 'Dollarsaver', subTitle: 'Magazines Design' },
-// ]
