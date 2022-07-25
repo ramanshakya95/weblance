@@ -29,7 +29,6 @@ const OurWork = () => {
                     </div>
                 </Container>
             </section>
-
         </>
     );
 };

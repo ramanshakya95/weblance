@@ -44,12 +44,6 @@ function WorkList() {
         //window.scrollTo(0, 0)
     };
 
-    const handleClick = event => {
-        // 👇️ refers to the image element
-        console.log(event.target);
-        console.log('Image clicked');
-    };
-
     return (
         <>
             <div className="our_all_work">
@@ -59,7 +53,7 @@ function WorkList() {
                             <img className='w-100' src={work.image} alt={work.title} loading='lazy' />
                             <div className='overlay_icons'>
                                 <Link to="#" className="icons">
-                                    <img src={ViewIcon} alt='view' onClick={handleClick} />
+                                    <img src={ViewIcon} alt='view' />
                                 </Link>
                                 <Link to="#" className="icons">
                                     <img src={LinkIcon} alt='link' />
