@@ -1,0 +1,89 @@
+.digital_services_section {
+  padding: 105px 0px;
+}
+.digital_services_section .digital_services_row {
+  padding-bottom: 90px;
+}
+.digital_services_section .digital_services_row .first_column {
+  margin-right: 22px;
+}
+.digital_services_section .digital_services_row .first_column h2 {
+  font-family: "Mulish";
+  font-weight: 900;
+  color: #222;
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1400px) {
+  .digital_services_section .digital_services_row .first_column h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .digital_services_section .digital_services_row .first_column h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .digital_services_section .digital_services_row .first_column h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .digital_services_section .digital_services_row .first_column h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .digital_services_section .digital_services_row .first_column h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+.digital_services_section .digital_services_row .first_column p {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #555;
+}
+@media only screen and (max-width: 991px) {
+  .digital_services_section .digital_services_row .first_column p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+.digital_services_section .digital_services_row .first_column ul {
+  padding: 0px;
+}
+.digital_services_section .digital_services_row .first_column ul li {
+  font-size: 16px;
+  line-height: 35px;
+  color: #555;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.digital_services_section .digital_services_row .first_column ul li:before {
+  content: "";
+  background: url("../../assets/svg/li-icon.svg") no-repeat;
+  min-width: 21px;
+  height: 21px;
+  margin-right: 10px;
+}
+.digital_services_section .digital_services_row .second_column {
+  margin-left: 22px;
+}
+.digital_services_section .digital_services_row .second_column .services_images {
+  width: 100%;
+  background: #f7f7f7;
+  padding: 20px 60px;
+  border-radius: 32px;
+  text-align: center;
+}/*# sourceMappingURL=digitalservices.css.map */

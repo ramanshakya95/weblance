@@ -1,0 +1,124 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+  padding: 0px 55px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nav-container .nav-logo {
+  flex-grow: 1;
+}
+.nav-container .nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+}
+.nav-container .nav-menu .nav-item {
+  padding: 0px 15px;
+}
+.nav-container .nav-menu .nav-item.hireme {
+  padding-right: 0px;
+}
+.nav-container .nav-menu .nav-item .nav-links {
+  color: #222;
+  text-decoration: none;
+  height: 100%;
+  font-size: 18px;
+  position: relative;
+}
+.nav-container .nav-menu .nav-item .nav-links.active:after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background: #ff5b54;
+  display: block;
+  margin-top: 5px;
+  border-radius: 50px;
+  position: absolute;
+}
+.nav-container .nav-menu .nav-item .hireme-btn {
+  background-color: #ff5b54;
+  border-radius: 50px;
+  width: 153px;
+  margin: 0;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1400px) {
+  .nav-container .nav-menu .nav-item .hireme-btn {
+    width: 135px;
+    height: 45px;
+  }
+}
+.nav-container .nav-menu .nav-item .hireme-btn:hover {
+  background: #000;
+}
+
+.nav-icon {
+  display: none;
+}
+
+.main-container {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active {
+    background: #1f5156;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-menu .nav-item .active {
+    color: #ffdd40;
+    border: none;
+  }
+  .nav-links {
+    padding: 8px 0px;
+    width: 100%;
+    display: table;
+  }
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 100%);
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,59 @@
+.footer_section {
+  padding: 115px 0px 95px;
+  background: url(../../assets/footer-bg.png);
+}
+.footer_section .first_column {
+  max-width: 450px;
+}
+.footer_section .first_column .logo {
+  filter: brightness(0) invert(1);
+  width: 352px;
+  margin-bottom: 39px;
+}
+.footer_section .first_column h3 {
+  font-size: 33px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 39px;
+}
+.footer_section .second_column {
+  max-width: 520px;
+}
+.footer_section .second_column h3 {
+  font-size: 33px;
+  line-height: 41px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.footer_section .second_column ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_section .second_column ul li {
+  font-size: 16px;
+  line-height: 38px;
+  color: #fff;
+  flex-basis: 50%;
+}
+.footer_section .second_column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright_section p {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  padding: 23px 10px;
+  background: #000;
+}
+@media only screen and (max-width: 991px) {
+  .copyright_section p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=footer.css.map */

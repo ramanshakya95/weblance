@@ -1,0 +1,85 @@
+.making_brand_section {
+  background-color: #f7f7f7;
+  background-image: url("../../assets/Tablet_Image_bg.png");
+  background-repeat: no-repeat;
+  padding: 125px 0px;
+}
+.making_brand_section .brand_first_section img {
+  max-width: 765px;
+}
+.making_brand_section .brand_second_section h1 {
+  font-family: "Mulish";
+  font-weight: 900;
+  color: #222;
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1400px) {
+  .making_brand_section .brand_second_section h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .making_brand_section .brand_second_section h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .making_brand_section .brand_second_section h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .making_brand_section .brand_second_section h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .making_brand_section .brand_second_section h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+.making_brand_section .brand_second_section p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 30px;
+  color: #555;
+}
+@media only screen and (max-width: 1400px) {
+  .making_brand_section {
+    padding: 100px 0px;
+    background-size: 50% 100%;
+  }
+  .making_brand_section .brand_first_section img {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .making_brand_section {
+    padding: 70px 0px;
+  }
+  .making_brand_section .brand_second_section h1 {
+    margin-bottom: 10px;
+  }
+  .making_brand_section .brand_second_section p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 40px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .making_brand_section {
+    padding: 60px 0px;
+  }
+  .making_brand_section .brand_second_section p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+}/*# sourceMappingURL=makingbrands.css.map */
