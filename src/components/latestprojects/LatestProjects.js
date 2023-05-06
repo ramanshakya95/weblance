@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { latest_project_data, responsive } from '../../APIs/LatestProjectApi';
-import "./latestprojects.scss";
+import "./LatestProjects.scss";
 
 const LatestProjects = () => {
     return (

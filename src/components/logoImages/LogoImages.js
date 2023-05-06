@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from "react-router-dom";
 import { Container, Row } from 'react-bootstrap';
 import {client_data, skills_data, expertise_data} from '../../APIs/LogoImagesApi'
-import './logoimages.scss';
+import './LogoImages.scss';
 
 const logoImages = {
     "/": <section className='logo_section client_section'>

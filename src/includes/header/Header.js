@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import logo from '../../assets/svg/logo.svg';
 import hire from '../../assets/svg/hire.svg';
-import './header.scss';
+import './Header.scss';
 
 const Header = () => {
     const [click, setClick] = React.useState(false);

@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import {three_thing, digital_experts} from '../../APIs/ThreeThingsApi'
-import './threethings.scss';
+import './ThreeThings.scss';
 
 const project_points = {
     "/": <section className='three_things_section'>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import {service_data} from '../../APIs/ServicesApi';
-import './services.scss';
+import './Services.scss';
 
 const Services = () => {
     return (

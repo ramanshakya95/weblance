@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import bannerimg from '../../assets/svg/Banner-Img.svg';
 import downarrow from '../../assets/svg/down-arrow.svg';
-import './banner.scss';
+import './Banner.scss';
 
 const BANNER_CONTENT = {
     "/": <section className='home_banner_section'>

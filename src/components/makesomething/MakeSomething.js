@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import arrow from '../../assets/svg/arrow.svg';
 import makesomething from '../../assets/svg/make-something.svg';
-import './makesomething.scss';
+import './MakeSomething.scss';
 
 const MakeSomething = () => {
     return (

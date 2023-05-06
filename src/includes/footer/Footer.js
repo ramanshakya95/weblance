@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import footerlogo from '../../assets/svg/logo.svg';
 import freelance from '../../assets/svg/freelance.svg';
-import './footer.scss';
+import './Footer.scss';
 
 const expertdata = [
     { id: 1, title: 'Web Design & Development' },

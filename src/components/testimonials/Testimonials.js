@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import arrow from '../../assets/svg/arrow.svg';
 import {testimonial_data} from '../../APIs/TestimonialApi'
-import './testimonials.scss';
+import './Testimonials.scss';
 
 const Testimonials = () => {
     return (

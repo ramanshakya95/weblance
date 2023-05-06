@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import {latest_project_data} from '../../APIs/LatestProjectApi'
-import './homelatest.scss';
+import './HomeLatest.scss';
 
 const HomeLatest = () => {
     return (

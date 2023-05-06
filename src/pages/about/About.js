@@ -10,7 +10,7 @@ import activeReward from '../../assets/badges/active-reward.png';
 import earnedBadges from '../../assets/badges/earned-badges.png';
 import profile_pic from '../../assets/badges/profile.png';
 import freelance from '../../assets/svg/freelance.svg';
-import './about.scss';
+import './About.scss';
 
 const About = () => {
     const [tabKey, initTabKey] = useState('vision');
