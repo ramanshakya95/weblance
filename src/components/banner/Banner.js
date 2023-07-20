@@ -10,8 +10,8 @@ const BANNER_CONTENT = {
             <Container className='p-0'>
                 <Row className='banner align-items-center m-0 flex-wrap'>
                     <Col md={6} sm={12} className='banner_content p-0'>
-                        <h1>Rebel against boring</h1>
-                        <h5>We’re a creative web design agency that crafts beautiful and original websites for brands who <a href="#/">refuse to blend in.</a></h5>
+                        <h1>Designing Your Digital Success</h1>
+                        <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
                     </Col>
                     <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
                         <img src={bannerimg} alt='banner-img' />
@@ -23,8 +23,8 @@ const BANNER_CONTENT = {
             <Container className='p-0'>
                 <Row className='banner align-items-center m-0 flex-wrap'>
                     <Col md={6} sm={12} className='banner_content p-0'>
-                        <h1>Rebel against boring</h1>
-                        <h5>We’re a creative web design agency that crafts beautiful and original websites for brands who <a href="#/">refuse to blend in.</a></h5>
+                        <h1>Designing Your Digital Success</h1>
+                        <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
                     </Col>
                     <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
                         <img src={bannerimg} alt='banner-img' />

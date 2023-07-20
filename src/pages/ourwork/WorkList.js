@@ -50,7 +50,7 @@ function WorkList() {
                 {items.map(work => (
                     <div className='item' key={work.id}>
                         <div className='img_overlay'>
-                            <img className='w-100' src={work.image} alt={work.title} loading='lazy' />
+                            <img className='preview_img w-100' src={work.image} alt={work.title} loading='lazy' />
                             <div className='overlay_icons'>
                                 <Link to="#" className="icons">
                                     <img src={ViewIcon} alt='view' />

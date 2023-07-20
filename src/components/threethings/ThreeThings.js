@@ -7,7 +7,7 @@ import './ThreeThings.scss';
 const project_points = {
     "/": <section className='three_things_section'>
             <Container>
-                <h1>Our creative digital agency design and develop projects with <br /> <span className='theme-color'>three things in mind;</span></h1>
+                <h1>In our creative digital agency, we prioritize three key elements while<br /><span className='theme-color'>designing and developing projects.</span></h1>
                 <Row>
                     {three_thing.map(things => (
                         <Col key={things.id}>

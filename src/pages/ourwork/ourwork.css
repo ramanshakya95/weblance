@@ -19,7 +19,7 @@
   font-weight: 900;
   line-height: 30px;
   color: #fff;
-  background: #ff5b54;
+  background: #cf2129;
 }
 .work_category_section .work_category_row .sidebar .category_list {
   padding: 15px 25px;
@@ -56,6 +56,11 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin-left: 30px;
+}
+.work_category_section .work_category_row .content .our_all_work .preview_img {
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .work_category_section .work_category_row .content .our_all_work .img_overlay {
   position: relative;
@@ -103,7 +108,7 @@
   font-size: 20px;
   font-weight: 900;
   line-height: 40px;
-  color: #ff5b54;
+  color: #cf2129;
 }
 .work_category_section .work_category_row .content .pagination {
   margin-top: 62px;
@@ -131,6 +136,6 @@
   z-index: 0;
 }
 .work_category_section .work_category_row .content .pagination .page-item.active .page-link {
-  background: #ff5b54;
+  background: #cf2129;
   border: 0px;
 }/*# sourceMappingURL=ourwork.css.map */

@@ -1,7 +1,7 @@
 export const three_thing = [
-    { id: 1, title: 'Beauty', description: 'Developing stunning one-of-a-kind digital design that catches people’s eye and brings your brand to life online.' },
-    { id: 2, title: 'Thought', description: 'As a web design agency, we love to deliver meaningful and intuitive user experiences that build trust with your target audience.' },
-    { id: 3, title: 'Impact', description: 'Designing tailor made solutions that resonate with your customers and drives them to act.' }
+    { id: 1, title: 'Graceful', description: 'It has to be  a visually appealing layout, color scheme, and typography that align with the brands identity and resonate with the target audience.' },
+    { id: 2, title: 'Perception', description: 'Being a web design agency, our passion lies in providing meaningful and user-friendly experiences that establish trust with your target audiences.' },
+    { id: 3, title: 'Influence', description: 'Crafting tailor-made solutions that deeply resonate with your customers, compelling them to take action.' }
 ]
 
 export const digital_experts = [

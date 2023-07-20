@@ -1,5 +1,4 @@
 header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -15,12 +14,12 @@ header .navbar {
 
 .nav-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-.nav-container .nav-logo {
-  flex-grow: 1;
+.nav-container .nav-logo img {
+  width: 300px;
 }
 .nav-container .nav-menu {
   display: flex;
@@ -46,14 +45,14 @@ header .navbar {
   content: "";
   height: 5px;
   width: 100%;
-  background: #ff5b54;
+  background: #cf2129;
   display: block;
   margin-top: 5px;
   border-radius: 50px;
   position: absolute;
 }
 .nav-container .nav-menu .nav-item .hireme-btn {
-  background-color: #ff5b54;
+  background-color: #cf2129;
   border-radius: 50px;
   width: 153px;
   margin: 0;
@@ -121,4 +120,4 @@ header .navbar {
     transform: translate(-50%, 100%);
     cursor: pointer;
   }
-}/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=Header.css.map */

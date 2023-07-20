@@ -13,8 +13,8 @@ const MakingBrands = () => {
                             <img src={Tablet_Img} alt='Tablet_Img' />
                         </Col>
                         <Col className='brand_second_section p-0 ps-xxl-4 ps-md-2 ps-0'>
-                            <h1>Making brands a damn site better</h1>
-                            <p>Let’s face it, first impressions matter. Your website’s an opportunity to wow your audience, so why waste it with bad design? Because brands win new fans when they’re brave enough to go beyond their creative comfort zone.</p>
+                            <h1>Elevating Brands to a Whole New Level</h1>
+                            <p>Acknowledging the significance of first impressions, your website serves as a chance to amaze your audience. So, why settle for subpar design? Brands attract new admirers when they dare to explore beyond their creative boundaries</p>
                         </Col>
                     </Row>
                 </Container>

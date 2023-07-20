@@ -13,11 +13,14 @@ header {
 }
 .nav-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   .nav-logo {
-    flex-grow: 1;
+    // flex-grow: 1;
+    img {
+      width: 300px;
+    }
   }
   .nav-menu {
     display: flex;
