@@ -12,9 +12,9 @@ const Testimonials = () => {
                 <Container>
                     <Row>
                         <Col className='first_column p-0'>
-                            <h1>Struggling to choose a web design company?</h1>
-                            <p>We are a bunch of young, skilled, and inspired marketing nerds specialized in offering high-end and reliable services related to website design, development, graphic design, app development, branding, and much more. Our proficient team transforms its journeys into 100% original creativity, insightful strategy, and substances that matter to build brands above the clutter. </p>
-                            <h4>Everyone has a website, but we’ll help you create a high-performing brand that resonates with your target audience and sets your business up for success.</h4>
+                            <h1>Endorsed by reputable companies.</h1>
+                            <p>Explore our collection of authentic and genuine testimonials. We've had the privilege of working with prominent brands and companies. See what our clients have to say about us, and we are confident that their feedback will assist you in choosing us for your project.</p>
+                            {/* <h4>Everyone has a website, but we’ll help you create a high-performing brand that resonates with your target audience and sets your business up for success.</h4> */}
                             <Button className='second_button'>Know More <img src={arrow} alt='right-arrow' /></Button>
                         </Col>
                         <Col className='second_column p-0'>

@@ -45,6 +45,8 @@
     .second_column {
       position: relative;
       background: url('../../assets/svg/watermark.svg') no-repeat;
+      background-position: left center;
+      background-size: 60%;
       img {
         position: absolute;
         right: 0;

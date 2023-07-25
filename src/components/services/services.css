@@ -15,8 +15,7 @@
   height: 136px;
   position: absolute;
   left: -55px;
-  -webkit-animation: topbottom 1.5s infinite;
-          animation: topbottom 1.5s infinite;
+  animation: topbottom 1.5s infinite;
 }
 .services_section .row .first_column:after {
   content: "";
@@ -27,11 +26,10 @@
   position: absolute;
   bottom: -30px;
   left: 550px;
-  -webkit-animation: topbottom 1.5s infinite;
-          animation: topbottom 1.5s infinite;
+  animation: topbottom 1.5s infinite;
 }
 .services_section .row .first_column small {
-  color: #ff5b54;
+  color: #cf2129;
   font-size: 20px;
   line-height: 20px;
   font-weight: 900;
@@ -86,7 +84,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 30px;
   border-radius: 32px;
 }
 .services_section .row .second_column .each_service:nth-child(1) {
@@ -112,15 +110,21 @@
 }
 .services_section .row .second_column .each_service:nth-child(3) {
   position: absolute;
-  bottom: -30px;
+  bottom: -50px;
   width: 550px;
   right: 70px;
 }
 .services_section .row .second_column .each_service.bg-light-color {
   background: #474747;
+  outline: 1px dashed #fff;
+  outline-offset: -10px;
+}
+.services_section .row .second_column .each_service.bg-light-color:hover {
+  background-color: #cf2129 !important;
 }
 .services_section .row .second_column .each_service img {
   margin-right: 18px;
+  width: 90px;
 }
 .services_section .row .second_column .each_service .content {
   color: #fff;
@@ -129,6 +133,7 @@
   font-size: 20px;
   line-height: 20px;
   font-weight: 900;
+  margin-bottom: 5px;
 }
 .services_section .row .second_column .each_service .content p {
   font-family: "Mulish";
@@ -141,4 +146,4 @@
     font-size: 15px;
     line-height: 20px;
   }
-}/*# sourceMappingURL=services.css.map */
+}/*# sourceMappingURL=Services.css.map */

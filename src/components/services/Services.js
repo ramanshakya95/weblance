@@ -10,9 +10,9 @@ const Services = () => {
                 <Container>
                     <Row className='align-items-center'>
                         <Col className='first_column'>
-                            <small>Our Services</small>
-                            <h1>The expertise of the web agency Dezinestar</h1>
-                            <p>The Dezinestar web agency relies on 3 areas of expertise that complement each other to carry out design and development projects.</p>
+                            <small>Services We Offer</small>
+                            <h1>Weblance the web agency's expertise</h1>
+                            <p>The Weblance web agency leverages three interconnected areas of expertise to handle Brand Design, Web Development projects, and SEO.</p>
                         </Col>
                         <Col className='second_column p-0 ps-5'>
                             {service_data.map(service => (

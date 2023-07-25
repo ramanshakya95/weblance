@@ -16,17 +16,17 @@
           margin-bottom: $margin_bottom_35;
           color: $text-555;
         }
-        h4 {
-          @include _title;
-          font-size: 28px;
-          line-height: 35px;
-          margin-bottom: 44px;
-        }
+        // h4 {
+        //   @include _title;
+        //   font-size: 28px;
+        //   line-height: 35px;
+        //   margin-bottom: 44px;
+        // }
       }
       .second_column {
         .testimonial-slider {
           background: $white-color;
-          padding: 70px 60px;
+          padding: 50px;
           margin-left: 90px;
           border-radius: $border-radius;
           box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
@@ -35,8 +35,8 @@
             position: static;
             .carousel-item {
               img {
-                width: 157px;
-                height: 157px;
+                width: 120px;
+                height: 120px;
                 border-radius: 50%;
               }
               .carousel-caption {
@@ -60,10 +60,10 @@
               }
             }
             .carousel-indicators {
-              bottom: -80px;
+              bottom: -60px;
               button {
-                width: 17px;
-                height: 17px;
+                width: 12px;
+                height: 12px;
                 border-radius: 50%;
                 background: #d9d9d9;
                 border: 0px;

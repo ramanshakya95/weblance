@@ -8,36 +8,40 @@
 .work_section .work_titles .first_column h1 {
   font-family: "Mulish";
   font-weight: 900;
-  color: #ff5b54;
-  font-size: 250px;
-  line-height: 250px;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0px;
+  color: #222;
+  font-size: 90px;
+  line-height: 100px;
+  color: #cf2129;
   margin-right: auto;
 }
 @media only screen and (max-width: 1400px) {
   .work_section .work_titles .first_column h1 {
-    font-size: 210px;
-    line-height: 210px;
+    font-size: 75px;
+    line-height: 80px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .work_section .work_titles .first_column h1 {
-    font-size: 180px;
-    line-height: 180px;
+    font-size: 60px;
+    line-height: 65px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .work_section .work_titles .first_column h1 {
-    font-size: 160px;
-    line-height: 160px;
+    font-size: 55px;
+    line-height: 60px;
   }
 }
 @media only screen and (max-width: 991px) {
   .work_section .work_titles .first_column h1 {
-    font-size: 150px;
-    line-height: 150px;
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .work_section .work_titles .first_column h1 {
+    font-size: 40px;
+    line-height: 45px;
   }
 }
 .work_section .work_titles .second_column h2 {
@@ -47,8 +51,7 @@
   font-size: 70px;
   line-height: 80px;
   color: #fff;
-  max-width: 450px;
-  margin-left: auto;
+  margin-left: 50px;
 }
 @media only screen and (max-width: 1400px) {
   .work_section .work_titles .second_column h2 {
@@ -107,7 +110,7 @@
   font-size: 20px;
   font-weight: 900;
   line-height: 40px;
-  color: #ff5b54;
+  color: #cf2129;
   margin: 0px;
   text-decoration: none;
-}/*# sourceMappingURL=homelatest.css.map */
+}/*# sourceMappingURL=HomeLatest.css.map */

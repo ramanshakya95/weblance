@@ -20,7 +20,7 @@
   margin-right: 8px;
 }
 .vision_mision_section .mision-vision .first_column .nav-tabs li button.active {
-  background: #ff5b54;
+  background: #cf2129;
   color: #fff;
 }
 .vision_mision_section .mision-vision .first_column h1 {
@@ -78,12 +78,13 @@
 .vision_mision_section .mision-vision .second_column {
   position: relative;
   background: url("../../assets/svg/watermark.svg") no-repeat;
+  background-position: left center;
+  background-size: 60%;
 }
 .vision_mision_section .mision-vision .second_column img {
   position: absolute;
   right: 0;
-  -webkit-animation: topbottom 1.5s infinite;
-          animation: topbottom 1.5s infinite;
+  animation: topbottom 1.5s infinite;
 }
 
 .freelance_section {
@@ -129,7 +130,7 @@
   margin-bottom: 15px;
 }
 .freelance_section ._column .badges_ .text_badges h3 .theme-color {
-  color: #ff5b54;
+  color: #cf2129;
 }
 .freelance_section ._column .badges_ .text_badges.active_reward {
   padding: 33px 0px;
@@ -140,4 +141,4 @@
 }
 .freelance_section ._column .badges_ .text_badges img {
   width: 100%;
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=About.css.map */

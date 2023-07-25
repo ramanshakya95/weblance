@@ -41,7 +41,7 @@
   }
 }
 .three_things_section .theme-color {
-  color: #ff5b54;
+  color: #cf2129;
 }
 .three_things_section .each-agency {
   display: flex;
@@ -129,8 +129,7 @@
   position: absolute;
   left: -60px;
   top: -160px;
-  -webkit-animation: topbottom 1.5s infinite;
-          animation: topbottom 1.5s infinite;
+  animation: topbottom 1.5s infinite;
 }
 .three_things_section.digital_experts .container:after {
   content: "";
@@ -141,8 +140,7 @@
   position: absolute;
   right: -55px;
   bottom: -130px;
-  -webkit-animation: topbottom 1.5s infinite;
-          animation: topbottom 1.5s infinite;
+  animation: topbottom 1.5s infinite;
 }
 .three_things_section.digital_experts .container .spacing:nth-child(1) {
   padding: 0px 30px 38px 0px;
@@ -185,4 +183,4 @@
     font-size: 30px;
     line-height: 45px;
   }
-}/*# sourceMappingURL=threethings.css.map */
+}/*# sourceMappingURL=ThreeThings.css.map */

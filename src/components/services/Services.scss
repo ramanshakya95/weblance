@@ -73,18 +73,24 @@
           }
           &:nth-child(3) {
             position: absolute;
-            bottom: -30px;
+            bottom: -50px;
             width: 550px;
             right: 70px;
           }
           @include flex-center;
-          padding: 40px;
+          padding: 30px;
           border-radius: $border-radius;
           &.bg-light-color {
             background: $bg-color-47;
+            outline: 1px dashed #fff;
+            outline-offset: -10px;
+            &:hover {
+              background-color: $theme-color !important;
+            }
           }
           img {
             margin-right: 18px;
+            width: 90px;
           }
           .content {
             color: $white-color;
@@ -92,6 +98,7 @@
               font-size: $font-size-20;
               line-height: $font-size-20;
               font-weight: $font-weight-900;
+              margin-bottom: 5px;
             }
             p {
               @include paragraph;

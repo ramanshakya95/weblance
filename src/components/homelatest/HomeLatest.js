@@ -11,10 +11,10 @@ const HomeLatest = () => {
                 <Container>
                     <Row className='work_titles align-items-center'>
                         <Col md={6} sm={12} className='first_column'>
-                            <h1>wo<br />rk</h1>
+                            <h1>Showcase</h1>
                         </Col>
                         <Col md={6} sm={12} className='second_column'>
-                            <h2>Projects that are close to our hearts.</h2>
+                            <h2>Projects that hold a special place in our hearts.</h2>
                         </Col>
                     </Row>
                     <Row xs={1} md={2} lg={2} className='projects_ first_row'>

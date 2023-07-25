@@ -46,12 +46,11 @@
   padding-right: 50px;
 }
 .home_banner_section .banner_content h5 a {
-  color: #ff5b54;
+  color: #cf2129;
 }
 .home_banner_section .banner_img img {
   margin-bottom: -60px;
-  -webkit-animation: topbottom 2s infinite;
-          animation: topbottom 2s infinite;
+  animation: topbottom 2s infinite;
   width: 100%;
 }
 
@@ -61,7 +60,7 @@
 .about_banner_section h1 {
   font-family: "Mulish";
   font-weight: 900;
-  color: #ff5b54;
+  color: #cf2129;
   font-size: 250px;
   line-height: 250px;
   text-align: center;
@@ -166,8 +165,7 @@
 }
 .services_banner_section img {
   padding: 10px;
-  -webkit-animation: topbottom 1.5s infinite;
-          animation: topbottom 1.5s infinite;
+  animation: topbottom 1.5s infinite;
 }
 
 .about_banner_section.work_banner_section {
@@ -214,4 +212,4 @@
   .home_banner_section .banner_img img {
     max-width: 100%;
   }
-}/*# sourceMappingURL=banner.css.map */
+}/*# sourceMappingURL=Banner.css.map */

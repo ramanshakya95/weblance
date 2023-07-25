@@ -7,7 +7,8 @@
     color: $white-color;
     .first_column {
       h1 {
-        @include large_title;
+        @include banner_title;
+        color: $theme-color;
         margin-right: auto;
       }
     }
@@ -15,8 +16,7 @@
       h2 {
         @include second_title;
         color: $white-color;
-        max-width: 450px;
-        margin-left: auto;
+        margin-left: 50px;
       }
     }
   }

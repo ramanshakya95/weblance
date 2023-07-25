@@ -58,17 +58,9 @@
     line-height: 20px;
   }
 }
-.testimonial_section .row .first_column h4 {
-  font-family: "Mulish";
-  font-weight: 900;
-  color: #222;
-  font-size: 28px;
-  line-height: 35px;
-  margin-bottom: 44px;
-}
 .testimonial_section .row .second_column .testimonial-slider {
   background: #fff;
-  padding: 70px 60px;
+  padding: 50px;
   margin-left: 90px;
   border-radius: 32px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
@@ -78,8 +70,8 @@
   position: static;
 }
 .testimonial_section .row .second_column .testimonial-slider .carousel .carousel-item img {
-  width: 157px;
-  height: 157px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 .testimonial_section .row .second_column .testimonial-slider .carousel .carousel-item .carousel-caption {
@@ -113,15 +105,15 @@
   line-height: 26px;
 }
 .testimonial_section .row .second_column .testimonial-slider .carousel .carousel-indicators {
-  bottom: -80px;
+  bottom: -60px;
 }
 .testimonial_section .row .second_column .testimonial-slider .carousel .carousel-indicators button {
-  width: 17px;
-  height: 17px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: #d9d9d9;
   border: 0px;
 }
 .testimonial_section .row .second_column .testimonial-slider .carousel .carousel-indicators button.active {
   background: #222;
-}/*# sourceMappingURL=testimonials.css.map */
+}/*# sourceMappingURL=Testimonials.css.map */
