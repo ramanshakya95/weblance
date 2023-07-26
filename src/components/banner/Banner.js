@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
-import bannerimg from '../../assets/svg/Banner-Img.svg';
+import bannerimg from '../../assets/svg/Banner-Img.png';
 import downarrow from '../../assets/svg/down-arrow.svg';
 import './Banner.scss';
 

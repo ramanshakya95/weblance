@@ -43,7 +43,7 @@ const Footer = () => {
             </section>
 
             <section className='copyright_section'>
-                <p className='text-center'>© 2022 Dezinestar. All Rights Reserved.</p>
+                <p className='text-center'>© 2023 Weblance. All Rights Reserved.</p>
             </section>
         </>
     );

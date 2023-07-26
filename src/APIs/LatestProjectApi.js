@@ -1,8 +1,8 @@
 export const latest_project_data = [
-    { id: 1, image: require('../assets/latestprojects/project.png'), title: 'Provenance Project', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../assets/latestprojects/project1.png'), title: 'Proofreading World', subTitle: 'Advertisements' },
-    { id: 3, image: require('../assets/latestprojects/project2.png'), title: 'Snap Car Wash', subTitle: 'Business Card' },
-    { id: 4, image: require('../assets/latestprojects/project3.png'), title: 'The Mut Spa', subTitle: 'Logo Design' },
+    { id: 1, image: require('../assets/latestprojects/project.jpg'), title: 'Yummy Bar', subTitle: 'INDIAN WINE AND RESTAURANT' },
+    { id: 2, image: require('../assets/latestprojects/project1.jpg'), title: 'VAZATI', subTitle: 'MANAGEMENT' },
+    { id: 3, image: require('../assets/latestprojects/project2.jpg'), title: 'BRAMBURRA', subTitle: 'PARTNERS' },
+    { id: 4, image: require('../assets/latestprojects/project3.jpg'), title: 'LEGEND', subTitle: 'Committed Realty' },
 ]
 
 export const responsive = {
