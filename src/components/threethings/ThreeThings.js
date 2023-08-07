@@ -7,7 +7,7 @@ import './ThreeThings.scss';
 const project_points = {
     "/": <section className='three_things_section'>
             <Container>
-                <h1>In our creative digital agency, we prioritize three key elements while<br /><span className='theme-color'>designing and developing projects.</span></h1>
+                <h1>In our digital agency, we focus on three core aspects during project <span className='theme-color'>Design and Development.</span></h1>
                 <Row>
                     {three_thing.map(things => (
                         <Col key={things.id}>
@@ -27,7 +27,7 @@ const project_points = {
         </section>,
     "/about": <section className='three_things_section digital_experts'>
                 <Container>
-                    <h1 className="text-center text-white p-0">Our digital experts make your projects</h1>
+                    <h1 className="text-white p-0">Your projects are brought to life by our team of experts.</h1>
                     <Row>
                         {digital_experts.map(experts => (
                             <Col sm={6} key={experts.id} className='spacing'>

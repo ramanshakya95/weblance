@@ -39,6 +39,8 @@
       }
       p {
         @include paragraph;
+        margin-top: $margin_bottom;
+        margin-bottom: $margin_bottom;
         padding-right: 50px;
       }
     }
@@ -51,6 +53,7 @@
         position: absolute;
         right: 0;
         animation: topbottom 1.5s infinite;
+        width: 300px;
       }
     }
   }

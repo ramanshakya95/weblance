@@ -6,10 +6,15 @@
   .work_titles {
     color: $white-color;
     .first_column {
+      margin-bottom: $margin_bottom_40;
       h1 {
         @include banner_title;
         color: $theme-color;
         margin-right: auto;
+      }
+      h2 {
+        @include small_heading;
+        color: $white-color;
       }
     }
     .second_column {

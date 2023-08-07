@@ -39,8 +39,8 @@ const BANNER_CONTENT = {
                         <h1>STU<br />DIO</h1>
                     </Col>
                     <Col className='banner_content'>
-                        <h2>A boutique team of designers, developers & strategists.</h2>
-                        <p>We have an innovative way of working, removing unnecessary costs, offering lower prices than other similar agencies. If you are looking to find a digital agency then we’d love to hear from you.</p>
+                        <h2>We are a web design agency that's like a creative hub.</h2>
+                        <p>We are a web design agency that's like a creative hub. We shape digital spaces that mix artistic design with practical use. Our team includes skilled designers, coding experts, and people who know how users feel. We make online personalities for companies that people really connect with. We make websites look cool and work smoothly. Weblance Technologies bring websites to life, turning ideas into amazing sites that people will remember online.</p>
                     </Col>
                 </Row>
             </Container>

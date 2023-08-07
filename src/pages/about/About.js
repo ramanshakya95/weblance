@@ -25,12 +25,12 @@ const About = () => {
                             <Col className='first_column'>
                                 <Tabs activeKey={tabKey} onSelect={(e) => initTabKey(e)}>
                                     <Tab eventKey="vision" title="Our Vision">
-                                        <h1>Innovative <br /> Digital Agency</h1>
-                                        <p>We are a bunch of young, skilled, and inspired marketing nerds specialized in offering high-end and reliable services related to website design, development, graphic design, app development, branding, and much more. Our proficient team transforms its journeys into 100% original creativity, insightful strategy, and substances that matter to build brands above the clutter. </p>
+                                        {/* <h1>Innovative <br /> Digital Agency</h1> */}
+                                        <p>We envision creating exceptional web experiences that blend creativity and functionality seamlessly. Our vision is to be known for our innovative solutions, client-centric approach, and commitment to delivering outstanding results. We strive to be the go-to partner for businesses seeking to elevate their online presence and achieve digital excellence.</p>
                                     </Tab>
                                     <Tab eventKey="mision" title="Our Mision">
-                                        <h1>Innovative <br /> Digital Agency</h1>
-                                        <p>We are a bunch of young, skilled, and inspired marketing nerds specialized in offering high-end and reliable services related to website design, development, graphic design, app development, branding, and much more. Our proficient team transforms its journeys into 100% original creativity, insightful strategy, and substances that matter to build brands above the clutter. </p>
+                                        {/* <h1>Innovative <br /> Digital Agency</h1> */}
+                                        <p>At our web design company, our mission is to transform ideas into captivating digital realities. We aim to craft visually stunning and user-centric websites that not only reflect our clients' unique visions but also elevate their online presence. Through innovative design, seamless functionality, and a commitment to excellence, we strive to deliver solutions that resonate with audiences, drive engagement, and foster lasting connections. Our dedicated team works tirelessly to exceed expectations, making our clients' success our ultimate mission.</p>
                                     </Tab>
                                 </Tabs>
                             </Col>

@@ -5,8 +5,8 @@ export const three_thing = [
 ]
 
 export const digital_experts = [
-    { id: 1, title: 'Meaningful', description: 'Because each project should begin by asking the right questions. We bring you the best UX Researchers, UX Prototyper, UX Copywriters, Market Researchers, Digital Auditors.' },
-    { id: 2, title: 'Desirable', description: 'Because creative excellence comes from a belief in the brand.  We bring you the best Art Directors, UI Designers, Strategists, Creatives, Storytellers.' },
-    { id: 3, title: 'Codable', description: 'Because each release requires development excellence, good practice and knowledge sharing. We bring you the best Web Architects, Functional Analysts, Technical Analysts, Front-end and Back-end Developers, Testers.' },
-    { id: 4, title: 'Planable', description: 'Because success requires vision, planning and operational guidance. We bring you the best Scrum Masters, Project Managers, Program Managers, Product Owners, Product Managers.' }
+    { id: 1, title: 'Meaningful', description: 'Our designs tell stories, evoke emotions, and guide users on a journey that resonates with the essence of the brand. In a world flooded with information, meaningful web designs stand out, leaving a lasting impression and forging genuine connections.' },
+    { id: 2, title: 'Desirable', description: 'Desirable web designs captivate, engaging users with elegant aesthetics and effortless functionality. These designs seamlessly fuse beauty and usability, creating an enchanting digital experience that leaves a lasting impression. In a realm where attraction meets practicality, desirable web designs stand as a testament to effective design philosophy and user-centered innovation.' },
+    { id: 3, title: 'Codable', description: 'We specialize in constructing well-organized code, resulting in websites that boast both visual charm and exceptional functionality. This methodology effortlessly combines artistic creativity with technical proficiency, resulting in captivating user journeys and peak performance. Our commitment extends to providing code that is both bug-free and held to the highest industry standards.' },
+    { id: 4, title: 'Planable', description: 'We are creating websites that can be meticulously planned, ensuring intuitive navigation and purposeful content arrangement. A "Plannable Website" aims to enhance user engagement by presenting information coherently and catering to users needs effectively. This approach contributes to a more efficient development process and a user-friendly online experience.' }
 ]

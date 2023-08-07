@@ -3,9 +3,8 @@
 .three_things_section {
   padding: 150px 0px 215px;
   h1 {
-    @include second_title;
+    @include small_heading;
     margin-bottom: 70px;
-    padding-right: 60px;
   }
   .theme-color {
     color: $theme-color;
@@ -32,8 +31,7 @@
     .content {
       h3 {
         @include _title;
-        font-size: $font-size-40;
-        line-height: $line-height-50;
+        font-size: $font-size-30;
         margin-bottom: 10px;
       }
       p {
