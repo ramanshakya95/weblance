@@ -110,10 +110,12 @@
     }
     .each-agency {
       .number {
-        min-width: 130px;
-        height: 110px;
+        min-width: 90px;
+        height: 80px;
         background-size: contain;
         margin-right: 20px;
+        font-size: $font-size-50;
+        line-height: normal;
       }
       .content {
         h3 {

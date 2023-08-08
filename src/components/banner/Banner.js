@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLocation } from "react-router-dom";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import arrow from '../../assets/svg/arrow.svg';
 import bannerimg from '../../assets/svg/Banner-Img.png';
 import downarrow from '../../assets/svg/down-arrow.svg';
 import './Banner.scss';
@@ -10,8 +11,11 @@ const BANNER_CONTENT = {
             <Container className='p-0'>
                 <Row className='banner align-items-center m-0 flex-wrap'>
                     <Col md={6} sm={12} className='banner_content p-0'>
-                        <h1>Designing Your Digital Success</h1>
+                        <p>Fast . Expandable . Protected</p>
+                        <h1 className='theme-color'>Building the</h1>
+                        <h2>Digital Future Together</h2>
                         <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
+                        <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
                     </Col>
                     <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
                         <img src={bannerimg} alt='banner-img' />

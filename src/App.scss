@@ -68,6 +68,10 @@ button.second_button {
 }
 // button component styling end
 
+.theme-color {
+  color: $theme-color;
+}
+
 @media (min-width: 1400px) {
   .container {
     max-width: 1400px;
