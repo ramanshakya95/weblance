@@ -38,6 +38,14 @@ const Footer = () => {
                                 ))}
                             </ul>
                         </Col>
+                        <Col md="auto" className='third_column p-0'>
+                            <h3>Experts in</h3>
+                            <ul className='p-0 list-unstyled'>
+                                {expertdata.map(expert => (
+                                    <li key={expert.id}><Link to='/'>{expert.title}</Link></li>
+                                ))}
+                            </ul>
+                        </Col>
                     </Row>
                 </Container>
             </section>
