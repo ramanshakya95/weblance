@@ -17,13 +17,6 @@
         color: $white-color;
       }
     }
-    .second_column {
-      h2 {
-        @include second_title;
-        color: $white-color;
-        margin-left: 50px;
-      }
-    }
   }
   .projects_ {
     margin-top: 32px;
@@ -39,12 +32,6 @@
     img {
       width: 100%;
       border-radius: $border-radius;
-    }
-    h3 {
-      font-size: $font-size-40;
-      font-weight: $font-weight-900;
-      line-height: $font-size-40;
-      color: $white-color;
     }
     h4 {
       font-size: $font-size-25;

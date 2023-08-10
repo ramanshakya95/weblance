@@ -17,9 +17,6 @@ const HomeLatest = () => {
                             <h1>Showcase</h1>
                             <h2>Projects close to our hearts.</h2>
                         </Col>
-                        {/* <Col md={6} sm={12} className='second_column'>
-                            <h2>Projects close to our hearts.</h2>
-                        </Col> */}
                     </Row>
                     <Row xs={1} md={2} lg={2} className='projects_ first_row'>
                         <Col className='_column'>
@@ -42,9 +39,6 @@ const HomeLatest = () => {
                                 ))}
                             </Carousel>
                             <h4>Website Designing & Development</h4>
-                            {/* <img src={latest_project.image} alt='project' /> */}
-                            {/* <h3>{latest_project.title}</h3> */}
-                            {/* <h4><Link to='/'>{latest_project.subTitle}</Link></h4> */}
                         </Col>
                         <Col className='_column'>
                             <img src={project1} alt='project1' />
