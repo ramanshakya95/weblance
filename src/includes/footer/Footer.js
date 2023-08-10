@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
-import footerlogo from '../../assets/svg/logo.svg';
+import footerlogo from '../../assets/svg/f_logo.svg';
 import freelance from '../../assets/svg/freelance.svg';
 import user from '../../assets/icons/user.png';
 import telephone from '../../assets/icons/telephone.png';
