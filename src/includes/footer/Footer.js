@@ -35,24 +35,26 @@ const Footer = () => {
                     <Row className='footer_col'>
                         <Col md="auto" className='first_column p-0'>
                             <img className='logo' src={footerlogo} alt='footer-logo' />
-                            <h3>We’re Hardcore Experts in Cutting-edge Technologies</h3>
-                            <div className='freelance'>
-                                <img className='f_logo' src={freelance} alt='freelance' />
-                                <img className='icons' src={shield} alt="shield" />
-                                <img className='icons' src={badge} alt="badge" />
-                            </div>
+                            <h4>We’re Hardcore Experts in Cutting-edge Technologies</h4>
+                            <ul className='content_icon list-unstyled'>
+                                <li><img src={flag} alt="" /> Ambala City, India</li>
+                            </ul>
                         </Col>
                         <Col md="auto" className='second_column p-0'>
                             <h3>Experts in</h3>
-                            <ul className='p-0 list-unstyled'>
+                            <ul className='list-unstyled'>
                                 {expertdata.map(expert => (
                                     <li key={expert.id}><Link to='/'><img src={expert.icon} alt="" /> {expert.title}</Link></li>
                                 ))}
                             </ul>
                         </Col>
                         <Col md="auto" className='third_column p-0'>
-                            <ul>
-                                <li><img src={flag} alt="" /> Ambala City, India</li>
+                            <div className='freelance'>
+                                <img className='f_logo' src={freelance} alt='freelance' />
+                                <img className='icons' src={shield} alt="shield" />
+                                <img className='icons' src={badge} alt="badge" />
+                            </div>
+                            <ul className='content_icon list-unstyled'>
                                 <li><img className='white' src={member} alt="" /> Member since August 28, 2012</li>
                                 <li><img className='white' src={heart} alt="" /> 91 Recommendations</li>
                             </ul>
