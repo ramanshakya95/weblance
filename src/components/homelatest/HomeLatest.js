@@ -26,7 +26,7 @@ const HomeLatest = () => {
                             <Carousel
                                 draggable={true}
                                 indicators={false}
-                                controls={true}
+                                controls={false}
                                 autoPlay={true}
                                 autoPlaySpeed={2000}
                                 infinite={true}
