@@ -2,14 +2,13 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: #fff;
+  background: #F9F9F9;
 }
 header .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 110px;
-  padding: 0px 55px;
 }
 
 .nav-container {

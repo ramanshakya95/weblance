@@ -15,16 +15,16 @@ import heart from '../../assets/icons/heart.png';
 import './Footer.scss';
 
 const expertdata = [
-    { id: 1, icon: require('../../assets/icons/Design.png'), title: 'Web Design & Development' },
-    { id: 2, icon: require('../../assets/icons/Stores.png'), title: 'E-Commerce Stores' },
-    { id: 3, icon: require('../../assets/icons/Hosting.png'), title: 'Amazon (AWS) Hosting' },
-    { id: 4, icon: require('../../assets/icons/Email.png'), title: 'Email Marketing' },
-    { id: 5, icon: require('../../assets/icons/Promotional.png'), title: 'Promotional Video' },
-    { id: 6, icon: require('../../assets/icons/Content.png'), title: 'Content Management' },
-    { id: 7, icon: require('../../assets/icons/Responsive.png'), title: 'Responsive Web Design' },
-    { id: 8, icon: require('../../assets/icons/Applications.png'), title: 'Web Applications' },
-    { id: 9, icon: require('../../assets/icons/Development.png'), title: 'Custom Development' },
-    { id: 10, icon: require('../../assets/icons/Social.png'), title: 'Social Media' },
+    { id: 1, icon: require('../../assets/icons/design.png'), title: 'Web Design & Development' },
+    { id: 2, icon: require('../../assets/icons/stores.png'), title: 'E-Commerce Stores' },
+    { id: 3, icon: require('../../assets/icons/hosting.png'), title: 'Amazon (AWS) Hosting' },
+    { id: 4, icon: require('../../assets/icons/email.png'), title: 'Email Marketing' },
+    { id: 5, icon: require('../../assets/icons/promotional.png'), title: 'Promotional Video' },
+    { id: 6, icon: require('../../assets/icons/content.png'), title: 'Content Management' },
+    { id: 7, icon: require('../../assets/icons/responsive.png'), title: 'Responsive Web Design' },
+    { id: 8, icon: require('../../assets/icons/applications.png'), title: 'Web Applications' },
+    { id: 9, icon: require('../../assets/icons/development.png'), title: 'Custom Development' },
+    { id: 10, icon: require('../../assets/icons/social.png'), title: 'Social Media' },
 ]
 
 const Footer = () => {

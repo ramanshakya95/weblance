@@ -3,7 +3,7 @@ import {Routes,Route} from "react-router-dom";
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Services from './pages/services/Services';
-import OurWork from './pages/ourwork/OurWork';
+import PortfolioCat from './pages/portfolioCat/PortfolioCat_';
 import Error from './pages/Error';
 
 const Rout = () => {
@@ -13,7 +13,7 @@ const Rout = () => {
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/about" element={<About/>}></Route>
                 <Route path="/services" element={<Services/>}></Route>
-                <Route path="/our-work" element={<OurWork/>}></Route>
+                <Route path="/portfolio" element={<PortfolioCat/>}></Route>
                 <Route path="*" element={<Error/>}></Route>
             </Routes>
         </>

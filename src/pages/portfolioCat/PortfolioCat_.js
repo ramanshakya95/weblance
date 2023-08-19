@@ -3,10 +3,9 @@ import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import { design_dev_data, graphic_data, content_data } from '../../APIs/OurWorkApi';
 import Banner from '../../components/banner/Banner';
-// import WorkList from './WorkList';
-import './ourwork.scss';
+import './PortfolioCat_.scss';
 
-const OurWork = () => {
+const PortfolioCat = () => {
     return (
         <>
             <Banner />
@@ -50,4 +49,4 @@ const OurWork = () => {
     );
 };
 
-export default OurWork;
+export default PortfolioCat;

@@ -1,48 +1,66 @@
 @import "../../utils/var.scss";
 
 .digital_services_section {
-  padding: 105px 0px;
+  padding: 90px 0px;
+  background-image: url(../../assets/background.jpg);
+  h2 {
+    @include second_title;
+    text-align: center;
+    margin-bottom: 50px;
+  }
   .digital_services_row {
-    padding-bottom: 90px;
-    .first_column {
-        margin-right: 22px;
-      h2 {
-        @include second_title;
-        margin-bottom: $margin_bottom;
-      }
-      p {
-        @include paragraph;
-        margin-bottom: $margin_bottom;
-        color: $text-555;
-      }
-      ul {
-        padding: 0px;
-        li {
-          font-size: $font-size-16;
-          line-height: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    .digital_services_ {
+      background-color: $white-color;
+      padding: 30px;
+      border-radius: 20px;
+      // .first_column {
+        img {
+          width: 70px;
+          margin-bottom: 20px;
+          filter: invert(17%) sepia(63%) saturate(5612%) hue-rotate(349deg) brightness(86%) contrast(87%);
+        }
+        h3 {
+          font-size: $font-size-25;
+          font-weight: $font-weight-600;
+          margin-bottom: $margin_bottom;
+          color: $theme-color;
+        }
+        p {
+          @include paragraph;
           color: $text-555;
-          list-style: none;
-          display: flex;
-          align-items: center;
-          &:before {
-            content: "";
-            background: url("../../assets/svg/li-icon.svg") no-repeat;
-            min-width: 21px;
-            height: 21px;
-            margin-right: 10px;
-          }
         }
-      }
-    }
-    .second_column {
-        margin-left: 22px;
-        .services_images{
-            width: 100%;
-            background: $bg-color;
-            padding: 20px 60px;
-            border-radius: $border-radius;
-            text-align: center;
-        }
+        // ul {
+        //   padding: 0px;
+        //   li {
+        //     font-size: $font-size-16;
+        //     line-height: 35px;
+        //     color: $text-555;
+        //     list-style: none;
+        //     display: flex;
+        //     align-items: center;
+        //     &:before {
+        //       content: "";
+        //       background: url("../../assets/svg/li-icon.svg") no-repeat;
+        //       min-width: 21px;
+        //       height: 21px;
+        //       margin-right: 10px;
+        //     }
+        //   }
+        // }
+      // }
+      // .second_column {
+      //     margin-left: 22px;
+      //     .services_images{
+      //         width: 100%;
+      //         background: $bg-color;
+      //         padding: 20px 60px;
+      //         border-radius: $border-radius;
+      //         text-align: center;
+      //     }
+      // }
     }
   }
 }

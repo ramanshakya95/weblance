@@ -67,6 +67,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-right: 50px;
 }
 @media only screen and (max-width: 991px) {
@@ -85,6 +87,7 @@
   position: absolute;
   right: 0;
   animation: topbottom 1.5s infinite;
+  width: 300px;
 }
 
 .freelance_section {

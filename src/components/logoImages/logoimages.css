@@ -5,7 +5,7 @@
   font-size: 70px;
   line-height: 80px;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 @media only screen and (max-width: 1400px) {
   .logo_section h2 {
@@ -38,7 +38,7 @@
   }
 }
 .logo_section.client_section {
-  padding: 150px 0px;
+  padding: 120px 0px;
 }
 .logo_section.client_section img {
   width: 100%;
@@ -46,20 +46,31 @@
 .logo_section.client_section .logo_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  -moz-column-gap: 45px;
-       column-gap: 45px;
+  gap: 40px;
 }
 .logo_section.client_section .logo_row .logos {
-  padding: 0px;
+  padding: 20px;
+  border: 1px dashed #ddd;
+  border-radius: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logo_section.skill_section h2 {
+  font-size: 45px;
+  font-family: "Mulish";
+  font-weight: 900;
+  color: #222;
+  line-height: normal;
+  text-align: center;
   margin-bottom: 55px;
 }
 .logo_section.skill_section .logo_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  -moz-column-gap: 45px;
-       column-gap: 45px;
+  gap: 40px;
+  row-gap: 0px;
 }
 .logo_section.skill_section .logo_row .logos {
   padding: 40px;
@@ -95,8 +106,7 @@
 .logo_section.expertise_section .logo_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  -moz-column-gap: 45px;
-       column-gap: 45px;
+  gap: 40px;
   -moz-column-gap: 22px;
        column-gap: 22px;
   row-gap: 30px;

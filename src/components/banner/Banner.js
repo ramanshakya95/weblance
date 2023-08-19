@@ -60,7 +60,7 @@ const BANNER_CONTENT = {
                 </Row>
             </Container>
         </section>,
-    "/our-work": <section className='about_banner_section work_banner_section'>
+    "/portfolio": <section className='about_banner_section work_banner_section'>
             <Container className='p-0'>
                 <Row className='banner align-items-center m-0'>
                     <Col md='auto' className='large-title p-0'>

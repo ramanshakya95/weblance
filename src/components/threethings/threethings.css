@@ -2,55 +2,30 @@
   padding: 150px 0px 215px;
 }
 .three_things_section h1 {
+  font-size: 45px;
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 70px;
-  line-height: 80px;
+  line-height: normal;
+  text-align: center;
   margin-bottom: 70px;
-  padding-right: 60px;
-}
-@media only screen and (max-width: 1400px) {
-  .three_things_section h1 {
-    font-size: 60px;
-    line-height: 70px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .three_things_section h1 {
-    font-size: 50px;
-    line-height: 60px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .three_things_section h1 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .three_things_section h1 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .three_things_section h1 {
-    font-size: 32px;
-    line-height: 35px;
-  }
 }
 .three_things_section .theme-color {
   color: #cf2129;
 }
 .three_things_section .each-agency {
   display: flex;
-  align-items: center;
+  align-items: self-start;
+  border: 1px dashed #ddd;
+  border-radius: 20px;
+  height: 100%;
+  padding: 20px;
 }
 .three_things_section .each-agency .number {
   background: url("../../assets/svg/num-bg.svg") no-repeat;
-  min-width: 163px;
-  height: 140px;
+  background-size: contain;
+  min-width: 110px;
+  height: 95px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,8 +34,10 @@
   color: #222;
   font-size: 70px;
   line-height: 80px;
+  font-size: 50px;
+  line-height: normal;
   color: #fff;
-  margin-right: 35px;
+  margin-right: 30px;
 }
 @media only screen and (max-width: 1400px) {
   .three_things_section .each-agency .number {
@@ -96,9 +73,8 @@
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 40px;
-  line-height: 80px;
-  margin: 0px;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 .three_things_section .each-agency .content p {
   font-family: "Mulish";
@@ -158,6 +134,12 @@
 .three_things_section.digital_experts .container .spacing:nth-child(4) {
   padding: 22px 0px 0px 30px;
 }
+.three_things_section.digital_experts .container .spacing .each-agency {
+  border: 0px;
+  border-radius: 0px;
+  height: auto;
+  padding: 0px;
+}
 .three_things_section.digital_experts .container .spacing .each-agency .content h3,
 .three_things_section.digital_experts .container .spacing .each-agency .content p {
   color: #fff;
@@ -174,10 +156,12 @@
     display: none;
   }
   .three_things_section .each-agency .number {
-    min-width: 130px;
-    height: 110px;
+    min-width: 90px;
+    height: 80px;
     background-size: contain;
     margin-right: 20px;
+    font-size: 50px;
+    line-height: normal;
   }
   .three_things_section .each-agency .content h3 {
     font-size: 30px;

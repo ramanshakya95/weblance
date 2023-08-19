@@ -1,55 +1,85 @@
 .home_banner_section {
   padding: 15px 0px;
 }
+.home_banner_section .banner_content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
 .home_banner_section .banner_content h1 {
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 90px;
-  line-height: 100px;
-  margin-bottom: 25px;
+  font-size: 70px;
+  line-height: 80px;
+  color: #cf2129;
 }
 @media only screen and (max-width: 1400px) {
   .home_banner_section .banner_content h1 {
-    font-size: 75px;
-    line-height: 80px;
+    font-size: 60px;
+    line-height: 70px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .home_banner_section .banner_content h1 {
-    font-size: 60px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 60px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .home_banner_section .banner_content h1 {
-    font-size: 55px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .home_banner_section .banner_content h1 {
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 40px;
   }
 }
 @media only screen and (max-width: 767px) {
   .home_banner_section .banner_content h1 {
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 32px;
+    line-height: 35px;
   }
+}
+.home_banner_section .banner_content h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: normal;
 }
 .home_banner_section .banner_content h5 {
   font-family: "Mulish";
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 25px;
+  line-height: normal;
   padding-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
-.home_banner_section .banner_content h5 a {
-  color: #cf2129;
+.home_banner_section .banner_content button {
+  background-color: #cf2129;
+  border-radius: 50px;
+  width: 153px;
+  margin: 0;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1400px) {
+  .home_banner_section .banner_content button {
+    width: 135px;
+    height: 45px;
+  }
 }
 .home_banner_section .banner_img img {
-  margin-bottom: -60px;
+  margin-bottom: 0px;
   animation: topbottom 2s infinite;
   width: 100%;
 }
@@ -152,7 +182,7 @@
   color: #fff;
   font-weight: 900;
   margin-bottom: 20px;
-  max-width: 507px;
+  max-width: 900px;
   margin: 0 auto 20px;
 }
 .services_banner_section p {

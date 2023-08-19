@@ -1,0 +1,139 @@
+.work_process_section {
+  position: relative;
+  padding: 80px 0px;
+}
+.work_process_section h2 {
+  font-family: "Mulish";
+  font-weight: 900;
+  color: #222;
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 80px;
+}
+@media only screen and (max-width: 1400px) {
+  .work_process_section h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .work_process_section h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .work_process_section h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .work_process_section h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .work_process_section h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+.work_process_section .work-process {
+  position: relative;
+  padding: 0px 15px;
+}
+.work_process_section .work-process .step-num-box {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.work_process_section .work-process .step-num-box .step-icon {
+  background: #cf2129;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  position: relative;
+  border: 3px solid #fafaff;
+  border-radius: 50%;
+}
+.work_process_section .work-process .step-num-box .step-icon span::after {
+  border-radius: 50%;
+  content: "";
+  height: 40px;
+  position: absolute;
+  width: 40px;
+  z-index: -1;
+  background: #cf2129;
+  height: 25px;
+  left: -10px;
+  top: 5px;
+  width: 25px;
+}
+.work_process_section .work-process .step-num-box .step-icon span::before {
+  border-radius: 50%;
+  content: "";
+  height: 40px;
+  position: absolute;
+  width: 40px;
+  z-index: -1;
+  background: #e7a2ac;
+  bottom: 0;
+  right: -10px;
+}
+.work_process_section .work-process .step-num-box .step-icon span img {
+  width: 50px;
+  filter: brightness(0) invert(1);
+}
+.work_process_section .work-process .step-num-box .step-num {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px 0 rgb(224, 224, 224);
+  color: #cf2129;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  right: 0;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: -20px;
+  width: 50px;
+}
+.work_process_section .work-process .step-desc h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #222;
+}
+.work_process_section #svg-container {
+  position: absolute;
+  width: 95%;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  z-index: -1;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  #svg-container {
+    width: 85%;
+  }
+}
+@media (max-width: 992px) {
+  .md-mt-5 {
+    margin-top: 50px !important;
+  }
+  .step-desc p {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  #svg-container {
+    width: 100%;
+    transform: rotate(90deg);
+    left: 0;
+    top: 50%;
+  }
+}/*# sourceMappingURL=Process.css.map */

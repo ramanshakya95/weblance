@@ -48,20 +48,11 @@ const Header = () => {
                                 </li>
                                 <li className="nav-item">
                                     <NavLink
-                                        to="/our-work"
+                                        to="/portfolio"
                                         className="nav-links"
                                         onClick={click ? handleClick : null}
                                     >
-                                        Our Work
-                                    </NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink
-                                        to="/career"
-                                        className="nav-links"
-                                        onClick={click ? handleClick : null}
-                                    >
-                                        Career
+                                        Our Portfolio
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
