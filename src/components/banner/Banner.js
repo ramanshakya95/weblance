@@ -73,6 +73,87 @@ const BANNER_CONTENT = {
                 </Row>
             </Container>
         </section>,
+    "/portfolio/wordpress-websites": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Wordpress Websites</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/woocommerce-websites": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Woocommerce Websites</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/shopify": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Shopify</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/php-websites": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Php Websites</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/XD-templates": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>XD Templates</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/bootstrap-websites": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Bootstrap Websites</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/emailer-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Emailer Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/newsletter-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Newsletter Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/E-catalogues": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>E-catalogues</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>
 };
 
 const Banner = () => {

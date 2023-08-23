@@ -14,6 +14,7 @@ const Process = () => {
             <section class="text-center work_process_section">
                 <Container>
                     <h2>How It Is Going</h2>
+                    <p>We offer professional web design services at affordable rates to help your business attract more visitors and keep them on your site!</p>
                     <Row className='position-relative'>
                         <div id="svg-container">
                             <img src={process} alt="process" />

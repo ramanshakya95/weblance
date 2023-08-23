@@ -14,7 +14,6 @@ const Testimonials = () => {
                         <Col className='first_column p-0'>
                             <h1>Endorsed by reputable companies.</h1>
                             <p>Explore our collection of authentic and genuine testimonials. We've had the privilege of working with prominent brands and companies. See what our clients have to say about us, and we are confident that their feedback will assist you in choosing us for your project.</p>
-                            {/* <h4>Everyone has a website, but we’ll help you create a high-performing brand that resonates with your target audience and sets your business up for success.</h4> */}
                             <Button className='second_button'>Know More <img src={arrow} alt='right-arrow' /></Button>
                         </Col>
                         <Col className='second_column p-0'>
