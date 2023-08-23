@@ -153,7 +153,214 @@ const BANNER_CONTENT = {
                 </Col>
             </Row>
         </Container>
-    </section>
+    </section>,
+    "/portfolio/animation": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Animation</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/banner-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Banner Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/brochure-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Brochure Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/business-card": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Business Card</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/company-profile": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Company Profile</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/ebook-cover": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Ebook Cover</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/flyer": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Flyer</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/infograhic-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Infograhic Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/label-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Label Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/letter-heads": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Letter Heads</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/logo-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Logo Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/menu-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Menu Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/packaging-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Packaging Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/PPT-designs": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>PPT Designs</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/standy-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Standy Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/Tshirt-design": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Tshirt Design</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/article-writing": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Article Writing</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/business-writing": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Business Writing</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/product-descriptions": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Product Descriptions</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/content-writing": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Content Writing</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/blog-writing": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Blog Writing</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/essay-writing": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Essay Writing</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
+    "/portfolio/proofreading": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Proofreading</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
 };
 
 const Banner = () => {

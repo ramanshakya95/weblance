@@ -8,7 +8,7 @@ function WorkList() {
     const [items, setItems] = useState([]);
     const [pageCount, setpageCount] = useState(0);
 
-    let limit = 6;
+    let limit = 9;
 
     useEffect(() => {
         const getComments = async () => {
