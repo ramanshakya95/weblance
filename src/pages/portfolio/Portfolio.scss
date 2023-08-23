@@ -5,12 +5,17 @@
     .our_all_work {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        align-items: self-start;
         gap: 40px;
         text-align: center;
         .item {
-            background: $bg-color;
-            border-radius: 20px;
+            background: $bg-color-f9;
+            border-radius: $border-radius;
             padding: 15px;
+            border: 1px solid $theme-color;
+            &:nth-child(3n-1) {
+                margin-top: 30px;
+              }
             .img_overlay {
                 position: relative;
                 border-radius: $border-radius;
@@ -30,13 +35,10 @@
                     @include flex-center;
                     .icons {
                         background: $white-color;
-                        height: 70px;
-                        width: 70px;
+                        height: 60px;
+                        width: 60px;
                         border-radius: 50%;
                         @include flex-center;
-                        &:nth-child(1) {
-                            margin-right: 15px;
-                        }
                     }
                 }
                 &:hover .overlay_icons {
@@ -82,6 +84,12 @@
 
                 &:focus {
                     box-shadow: none;
+                }
+                img {
+                    width: 20px;
+                    &.prev {
+                        transform: rotate(180deg);
+                    }
                 }
             }
             &.active {
