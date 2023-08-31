@@ -1,6 +1,6 @@
 import ReactPaginate from "react-paginate";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 // import ViewIcon from '../../assets/work/viewicon.png';
 import LinkIcon from '../../assets/work/linkicon.svg';
 import PagArrow from '../../assets/svg/pag-arrow.svg';
