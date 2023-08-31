@@ -3,7 +3,7 @@ import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Banner from '../../components/banner/Banner';
-import LinkIcon from '../../assets/work/linkicon.svg';
+import LinkIcon from '../../assets/icons/linkicon.svg';
 import PagArrow from '../../assets/svg/pag-arrow.svg';
 import './Portfolio.scss';
 

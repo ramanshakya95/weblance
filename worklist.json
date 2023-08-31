@@ -151,15 +151,15 @@
 "brouchure_design" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/brochures_design/THS-brochure.png",
+    "title": "THS Brochure",
+    "subTitle": "Brochure Design"
   },
   {
     "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/brochures_design/ultimate-homes.png",
+    "title": "Ultimate Homes",
+    "subTitle": "Brochure Design"
   }
 ],
 "business_card" : [
@@ -289,21 +289,9 @@
 "flyer" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 3,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-2.png",
-    "title": "Hygienitech",
-    "subTitle": "Brochure & Catalogue Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/flyer/VSX.png",
+    "title": "VSX",
+    "subTitle": "Flyer"
   }
 ],
 "infographic_design" : [
@@ -343,49 +331,115 @@
 "letter_head" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 3,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-2.png",
-    "title": "Hygienitech",
-    "subTitle": "Brochure & Catalogue Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/letter_head/jabir.png",
+    "title": "Jabir Oil",
+    "subTitle": "Letter Head"
   }
 ],
 "logo_design" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/aboud-legal.png",
+    "title": "Aboud Legal",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 2,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/aseg-complete.png",
+    "title": "ASEG",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 3,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/bedford-house.png",
+    "title": "Bedford House",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 4,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/bronia.png",
+    "title": "Bronia",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 5,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/expat-living-bali.png",
+    "title": "Expat Living Bali",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 6,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/jabir-oil.png",
+    "title": "Jabir Oil",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 7,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/lumenor-healthcare.png",
+    "title": "Lumenor Healthcare",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 8,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/martial-arts-expo.png",
+    "title": "Martial Arts Expo",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 9,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/micaela-de-lecea.png",
+    "title": "Micaela De Lecea",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 10,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/navagio.png",
+    "title": "Navagio",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 11,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/performance-one-realty.png",
+    "title": "Performance One Realty",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 12,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/raristiq.png",
+    "title": "Raristiq",
+    "subTitle": "Logo Design"
+  },
+  {
+    "id": 13,
+    "image": "https://webtesting.co.in/weblance/portfolio/logo_design/sm-logo.png",
+    "title": "SM logo",
+    "subTitle": "Logo Design"
   }
 ],
 "menu_design" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/menu_design/A5-menu-bubbly.png",
+    "title": "Menu Bubbly",
+    "subTitle": "Menu Design"
   },
   {
     "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/menu_design/A5-creamy-delight-menu.png",
+    "title": "Creamy Delight",
+    "subTitle": "Menu Design"
   },
   {
     "id": 3,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-2.png",
-    "title": "Hygienitech",
-    "subTitle": "Brochure & Catalogue Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/menu_design/creamy-delight-menu.png",
+    "title": "Creamy Delight",
+    "subTitle": "Menu Design"
+  },
+  {
+    "id": 4,
+    "image": "https://webtesting.co.in/weblance/portfolio/menu_design/digital-menu-bubbly.png",
+    "title": "Digital Menu",
+    "subTitle": "Menu Design"
   }
 ],
 "newsletter_design" : [
@@ -425,15 +479,15 @@
 "php_websites" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/php_websites/Find-Any-Manual.jpg",
+    "title": "Find-Any-Manual",
+    "subTitle": "PHP Websites"
   },
   {
     "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/php_websites/Solec-Industries.jpg",
+    "title": "Solec Industries",
+    "subTitle": "PHP Websites"
   }
 ],
 "ppt_design" : [
@@ -487,21 +541,9 @@
 "shopify" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 3,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-2.png",
-    "title": "Hygienitech",
-    "subTitle": "Brochure & Catalogue Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/shopify/Gogo's-retail.jpg",
+    "title": "Gogo's Retail",
+    "subTitle": "Shopify"
   }
 ],
 "standy_design" : [
@@ -521,93 +563,219 @@
 "tshirt_design" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/tshirt_design/TShirt-AO.png",
+    "title": "TShirt",
+    "subTitle": "TShirt Design"
   },
   {
     "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 3,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-2.png",
-    "title": "Hygienitech",
-    "subTitle": "Brochure & Catalogue Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/tshirt_design/TShirt.png",
+    "title": "TShirt",
+    "subTitle": "TShirt Design"
   }
 ],
 "woocommerce_websites" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Bollard-and-Safety.jpg",
+    "title": "Bollard and Safety",
+    "subTitle": "Woocommerce Websites"
   },
   {
     "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Echo-Flex.jpg",
+    "title": "Echo Flex",
+    "subTitle": "Woocommerce Websites"
   },
   {
     "id": 3,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-2.png",
-    "title": "Hygienitech",
-    "subTitle": "Brochure & Catalogue Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Green-Cube-Chairs.jpg",
+    "title": "Green Cube Chairs",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 4,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Jamesbrew.jpg",
+    "title": "Jamesbrew",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 5,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Keera-organics.jpg",
+    "title": "Keera Organics",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 6,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Meraki-Imports.jpg",
+    "title": "Meraki Imports",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 7,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Pendamic.jpg",
+    "title": "Pendamic",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 8,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Pitch-Ecoluxury.jpg",
+    "title": "Pitch Ecoluxury",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 9,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Sandrider.jpg",
+    "title": "Sandrider",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 10,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Shoemedic.jpg",
+    "title": "Shoemedic",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 11,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/Skin-Beauty.jpg",
+    "title": "Skin Beauty",
+    "subTitle": "Woocommerce Websites"
+  },
+  {
+    "id": 12,
+    "image": "https://webtesting.co.in/weblance/portfolio/woocommerce_websites/The-Peri-Peri-African-Catchup.jpg",
+    "title": "The Peri Peri African Catchup",
+    "subTitle": "Woocommerce Websites"
   }
 ],
 "wordpress_websites" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/1callassist.jpg",
+    "title": "1 Call Assist",
+    "subTitle": "Wordpress Websites"
   },
   {
     "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/3delta.jpg",
+    "title": "3 Delta",
+    "subTitle": "Wordpress Websites"
   },
   {
     "id": 3,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-2.png",
-    "title": "Hygienitech",
-    "subTitle": "Brochure & Catalogue Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Agile-Corporation.jpg",
+    "title": "Agile Corporation",
+    "subTitle": "Wordpress Websites"
   },
   {
     "id": 4,
-    "image": "https://webtesting.co.in/weblance/portfolio/cover-sample-3.png",
-    "title": "Avantgrade",
-    "subTitle": "Business Cards Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Asia-Fund-Managers.jpg",
+    "title": "Asia Fund Managers",
+    "subTitle": "Wordpress Websites"
   },
   {
     "id": 5,
-    "image": "https://webtesting.co.in/weblance/portfolio/ecoalliance.png",
-    "title": "Panoroof",
-    "subTitle": "Flyers Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Australia-China-Business-Council.jpg",
+    "title": "Australia China Business Council",
+    "subTitle": "Wordpress Websites"
   },
   {
     "id": 6,
-    "image": "https://webtesting.co.in/weblance/portfolio/event-risk.png",
-    "title": "Firefactory",
-    "subTitle": "Flyers Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/City-Linemarking-Maintainence.jpg",
+    "title": "City Linemarking Maintainence",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 7,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Click-Social.jpg",
+    "title": "Click Social",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 8,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Faxiation.jpg",
+    "title": "Faxiation",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 9,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Louanne-Ward-Matchmaking.jpg",
+    "title": "Louanne Ward Matchmaking",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 10,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Mama-Sista.jpg",
+    "title": "Mama Sista",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 11,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/MR-Fixit.jpg",
+    "title": "MR Fixit",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 12,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Paranoa.jpg",
+    "title": "Paranoa",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 13,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Royal-Passport.jpg",
+    "title": "Royal-Passport",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 14,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Solgang.jpg",
+    "title": "Solgang",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 15,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Tesswave.jpg",
+    "title": "Tesswave",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 16,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/The-Independant-Finance-Advisor.jpg",
+    "title": "The Independant Finance Advisor",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 17,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Trackmoney.jpg",
+    "title": "Trackmoney",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 18,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Truesupportteam.jpg",
+    "title": "Truesupportteam",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 19,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/TSR-Trenchless.jpg",
+    "title": "TSR Trenchless",
+    "subTitle": "Wordpress Websites"
+  },
+  {
+    "id": 20,
+    "image": "https://webtesting.co.in/weblance/portfolio/wordpress_websites/Worldly-Migration.jpg",
+    "title": "Worldly Migration",
+    "subTitle": "Wordpress Websites"
   }
 ],
 "xd_templates" : [
   {
     "id": 1,
-    "image": "https://webtesting.co.in/weblance/portfolio/brochure-mockup.png",
-    "title": "Fried Turkeys",
-    "subTitle": "Advertisements Design"
-  },
-  {
-    "id": 2,
-    "image": "https://webtesting.co.in/weblance/portfolio/company-profile.png",
-    "title": "Carolyn Kimber",
-    "subTitle": "Advertisements Design"
+    "image": "https://webtesting.co.in/weblance/portfolio/xd_templates/baymedical.png",
+    "title": "Bay Medical",
+    "subTitle": "XD Design"
   }
 ]
 }
