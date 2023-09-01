@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import { latest_project_data } from '../../APIs/LatestProjectApi';
+import { web_data } from '../../APIs/LatestProjectApi';
 import project1 from '../../assets/latestprojects/project1.jpg';
 import project2 from '../../assets/latestprojects/project2.jpg';
 import project3 from '../../assets/latestprojects/project3.jpg';
@@ -28,11 +28,11 @@ const HomeLatest = () => {
                                 autoPlaySpeed={2000}
                                 infinite={true}
                             >
-                                {latest_project_data.map(latest_project => (
-                                    <Carousel.Item key={latest_project.id}>
+                                {web_data.map(web_project => (
+                                    <Carousel.Item key={web_project.id}>
                                         <img
                                             className="d-block m-auto"
-                                            src={latest_project.image}
+                                            src={web_project.image}
                                             alt="testimonials"
                                         />
                                     </Carousel.Item>

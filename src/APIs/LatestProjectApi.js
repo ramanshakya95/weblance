@@ -1,8 +1,7 @@
-export const latest_project_data = [
-    { id: 1, image: require('../assets/latestprojects/project.jpg'), title: 'Yummy Bar', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../assets/latestprojects/project1.jpg'), title: 'VAZATI', subTitle: 'Advertisements' },
-    { id: 3, image: require('../assets/latestprojects/project2.jpg'), title: 'BRAMBURRA', subTitle: 'Business Card' },
-    { id: 4, image: require('../assets/latestprojects/project3.jpg'), title: 'LEGEND', subTitle: 'Logo Design' },
+export const web_data = [
+    { id: 1, image: require('../assets/latestprojects/skinbeautyandbeyond.jpg'), title: 'Skin Beauty and Beyond', subTitle: 'Website Designing & Development' },
+    { id: 2, image: require('../assets/latestprojects/mamasista.jpg'), title: 'Mama Sista', subTitle: 'Website Designing & Development' },
+    { id: 3, image: require('../assets/latestprojects/berrimanestate.jpg'), title: 'Berriman Estate', subTitle: 'Website Designing & Development' }
 ]
 
 export const responsive = {

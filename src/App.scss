@@ -52,7 +52,7 @@ p {
 }
 
 // button component styling start
-button.second_button {
+.second_button {
   @include second-button;
   img {
     padding-left: 17px;
@@ -64,6 +64,16 @@ button.second_button {
   &:focus {
     background: $text-000;
     box-shadow: none !important;
+  }
+  &.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    text-decoration: none;
+    &:hover {
+      color: $white-color;
+    }
   }
 }
 // button component styling end
