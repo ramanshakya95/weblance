@@ -2,6 +2,7 @@ import { React, useState } from 'react';
 import { Container, Button, Modal, Form } from 'react-bootstrap';
 import arrow from '../../assets/svg/arrow.svg';
 import makesomething from '../../assets/svg/make-something.svg';
+import logo from '../../assets/svg/logo.svg';
 import './MakeSomething.scss';
 
 const MakeSomething = () => {
@@ -23,9 +24,10 @@ const MakeSomething = () => {
                 </Container>
             </section>
 
-            <Modal show={show} onHide={formClose} backdrop="static" keyboard={false} centered>
-                <Modal.Header closeButton></Modal.Header>
+            <Modal className='initiate_modal' show={show} onHide={formClose} backdrop="static" keyboard={false} centered>
                 <Modal.Body>
+                    <Modal.Header closeButton></Modal.Header>
+                    <img className='w-100 modal_logo' src={logo} alt="logo" />
                     <Form>
                         <Form.Group className="mb-3" controlId="Email">
                             <Form.Label>Email</Form.Label>
@@ -39,7 +41,7 @@ const MakeSomething = () => {
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="Message">
+                        <Form.Group className="" controlId="Attachment">
                             <Form.Label>Attachment</Form.Label>
                             <Form.Control type="file" autoFocus />
                         </Form.Group>

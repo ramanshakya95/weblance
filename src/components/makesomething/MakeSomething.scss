@@ -1,38 +1,79 @@
 @import "../../utils/var.scss";
 
 .make_something {
-    padding-bottom: 150px;
+  padding-bottom: 150px;
+  .something_row {
+    @include flex-center;
+    .first_column {
+      img {
+        width: 570px;
+        animation: scale 5s ease-in-out infinite;
+        -webkit-animation: scale 5s ease-in-out infinite;
+      }
+    }
+    .second_column {
+      margin-left: 50px;
+      h1 {
+        @include second_title;
+        margin-bottom: 26px;
+      }
+      p {
+        font-size: 33px;
+        line-height: 43px;
+        color: $text-555;
+        margin-bottom: 48px;
+      }
+    }
+  }
+  @media only screen and (max-width: $large-1200) {
     .something_row {
-      @include flex-center;
       .first_column {
         img {
-          width: 570px;
-          animation: scale 5s ease-in-out infinite;
-          -webkit-animation: scale 5s ease-in-out infinite;
-        }
-      }
-      .second_column {
-        margin-left: 50px;
-        h1 {
-          @include second_title;
-          margin-bottom: 26px;
-        }
-        p {
-          font-size: 33px;
-          line-height: 43px;
-          color: $text-555;
-          margin-bottom: 48px;
+          width: 100%;
         }
       }
     }
-    @media only screen and (max-width: $large-1200) {
-      .something_row {
-        .first_column {
-          img{
-            width:100%;
+  }
+}
+
+.initiate_modal {
+  .modal-content {
+    border: 4px solid $theme_color;
+    border-radius: 30px;
+    background: $bg-color;
+    .modal-body {
+      padding: 30px;
+      .modal-header {
+        border: 0px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 10px;
+        button {
+          background-color: #ddd;
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+      .modal_logo {
+        margin: 0px auto 20px;
+        padding: 0px 100px;
+      }
+      form {
+        label {
+          font-weight: 600;
+        }
+        input, textarea {
+          border-color: $bg-color-47;
+          &:focus {
+            box-shadow: none;
+            border-color: $theme-color;
           }
         }
       }
     }
   }
-  
+
+
+}

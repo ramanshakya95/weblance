@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { web_data } from '../../APIs/LatestProjectApi';
-import project1 from '../../assets/latestprojects/project1.jpg';
+import brand from '../../assets/latestprojects/brand.jpg';
 import project2 from '../../assets/latestprojects/project2.jpg';
 import project3 from '../../assets/latestprojects/project3.jpg';
 import './HomeLatest.scss';
@@ -41,8 +41,8 @@ const HomeLatest = () => {
                             <h4>Website Designing & Development</h4>
                         </Col>
                         <Col className='_column'>
-                            <img src={project1} alt='project1' />
-                            <h4>Advertisements</h4>
+                            <img src={brand} alt='brands' />
+                            <h4>Brands</h4>
                         </Col>
                         <Col className='_column'>
                             <img src={project2} alt='project2' />
