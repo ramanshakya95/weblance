@@ -1,8 +1,14 @@
 export const web_data = [
-    { id: 1, image: require('../assets/latestprojects/skinbeautyandbeyond.png'), title: 'Skin Beauty and Beyond', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../assets/latestprojects/mamasista.png'), title: 'Mama Sista', subTitle: 'Website Designing & Development' },
-    { id: 3, image: require('../assets/latestprojects/berrimanestate.png'), title: 'Berriman Estate', subTitle: 'Website Designing & Development' }
+    { id: 1, image: require('../assets/latestprojects/skinbeautyandbeyond.jpg'), title: 'Skin Beauty and Beyond', subTitle: 'Website Designing & Development' },
+    { id: 2, image: require('../assets/latestprojects/mamasista.jpg'), title: 'Mama Sista', subTitle: 'Website Designing & Development' },
+    { id: 3, image: require('../assets/latestprojects/berrimanestate.jpg'), title: 'Berriman Estate', subTitle: 'Website Designing & Development' }
 ]
+
+export const brand_data = [
+    { id: 1, image: require('../assets/latestprojects/brand.jpg') },
+    { id: 2, image: require('../assets/latestprojects/brand1.jpg') }
+]
+
 
 export const responsive = {
     lg_desktop: {

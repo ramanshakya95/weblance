@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import { web_data } from '../../APIs/LatestProjectApi';
-import brand from '../../assets/latestprojects/brand.jpg';
+import { web_data, brand_data } from '../../APIs/LatestProjectApi';
 import project2 from '../../assets/latestprojects/project2.jpg';
 import project3 from '../../assets/latestprojects/project3.jpg';
 import './HomeLatest.scss';
@@ -33,7 +32,7 @@ const HomeLatest = () => {
                                         <img
                                             className="d-block m-auto"
                                             src={web_project.image}
-                                            alt="testimonials"
+                                            alt="wev development"
                                         />
                                     </Carousel.Item>
                                 ))}
@@ -41,7 +40,24 @@ const HomeLatest = () => {
                             <h4>Website Designing & Development</h4>
                         </Col>
                         <Col className='_column'>
-                            <img src={brand} alt='brands' />
+                            <Carousel
+                                draggable={true}
+                                indicators={false}
+                                controls={false}
+                                autoPlay={true}
+                                autoPlaySpeed={2000}
+                                infinite={true}
+                            >
+                                {brand_data.map(brand_project => (
+                                    <Carousel.Item key={brand_project.id}>
+                                        <img
+                                            className="d-block m-auto"
+                                            src={brand_project.image}
+                                            alt="brands"
+                                        />
+                                    </Carousel.Item>
+                                ))}
+                            </Carousel>
                             <h4>Brands</h4>
                         </Col>
                         <Col className='_column'>
