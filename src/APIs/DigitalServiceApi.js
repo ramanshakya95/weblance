@@ -1,10 +1,10 @@
 export const digital_services_data = 
 [
     {
-        id: 1, image: require('../assets/icons/design.png'), title: 'Website Designing', description: 'Driven with years of experience in designing effective websites, our proficient team of designers follows immaculate coding practices to deliver websites that are secure and scalable. '
+        id: 1, image: require('../assets/icons/design.png'), title: 'Web Designing', description: 'Driven with years of experience in designing effective websites, our proficient team of designers follows immaculate coding practices to deliver websites that are secure and scalable. '
     },
     {
-        id: 2, image: require('../assets/icons/development.png'), title: 'Website Development', description: 'Our team is specialized in giving shape to startups and medium-scale businesses by offering world-class website services of PHP, E-commerce, WordPress, Open Cart, CodeIgniter, Zend.'
+        id: 2, image: require('../assets/icons/development.png'), title: 'Web Development', description: 'Our team is specialized in giving shape to startups and medium-scale businesses by offering world-class website services of PHP, E-commerce, WordPress, Open Cart, CodeIgniter, Zend.'
     },
     {
         id: 3, image: require('../assets/icons/stores.png'), title: 'E-Commerce', description: 'We have a team of passionate people driven by one persistent goal i.e. to craft innovative solutions and unique results.'

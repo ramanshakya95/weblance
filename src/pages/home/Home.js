@@ -12,10 +12,10 @@ const Home = () => {
     return (
         <>
             <Banner />
+            <HomeLatest />
             <MakingBrands />
             <ThreeThings />
             <Services />
-            <HomeLatest />
             <LogoImages />
             <Testimonials />
             <MakeSomething />

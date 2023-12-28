@@ -19,15 +19,14 @@
           border-radius: $border-radius;
         }
         h3 {
-          font-size: $font-size-40;
-          line-height: $line-height-30 + 10px;
-          margin-top: $margin_bottom_35 - 5px;
+          font-size: $font-size-30;
+          margin-top: $margin_bottom - 10;
           color: $white-color;
           font-weight: $font-weight-900;
         }
         h5 {
           font-size: $font-size-20;
-          line-height: $line-height-30 + 10px;
+          // line-height: $line-height-30 + 10px;
           margin: 0px;
           color: $white-color;
         }

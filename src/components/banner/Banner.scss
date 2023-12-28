@@ -102,30 +102,12 @@
 }
 
 @media only screen and (max-width: $xl-large-1400) {
-  .home_banner_section {
-    .banner_content {
-      h1 {
-        margin-bottom: 20px;
-      }
-      h5 {
-        font-size: $font-size-30 - 4px;
-        line-height: $line-height-45 - 10px;
-      }
-    }
-    .banner_img {
-      img {
-        max-width: 100%;
-      }
-    }
-  }
+
 }
 
 @media only screen and (max-width: $large-1200) {
   .home_banner_section {
     .banner_content {
-      h1 {
-        margin-bottom: 10px;
-      }
       h5 {
         font-size: $font-size-30 - 8px;
         line-height: $line-height-45 - 15px;
