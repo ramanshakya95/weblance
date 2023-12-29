@@ -19,7 +19,7 @@ const logoImages = {
     </section>,
     "/about": <section className='logo_section skill_section'>
         <Container>
-            <h2 className='text-center'>Complete skill set, covering everything from <br/>A to Z, required for a project.</h2>
+            <h2 className='text-center'>Comprehensive skill set, spanning A to Z,<br></br> essential for project success.</h2>
             <Row className='align-items-center flex-wrap logo_row'>
                 {skills_data.map(skills => (
                     <div key={skills.id} className='text-center logos'>

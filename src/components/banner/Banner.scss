@@ -17,19 +17,17 @@
       margin-bottom: 10px;
     }
     h1 {
-      @include second_title;
-      color: $theme-color;
+      font-size: $font-size-70;
+      font-weight: $font-weight-900;
     }
     h2 {
       font-size: $font-size-55;
-      font-weight: 900;
-      line-height: normal;
+      font-weight: $font-weight-900;
     }
     h5 {
       font-family: $font-family;
       font-size: $font-size-25;
       line-height: normal;
-      padding-right: 50px;
       margin-top: $margin_bottom;
       margin-bottom: $margin_bottom_35;
     }
@@ -69,8 +67,7 @@
 .services_banner_section {
   @include banner_bgdark;
   h1 {
-    font-size: 100px;
-    line-height: 110px;
+    @include banner_title;
     color: $white-color;
     font-weight: $font-weight-900;
     margin-bottom: $margin_bottom;

@@ -8,7 +8,7 @@
     .first_column {
       margin-bottom: $margin_bottom_40;
       h1 {
-        @include banner_title;
+        @include second_title;
         color: $theme-color;
         margin-right: auto;
       }
@@ -38,6 +38,8 @@
       font-weight: $font-weight-900;
       color: $white-color;
       text-decoration: none;
+      margin-top: $margin_bottom - 10;
+      text-align: center;
     }
   }
 }

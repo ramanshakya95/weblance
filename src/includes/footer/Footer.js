@@ -10,6 +10,7 @@ import secure_payment from '../../assets/icons/secure-payment.png';
 import shield from '../../assets/icons/shield.png';
 import badge from '../../assets/icons/badge.png';
 import flag from '../../assets/icons/india.png';
+import flag1 from '../../assets/icons/aus.png';
 import member from '../../assets/icons/member.png';
 import heart from '../../assets/icons/heart.png';
 import './Footer.scss';
@@ -38,6 +39,8 @@ const Footer = () => {
                             <h4>We’re Hardcore Experts in Cutting-edge Technologies</h4>
                             <ul className='content_icon list-unstyled'>
                                 <li><img src={flag} alt="" /> Ambala City, India</li>
+                                <li><img src={flag} alt="" /> Mohali 105 Sec,India</li>
+                                <li><img src={flag1} alt="" /> Melbourne, Australia</li>
                             </ul>
                         </Col>
                         <Col md="auto" className='second_column p-0'>

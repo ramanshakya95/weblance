@@ -11,7 +11,7 @@ const Testimonials = () => {
       };
     return (
         <>
-            <section className='testimonial_section'>
+            <section className='testimonial_section' id='testimonials'>
                 <Container>
                     <Row>
                         <Col className='first_column p-0'>

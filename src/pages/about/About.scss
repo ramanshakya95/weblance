@@ -51,6 +51,7 @@
       background-size: 60%;
       img {
         position: absolute;
+        top: -50px;
         right: 0;
         animation: topbottom 1.5s infinite;
         width: 300px;
@@ -103,7 +104,7 @@
           padding-top: 33px;
         }
         img{
-          width: 100%;
+          max-width: 100%;
         }
       }
       

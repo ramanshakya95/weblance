@@ -1,7 +1,7 @@
 @import "../../utils/var.scss";
 
 .services_section {
-    padding: 0px 0px 168px;
+    padding: 0px 0px 180px;
     .row {
       background-color: $bg-color;
       padding: 105px;
@@ -54,7 +54,7 @@
             position: absolute;
             transform: rotate(-5deg);
             transition: all .2s;
-            top: -50px;
+            top: -100px;
             right: 70px;
             width: 550px;
             &:hover{
@@ -73,7 +73,7 @@
           }
           &:nth-child(3) {
             position: absolute;
-            bottom: -50px;
+            bottom: -100px;
             width: 550px;
             right: 70px;
           }

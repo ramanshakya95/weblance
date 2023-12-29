@@ -44,7 +44,7 @@ const BANNER_CONTENT = {
                     </Col>
                     <Col className='banner_content'>
                         <h2>We are a web design agency that's like a creative hub.</h2>
-                        <p>We are a web design agency that's like a creative hub. We shape digital spaces that mix artistic design with practical use. Our team includes skilled designers, coding experts, and people who know how users feel. We make online personalities for companies that people really connect with. We make websites look cool and work smoothly. Weblance Technologies bring websites to life, turning ideas into amazing sites that people will remember online.</p>
+                        <p>Empowering Your Digital Presence with Creative Brilliance. We shape digital spaces that mix artistic design with practical use. Our team includes skilled designers, coding experts, and people who know how users feel. We make online personalities for companies that people really connect with. We make websites look cool and work smoothly. Weblance Technologies bring websites to life, turning ideas into amazing sites that people will remember online.</p>
                     </Col>
                 </Row>
             </Container>

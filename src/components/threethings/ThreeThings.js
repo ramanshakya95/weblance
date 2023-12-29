@@ -27,7 +27,7 @@ const project_points = {
         </section>,
     "/about": <section className='three_things_section digital_experts'>
                 <Container>
-                    <h1 className="text-white p-0">Your projects are brought to life by our team of experts.</h1>
+                    <h1 className="text-white p-0">Project Perfection, Expertly Delivered.</h1>
                     <Row>
                         {digital_experts.map(experts => (
                             <Col sm={6} key={experts.id} className='spacing'>

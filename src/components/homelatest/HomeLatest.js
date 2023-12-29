@@ -37,7 +37,7 @@ const HomeLatest = () => {
                                     </Carousel.Item>
                                 ))}
                             </Carousel>
-                            <h4>Website Designing & Development</h4>
+                            <h4>Website Design & Development</h4>
                         </Col>
                         <Col className='_column'>
                             <Carousel
@@ -62,11 +62,11 @@ const HomeLatest = () => {
                         </Col>
                         <Col className='_column'>
                             <img src={project2} alt='project2' />
-                            <h4>Business Card</h4>
+                            <h4>Label and Packaging</h4>
                         </Col>
                         <Col className='_column'>
                             <img src={project3} alt='project3' />
-                            <h4>Logo Design</h4>
+                            <h4>Digital Marketing</h4>
                         </Col>
                     </Row>
                 </Container>
