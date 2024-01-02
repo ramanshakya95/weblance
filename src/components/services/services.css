@@ -1,5 +1,5 @@
 .services_section {
-  padding: 0px 0px 168px;
+  padding: 0px 0px 180px;
 }
 .services_section .row {
   background-color: #f7f7f7;
@@ -40,38 +40,32 @@
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 1400px) {
   .services_section .row .first_column h1 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 45px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .services_section .row .first_column h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 42px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .services_section .row .first_column h1 {
     font-size: 40px;
-    line-height: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .services_section .row .first_column h1 {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 38px;
   }
 }
 @media only screen and (max-width: 767px) {
   .services_section .row .first_column h1 {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 35px;
   }
 }
 .services_section .row .first_column p {
@@ -91,7 +85,7 @@
   position: absolute;
   transform: rotate(-5deg);
   transition: all 0.2s;
-  top: -50px;
+  top: -100px;
   right: 70px;
   width: 550px;
 }
@@ -100,17 +94,20 @@
   transition: all 0.2s;
 }
 .services_section .row .second_column .each_service:nth-child(2) {
-  background: #222 !important;
   transform: rotate(3deg);
   transition: all 0.2s;
 }
-.services_section .row .second_column .each_service:nth-child(2):hover {
+.services_section .row .second_column .each_service:nth-child(2).bg-light-color {
+  background: #cf2129;
+}
+.services_section .row .second_column .each_service:nth-child(2).bg-light-color:hover {
+  background: #474747 !important;
   transform: rotate(0deg);
   transition: all 0.2s;
 }
 .services_section .row .second_column .each_service:nth-child(3) {
   position: absolute;
-  bottom: -50px;
+  bottom: -100px;
   width: 550px;
   right: 70px;
 }

@@ -1,44 +1,38 @@
 .digital_services_section {
-  padding: 90px 0px;
+  padding: 80px 0px;
   background-image: url(../../assets/background.jpg);
 }
 .digital_services_section h2 {
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 50px;
   text-align: center;
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 1400px) {
   .digital_services_section h2 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 45px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .digital_services_section h2 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 42px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .digital_services_section h2 {
     font-size: 40px;
-    line-height: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .digital_services_section h2 {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 38px;
   }
 }
 @media only screen and (max-width: 767px) {
   .digital_services_section h2 {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 35px;
   }
 }
 .digital_services_section .digital_services_row {
@@ -47,22 +41,27 @@
   gap: 30px;
 }
 .digital_services_section .digital_services_row .digital_services_ {
-  background-color: #fff;
-  padding: 30px;
+  background-image: linear-gradient(white, white), linear-gradient(to right, #fdd9d9, #fdd9d9, #cf2129, #fdd9d9, #fdd9d9);
+  background-clip: content-box, border-box;
+  border: solid 1px transparent;
   border-radius: 20px;
+  overflow: hidden;
 }
-.digital_services_section .digital_services_row .digital_services_ img {
+.digital_services_section .digital_services_row .digital_services_ .digital_services_content {
+  padding: 30px;
+  background-color: #fff;
+}
+.digital_services_section .digital_services_row .digital_services_ .digital_services_content img {
   width: 70px;
   margin-bottom: 20px;
   filter: invert(17%) sepia(63%) saturate(5612%) hue-rotate(349deg) brightness(86%) contrast(87%);
 }
-.digital_services_section .digital_services_row .digital_services_ h3 {
+.digital_services_section .digital_services_row .digital_services_ .digital_services_content h3 {
   font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #cf2129;
 }
-.digital_services_section .digital_services_row .digital_services_ p {
+.digital_services_section .digital_services_row .digital_services_ .digital_services_content p {
   font-family: "Mulish";
   font-weight: 400;
   font-size: 16px;
@@ -70,7 +69,7 @@
   color: #555;
 }
 @media only screen and (max-width: 991px) {
-  .digital_services_section .digital_services_row .digital_services_ p {
+  .digital_services_section .digital_services_row .digital_services_ .digital_services_content p {
     font-size: 15px;
     line-height: 20px;
   }

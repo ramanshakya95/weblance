@@ -44,7 +44,7 @@ const Footer = () => {
                             </ul>
                         </Col>
                         <Col md="auto" className='second_column p-0'>
-                            <h3>Experts in</h3>
+                            <h3>Expertise in</h3>
                             <ul className='list-unstyled'>
                                 {expertdata.map(expert => (
                                     <li key={expert.id}><Link to='/'><img src={expert.icon} alt="" /> {expert.title}</Link></li>
@@ -74,7 +74,7 @@ const Footer = () => {
             </section>
 
             <section className='copyright_section'>
-                <p className='text-center'>© 2023 Weblance. All Rights Reserved.</p>
+                <p className='text-center'>© 2024 Weblance. All Rights Reserved.</p>
             </section>
         </>
     );

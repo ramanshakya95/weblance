@@ -2,43 +2,36 @@
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 70px;
-  line-height: 80px;
-  color: #000;
+  font-size: 50px;
   margin-bottom: 40px;
 }
 @media only screen and (max-width: 1400px) {
   .logo_section h2 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 45px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .logo_section h2 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 42px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .logo_section h2 {
     font-size: 40px;
-    line-height: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .logo_section h2 {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 38px;
   }
 }
 @media only screen and (max-width: 767px) {
   .logo_section h2 {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 35px;
   }
 }
 .logo_section.client_section {
-  padding: 120px 0px;
+  padding: 0px 0px 80px;
 }
 .logo_section.client_section img {
   width: 100%;
@@ -57,34 +50,32 @@
   align-items: center;
   justify-content: center;
 }
-.logo_section.skill_section h2 {
-  font-size: 45px;
-  font-family: "Mulish";
-  font-weight: 900;
-  color: #222;
-  line-height: normal;
-  text-align: center;
-  margin-bottom: 55px;
-}
 .logo_section.skill_section .logo_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 40px;
+  grid-template-columns: repeat(6, 1fr);
   row-gap: 0px;
 }
 .logo_section.skill_section .logo_row .logos {
-  padding: 40px;
-  box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
-  max-height: 232px;
-  min-height: 232px;
+  max-height: 200px;
+  min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease-in-out;
 }
-.logo_section.skill_section .logo_row .logos:nth-child(5n+2), .logo_section.skill_section .logo_row .logos:nth-child(5n+4) {
-  margin-top: 45px;
+.logo_section.skill_section .logo_row .logos img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.logo_section.skill_section .logo_row .logos:nth-child(odd) {
+  margin-top: 40px;
 }
 .logo_section.skill_section .logo_row .logos:hover {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.08);
@@ -92,7 +83,7 @@
 }
 .logo_section.expertise_section {
   background: #f7f7f7;
-  padding: 105px 0px;
+  padding: 80px 0px;
   border-radius: 100px 100px 0px 0px;
 }
 .logo_section.expertise_section p {

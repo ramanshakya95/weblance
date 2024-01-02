@@ -10773,7 +10773,7 @@ p {
     -webkit-transform: scale(1);
   }
 }
-button.second_button {
+.second_button {
   background-color: #cf2129;
   border-radius: 50px;
   width: 259px;
@@ -10786,27 +10786,36 @@ button.second_button {
   padding: 0px;
 }
 @media only screen and (max-width: 1400px) {
-  button.second_button {
-    width: 220px;
+  .second_button {
+    width: 240px;
     height: 60px;
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 1200px) {
-  button.second_button {
-    width: 200px;
+  .second_button {
     height: 50px;
     font-size: 16px;
   }
 }
-button.second_button img {
+.second_button img {
   padding-left: 17px;
   animation: leftright 1.6s ease-in-out infinite;
   -webkit-animation: leftright 1.6s ease-in-out infinite;
 }
-button.second_button:hover, button.second_button:active, button.second_button:focus {
+.second_button:hover, .second_button:active, .second_button:focus {
   background: #000;
   box-shadow: none !important;
+}
+.second_button.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+.second_button.link:hover {
+  color: #fff;
 }
 
 .theme-color {

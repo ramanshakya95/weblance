@@ -8,7 +8,7 @@
 }
 
 .vision_mision_section {
-  padding: 120px 0px 110px;
+  padding: 80px 0px 100px;
   .mision-vision {
     padding: 90px;
     @include bg-radius;
@@ -61,12 +61,12 @@
 }
 
 .freelance_section {
-  padding: 125px 0px;
+  padding: 80px 0px;
   ._column {
     max-width: 1110px;
     margin-left: auto;
     position: relative;
-    padding: 90px 100px;
+    padding: 90px 0 0 100px;
     @include bg-radius;
     .profile {
       position: absolute;
@@ -77,6 +77,10 @@
       height: 410px;
       @include flex-center;
       flex-direction: column;
+      .profile_pic {
+        width: 110px;
+        border-radius: 50%
+      }
       h2{
         @include badges-title;
         color: $white-color;

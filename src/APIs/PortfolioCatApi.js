@@ -38,3 +38,41 @@ export const content_data = [
     { id: 6, category: 'Essay Writing', url: 'essay-writing' },
     { id: 7, category: 'Proofreading', url: 'proofreading' }
 ]
+
+export const seo_data = [
+    { id: 1, category: 'Content Writing', url: 'content-writing' },
+    { id: 2, category: 'Digital Marketing', url: 'digital-marketing' },
+]
+
+export const sidebar_data = [
+    { id: 1, category: 'Corporations & Organizations', url: 'corporations-organizations' },
+    { id: 2, category: 'Technology & Computing', url: 'technology-computing' },
+    { id: 3, category: 'Education & Migration', url: 'education-migration' },
+    { id: 4, category: 'Food & Restaurants', url: 'food-restaurants' },
+    { id: 5, category: 'Skin & Beauty', url: 'skin-beauty' },
+    { id: 6, category: 'Housing & Architecture', url: 'housing-architecture' },
+    { id: 7, category: 'Online Stores', url: 'online-stores' },
+    { id: 8, category: 'Law', url: 'law' },
+    { id: 9, category: 'Casting/Modelling', url: 'casting-modelling' },
+    { id: 10, category: 'Fitness', url: 'fitness' },
+    { id: 11, category: 'Solar Services', url: 'solar-services' },
+    { id: 12, category: 'Finance', url: 'finance' },
+    { id: 13, category: 'Furniture', url: 'furniture' },
+    { id: 14, category: 'Home Decor', url: 'home-decor' },
+    { id: 15, category: 'Charity & Spiritual', url: 'charity-spiritual' },
+    { id: 16, category: 'Consultants', url: 'consultants' },
+    { id: 17, category: 'Interior Design', url: 'interior-design' },
+    { id: 18, category: 'News', url: 'news' },
+    { id: 19, category: 'Construction', url: 'construction' },
+    { id: 20, category: 'Vehicles/ Automotive', url: 'vehicles-automotive' },
+    { id: 21, category: 'Medical', url: 'medical' },
+    { id: 22, category: 'Events and Wedding', url: 'events-wedding' },
+    { id: 23, category: 'Logistics/ Transportation', url: 'logistics-transportation' },
+    { id: 24, category: 'Cleaning', url: 'cleaning' },
+    { id: 25, category: 'Kids', url: 'kids' },
+    { id: 26, category: 'Travel', url: 'travel' },
+    { id: 27, category: 'Job Portal', url: 'job-portal' },
+    { id: 28, category: 'Electrical', url: 'electrical' },
+    { id: 29, category: 'Repair', url: 'repair' },
+    { id: 30, category: 'Casino', url: 'casino' },
+]

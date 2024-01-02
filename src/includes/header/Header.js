@@ -65,7 +65,7 @@ const Header = () => {
                                     </NavLink>
                                 </li>
                                 <li className='nav-item hireme'>
-                                    <a href="#/" className='nav-links hireme-btn'> <img src={hire} alt='hire' /> Hire Me</a>
+                                    <a href="https://www.freelancer.com/u/ambalaonline1" className='nav-links hireme-btn' target='_blank' rel='noreferrer'> <img src={hire} alt='hire' /> Hire Me</a>
                                 </li>
                             </ul>
                             <div className="nav-icon" onClick={handleClick}>

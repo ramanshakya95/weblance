@@ -1,5 +1,5 @@
 .make_something {
-  padding-bottom: 150px;
+  padding-bottom: 60px;
 }
 .make_something .something_row {
   display: flex;
@@ -18,38 +18,32 @@
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 50px;
   margin-bottom: 26px;
 }
 @media only screen and (max-width: 1400px) {
   .make_something .something_row .second_column h1 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 45px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .make_something .something_row .second_column h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 42px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .make_something .something_row .second_column h1 {
     font-size: 40px;
-    line-height: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .make_something .something_row .second_column h1 {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 38px;
   }
 }
 @media only screen and (max-width: 767px) {
   .make_something .something_row .second_column h1 {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 35px;
   }
 }
 .make_something .something_row .second_column p {
@@ -62,4 +56,40 @@
   .make_something .something_row .first_column img {
     width: 100%;
   }
+}
+
+.initiate_modal .modal-content {
+  border: 4px solid #cf2129;
+  border-radius: 30px;
+  background: #f7f7f7;
+}
+.initiate_modal .modal-content .modal-body {
+  padding: 30px;
+}
+.initiate_modal .modal-content .modal-body .modal-header {
+  border: 0px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 10px;
+}
+.initiate_modal .modal-content .modal-body .modal-header button {
+  background-color: #ddd;
+}
+.initiate_modal .modal-content .modal-body .modal-header button:focus {
+  box-shadow: none;
+}
+.initiate_modal .modal-content .modal-body .modal_logo {
+  margin: 0px auto 20px;
+  padding: 0px 100px;
+}
+.initiate_modal .modal-content .modal-body form label {
+  font-weight: 600;
+}
+.initiate_modal .modal-content .modal-body form input, .initiate_modal .modal-content .modal-body form textarea {
+  border-color: #474747;
+}
+.initiate_modal .modal-content .modal-body form input:focus, .initiate_modal .modal-content .modal-body form textarea:focus {
+  box-shadow: none;
+  border-color: #cf2129;
 }/*# sourceMappingURL=MakeSomething.css.map */

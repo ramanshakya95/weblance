@@ -1,5 +1,5 @@
 .footer_section {
-  padding: 115px 0px 95px;
+  padding: 60px 0px;
   background: url(../../assets/footer-bg.png);
 }
 .footer_section .footer_col {
@@ -46,7 +46,7 @@
   font-size: 25px;
   line-height: normal;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   padding-right: 50px;
   color: #fff;
 }

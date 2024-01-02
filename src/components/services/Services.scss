@@ -63,12 +63,15 @@
             }
           }
           &:nth-child(2) {
-            background: $text-222 !important;
             transform: rotate(3deg);
             transition: all .2s;
-            &:hover{
-              transform: rotate(0deg);
-              transition: all .2s;
+            &.bg-light-color {
+              background: $theme-color;
+              &:hover{
+                background: $bg-color-47 !important;
+                transform: rotate(0deg);
+                transition: all .2s;
+              }
             }
           }
           &:nth-child(3) {

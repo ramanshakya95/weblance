@@ -53,8 +53,8 @@ const BANNER_CONTENT = {
             <Container className='p-0'>
                 <Row className='banner align-items-center m-0'>
                     <Col className='text-center large-title p-0'>
-                        <h1>Digital Marketing Services</h1>
-                        <p>Our forward-thinking approach to web technologies and digital marketing services combined with our strong relationship management means you’re in good hands.</p>
+                        <h1>Tech Solutions Tailored for Your Success</h1>
+                        <p>Our cutting-edge approach to web technologies and digital marketing, coupled with strong relationship management, ensures you're in good hands</p>
                         <img id="click_bottom" src={downarrow} alt='down arrow' />
                     </Col>
                 </Row>
@@ -67,8 +67,8 @@ const BANNER_CONTENT = {
                         <h1>WO<br />RK</h1>
                     </Col>
                     <Col className='banner_content'>
-                        <h2>We are experts in bringing brands to life digitally.</h2>
-                        <p>Dezinestar is a progressive and insightful design agency, technically and creatively skilled to translate your brand into its best digital self. Our design and development approach creates impactful, engaging brands and immersive digital experiences that bring you a return on creativity.</p>
+                        <h2>Transforming Brands, Elevating Experiences: Your Digital Presence Architects.</h2>
+                        <p>Weblance stands as a dynamic and forward-thinking design agency, armed with both technical prowess and creative insight to seamlessly transform your brand into its most compelling digital embodiment. Our unique design and development methodology go beyond the ordinary, crafting not just websites but immersive digital realms that captivate your audience. With a blend of technical expertise and creative finesse, we don't just build brands – we sculpt engaging and impactful digital experiences. Trust us to turn your creative investment into a powerful return, where every pixel and line of code contributes to the success story of your brand in the digital landscape.</p>
                     </Col>
                 </Row>
             </Container>

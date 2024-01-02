@@ -1,5 +1,5 @@
 .vision_mision_section {
-  padding: 120px 0px 110px;
+  padding: 80px 0px 100px;
 }
 .vision_mision_section .mision-vision {
   padding: 90px;
@@ -27,39 +27,33 @@
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 50px;
   margin-top: 16px;
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 1400px) {
   .vision_mision_section .mision-vision .first_column h1 {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 45px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .vision_mision_section .mision-vision .first_column h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 42px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .vision_mision_section .mision-vision .first_column h1 {
     font-size: 40px;
-    line-height: 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .vision_mision_section .mision-vision .first_column h1 {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 38px;
   }
 }
 @media only screen and (max-width: 767px) {
   .vision_mision_section .mision-vision .first_column h1 {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 35px;
   }
 }
 .vision_mision_section .mision-vision .first_column p {
@@ -85,19 +79,20 @@
 }
 .vision_mision_section .mision-vision .second_column img {
   position: absolute;
+  top: -50px;
   right: 0;
   animation: topbottom 1.5s infinite;
   width: 300px;
 }
 
 .freelance_section {
-  padding: 125px 0px;
+  padding: 80px 0px;
 }
 .freelance_section ._column {
   max-width: 1110px;
   margin-left: auto;
   position: relative;
-  padding: 90px 100px;
+  padding: 90px 0 0 100px;
   background: #f7f7f7;
   border-radius: 32px;
 }
@@ -112,6 +107,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.freelance_section ._column .profile .profile_pic {
+  width: 110px;
+  border-radius: 50%;
 }
 .freelance_section ._column .profile h2 {
   font-weight: 900;
@@ -143,5 +142,5 @@
   padding-top: 33px;
 }
 .freelance_section ._column .badges_ .text_badges img {
-  width: 100%;
+  max-width: 100%;
 }/*# sourceMappingURL=About.css.map */

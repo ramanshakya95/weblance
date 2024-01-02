@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { web_data, brand_data } from '../../APIs/LatestProjectApi';
 import project2 from '../../assets/latestprojects/project2.jpg';
-import project3 from '../../assets/latestprojects/project3.jpg';
+import project3 from '../../assets/latestprojects/Digital-Marketing.png';
 import './HomeLatest.scss';
 
 const HomeLatest = () => {

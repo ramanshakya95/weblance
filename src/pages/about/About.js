@@ -8,7 +8,7 @@ import frame from '../../assets/badges/frame.png';
 import level from '../../assets/badges/level.png';
 import activeReward from '../../assets/badges/active-reward.png';
 import earnedBadges from '../../assets/badges/earned-badges.png';
-import profile_pic from '../../assets/badges/profile.png';
+import profile_pic from '../../assets/badges/profile.jpg';
 import freelance from '../../assets/svg/freelance.svg';
 import './About.scss';
 
@@ -44,8 +44,8 @@ const About = () => {
                 <Container>
                     <div className='_column'>
                         <div className='profile'>
-                            <img src={profile_pic} alt='profile-pic' />
-                            <h2>Dheeraj B</h2>
+                            <img className='profile_pic' src={profile_pic} alt='profile-pic' />
+                            <h2>Weblance</h2>
                             <p>Level 20 Colt</p>
                             <img src={freelance} alt='freelance' />
                         </div>
@@ -62,7 +62,7 @@ const About = () => {
                                 <img src={activeReward} alt='level' />
                             </div>
                             <div className='text_badges earn_badges'>
-                                <h3>Active Rewards</h3>
+                                <h3>Earned Badges</h3>
                                 <img src={earnedBadges} alt='level' />
                             </div>
                         </div>

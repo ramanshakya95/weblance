@@ -1,27 +1,27 @@
 .work_category_section {
-  padding: 85px 0px 85px;
+  padding: 80px 0px;
 }
 .work_category_section .work_category_row {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 .work_category_section .work_category_row .each_cat {
   background: #f7f7f7;
-  border-radius: 32px;
+  border-radius: 20px;
   overflow: hidden;
   width: 100%;
 }
 .work_category_section .work_category_row .each_cat h3 {
   padding: 14px 26px;
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: 600;
   line-height: 30px;
   color: #fff;
   background: #cf2129;
   text-align: center;
 }
 .work_category_section .work_category_row .each_cat .category_list {
-  padding: 15px 25px 20px;
+  padding: 20px 20px 15px;
 }
 .work_category_section .work_category_row .each_cat .category_list ul {
   padding: 0px;
@@ -36,7 +36,7 @@
 }
 .work_category_section .work_category_row .each_cat .category_list ul li:before {
   content: "";
-  background: url("../../assets/work/listicon.svg") no-repeat;
+  background: url("../../assets/icons/listicon.svg") no-repeat;
   background-size: 20px;
   display: block;
   width: 20px;
