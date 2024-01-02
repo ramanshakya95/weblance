@@ -1,9 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import { web_data, brand_data } from '../../APIs/LatestProjectApi';
+import { web_data, brand_data, digital_data } from '../../APIs/LatestProjectApi';
 import project2 from '../../assets/latestprojects/project2.jpg';
-import project3 from '../../assets/latestprojects/Digital-Marketing.png';
 import './HomeLatest.scss';
 
 const HomeLatest = () => {
@@ -65,7 +64,24 @@ const HomeLatest = () => {
                             <h4>Label and Packaging</h4>
                         </Col>
                         <Col className='_column'>
-                            <img src={project3} alt='project3' />
+                            <Carousel
+                                draggable={true}
+                                indicators={false}
+                                controls={false}
+                                autoPlay={true}
+                                autoPlaySpeed={2000}
+                                infinite={true}
+                            >
+                                {digital_data.map(brand_project => (
+                                    <Carousel.Item key={brand_project.id}>
+                                        <img
+                                            className="d-block m-auto"
+                                            src={brand_project.image}
+                                            alt="brands"
+                                        />
+                                    </Carousel.Item>
+                                ))}
+                            </Carousel>
                             <h4>Digital Marketing</h4>
                         </Col>
                     </Row>

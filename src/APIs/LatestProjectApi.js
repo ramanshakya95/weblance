@@ -9,6 +9,10 @@ export const brand_data = [
     { id: 2, image: require('../assets/latestprojects/brand1.jpg') }
 ]
 
+export const digital_data = [
+    { id: 1, image: require('../assets/latestprojects/Digital-Marketing.png') },
+    { id: 2, image: require('../assets/latestprojects/Content-Writing.png') }
+]
 
 export const responsive = {
     lg_desktop: {
