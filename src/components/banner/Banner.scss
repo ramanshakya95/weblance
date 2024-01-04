@@ -9,16 +9,12 @@
 }
 
 .home_banner_section {
-  padding: 15px 0px;
+  padding: 15px 0 0;
   .banner_content {
     p {
       font-size: $font-size-20;
       font-weight: $font-weight-400;
       margin-bottom: 10px;
-    }
-    h1 {
-      font-size: $font-size-70;
-      font-weight: $font-weight-900;
     }
     h2 {
       font-size: $font-size-55;
@@ -33,13 +29,24 @@
     }
     button {
       @include header-button;
+      padding: 5px 5px 5px 20px;
+      img {
+        transform: rotate(90deg);
+        background: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        animation: none;
+        margin-left: 20px;
+      }
     }
   }
   .banner_img {
     img {
       margin-bottom: 0px;
-      animation: topbottom 2s infinite;
+      // animation: topbottom 2s infinite;
       width: 100%;
+      height: 500px;
+      object-fit: contain;
     }
   }
 }
@@ -67,11 +74,11 @@
 .services_banner_section {
   @include banner_bgdark;
   h1 {
-    @include banner_title;
+    @include second_title;
     color: $white-color;
     font-weight: $font-weight-900;
     margin-bottom: $margin_bottom;
-    max-width: 900px;
+    // max-width: 900px;
     margin: 0 auto 20px;
   }
   p {
@@ -79,7 +86,7 @@
     line-height: 40px;
     color: $white-color;
     margin-bottom: 70px;
-    max-width: 900px;
+    // max-width: 900px;
     margin: 0 auto 70px;
   }
   img {

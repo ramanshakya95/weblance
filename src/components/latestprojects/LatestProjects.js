@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { web_data, responsive } from '../../APIs/LatestProjectApi';
+import { latest_studio, responsive } from '../../APIs/LatestProjectApi';
 import "./LatestProjects.scss";
 
 const LatestProjects = () => {
@@ -20,7 +20,7 @@ const LatestProjects = () => {
                             infinite={true}
                             partialVisible={true}
                             responsive={responsive}>
-                            {web_data.map(web_project => (
+                            {latest_studio.map(web_project => (
                                 <div className='item' key={web_project.id}>
                                     <img className='w-100' src={web_project.image} alt={web_project.title} />
                                     <h3>{web_project.title}</h3>

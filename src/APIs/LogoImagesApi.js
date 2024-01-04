@@ -26,9 +26,11 @@ export const skills_data = [
     { id: 11, image: require('../assets/skills/laravel.png') },
     { id: 12, image: require('../assets/skills/codeigniter.png') },
     { id: 13, image: require('../assets/skills/hubspot.png') },
-    { id: 14, image: require('../assets/skills/joomla.png') },
+    { id: 14, image: require('../assets/skills/CorelDRAW.png') },
     { id: 15, image: require('../assets/skills/woocommerce.png') },
-    { id: 16, image: require('../assets/skills/CorelDRAW.png') },
+    { id: 16, image: require('../assets/skills/Wix.png') },
+    { id: 17, image: require('../assets/skills/Webflow.png') },
+    { id: 18, image: require('../assets/skills/Squarespace.png') },
 ]
 
 export const expertise_data = [
@@ -40,9 +42,11 @@ export const expertise_data = [
     { id: 6, image: require('../assets/expertise/WordPress.png') },
     { id: 7, image: require('../assets/expertise/Shopify.png') },
     { id: 8, image: require('../assets/expertise/php.png') },
-    { id: 9, image: require('../assets/expertise/Joomla.png') },
+    { id: 9, image: require('../assets/expertise/codeigniter.png') },
     { id: 10, image: require('../assets/expertise/woocommerce.png') },
     { id: 11, image: require('../assets/expertise/html5.png') },
     { id: 12, image: require('../assets/expertise/MySQL.png') },
-    { id: 13, image: require('../assets/expertise/codeigniter.png') },
+    { id: 13, image: require('../assets/expertise/Wix.png') },
+    { id: 14, image: require('../assets/expertise/Squarespace.png') },
+    { id: 15, image: require('../assets/expertise/webflow.png') },
 ]

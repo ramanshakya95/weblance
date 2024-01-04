@@ -12,16 +12,29 @@
   width: 100%;
 }
 .work_category_section .work_category_row .each_cat h3 {
-  padding: 14px 26px;
-  font-size: 25px;
+  padding: 10px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 30px;
   color: #fff;
   background: #cf2129;
   text-align: center;
 }
+.work_category_section .work_category_row .each_cat h3.all_cat {
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 0px 0px 20px 20px;
+}
+.work_category_section .work_category_row .each_cat h3.all_cat a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
 .work_category_section .work_category_row .each_cat .category_list {
   padding: 20px 20px 15px;
+  height: 370px;
+  overflow-y: auto;
 }
 .work_category_section .work_category_row .each_cat .category_list ul {
   padding: 0px;

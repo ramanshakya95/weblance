@@ -40,11 +40,20 @@ export const content_data = [
 ]
 
 export const seo_data = [
-    { id: 1, category: 'Content Writing', url: 'content-writing' },
-    { id: 2, category: 'Digital Marketing', url: 'digital-marketing' },
+    { id: 1, category: 'Website Audit', url: 'website-audit' },
+    { id: 2, category: 'Competitor Analyse', url: 'competitor-analyse' },
+    { id: 3, category: 'Technical SEO', url: 'technical-SEO' },
+    { id: 4, category: 'Website Content', url: 'website-content' },
+    { id: 5, category: 'Blog Posts', url: 'blog-posts' },
+    { id: 6, category: 'Article Writing', url: 'article-writing' },
+    { id: 7, category: 'SEO Writing', url: 'SEO-writing' },
+    { id: 8, category: 'Quality Backlinks', url: 'quality-backlinks' },
+    { id: 9, category: 'Guest Posts', url: 'guest-posts' },
+    { id: 10, category: 'Social Media Content', url: 'social-media-content' },
+    { id: 11, category: 'Press Releases', url: 'press-releases' },
 ]
 
-export const sidebar_data = [
+export const websites_data = [
     { id: 1, category: 'Corporations & Organizations', url: 'corporations-organizations' },
     { id: 2, category: 'Technology & Computing', url: 'technology-computing' },
     { id: 3, category: 'Education & Migration', url: 'education-migration' },

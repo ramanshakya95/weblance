@@ -64,7 +64,12 @@
 }
 .work_section .projects_ img {
   width: 100%;
-  border-radius: 32px;
+  border-radius: 20px;
+  height: 710px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 .work_section .projects_ h4 {
   font-size: 30px;

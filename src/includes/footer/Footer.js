@@ -13,6 +13,7 @@ import flag from '../../assets/icons/india.png';
 import flag1 from '../../assets/icons/aus.png';
 import member from '../../assets/icons/member.png';
 import heart from '../../assets/icons/heart.png';
+import hire from '../../assets/svg/hire.svg';
 import './Footer.scss';
 
 const expertdata = [
@@ -76,6 +77,11 @@ const Footer = () => {
             <section className='copyright_section'>
                 <p className='text-center'>© 2024 Weblance. All Rights Reserved.</p>
             </section>
+
+            <div className='fixed_element'>
+                <p><a href='/#' rel='noreferrer'><span>1000+</span>Websites</a></p>
+                <p><a href='https://www.freelancer.com/u/ambalaonline1' target='_blank' rel='noreferrer'><span><img src={hire} alt='hire' /></span>Hire Us</a></p>
+            </div>
         </>
     );
 };

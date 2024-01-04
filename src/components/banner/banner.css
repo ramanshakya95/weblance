@@ -138,42 +138,35 @@
   font-family: "Mulish";
   font-weight: 900;
   color: #222;
-  font-size: 90px;
-  line-height: 100px;
+  font-size: 50px;
   color: #fff;
   font-weight: 900;
   margin-bottom: 20px;
-  max-width: 900px;
   margin: 0 auto 20px;
 }
 @media only screen and (max-width: 1400px) {
   .services_banner_section h1 {
-    font-size: 75px;
-    line-height: 80px;
+    font-size: 45px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .services_banner_section h1 {
-    font-size: 60px;
-    line-height: 65px;
+    font-size: 42px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .services_banner_section h1 {
-    font-size: 55px;
-    line-height: 60px;
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .services_banner_section h1 {
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 38px;
   }
 }
 @media only screen and (max-width: 767px) {
   .services_banner_section h1 {
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 35px;
   }
 }
 .services_banner_section p {
@@ -181,7 +174,6 @@
   line-height: 40px;
   color: #fff;
   margin-bottom: 70px;
-  max-width: 900px;
   margin: 0 auto 70px;
 }
 .services_banner_section img {

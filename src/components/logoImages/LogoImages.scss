@@ -3,7 +3,7 @@
 @mixin grid-layout {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 40px;
+  gap: 30px;
 }
 
 .logo_section {
@@ -72,10 +72,13 @@
       column-gap: 22px;
       row-gap: 30px;
       .logos {
-        height: 110px;
+        height: 100px;
         @include flex-center;
         background: $white-color;
         border-radius: $border-radius;
+        img {
+          width: 140px;
+        }
       }
     }
 

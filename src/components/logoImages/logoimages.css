@@ -39,7 +39,7 @@
 .logo_section.client_section .logo_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 40px;
+  gap: 30px;
 }
 .logo_section.client_section .logo_row .logos {
   padding: 20px;
@@ -53,14 +53,14 @@
 .logo_section.skill_section .logo_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 40px;
+  gap: 30px;
   grid-template-columns: repeat(6, 1fr);
   row-gap: 0px;
 }
 .logo_section.skill_section .logo_row .logos {
   padding: 20px;
   box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.08);
-  border-radius: 32px;
+  border-radius: 20px;
   max-height: 200px;
   min-height: 200px;
   display: flex;
@@ -97,7 +97,7 @@
 .logo_section.expertise_section .logo_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 40px;
+  gap: 30px;
   -moz-column-gap: 22px;
        column-gap: 22px;
   row-gap: 30px;
@@ -108,7 +108,7 @@
   align-items: center;
   justify-content: center;
   background: #fff;
-  border-radius: 32px;
+  border-radius: 20px;
 }
 @media only screen and (max-width: 1400px) {
   .logo_section.expertise_section .logo_row .logos img {

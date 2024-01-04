@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import { design_dev_data, graphic_data, content_data, seo_data } from '../../APIs/PortfolioCatApi';
 import Banner from '../../components/banner/Banner';
+import arrow from '../../assets/svg/arrow.svg';
 import './PortfolioCat_.scss';
 
 const PortfolioCat = () => {
@@ -21,6 +22,7 @@ const PortfolioCat = () => {
                                     ))}
                                 </ul>
                             </div>
+                            <h3 className='all_cat'><Link to={`/portfolio/all-websites`}>All Websites <img src={arrow} alt='right-arrow' /></Link></h3>
                         </div>
                         <div className='each_cat sidebar'>
                             <h3>Brand Design</h3>
@@ -43,7 +45,7 @@ const PortfolioCat = () => {
                             </div>
                         </div>
                         <div className='each_cat sidebar'>
-                            <h3>SEO</h3>
+                            <h3>Digital Marketing</h3>
                             <div className='category_list'>
                                 <ul>
                                     {seo_data.map(categories => (

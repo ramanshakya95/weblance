@@ -3,7 +3,10 @@ import {Routes,Route} from "react-router-dom";
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Services from './pages/services/Services';
+
 import PortfolioCat from './pages/portfolioCat/PortfolioCat_';
+
+import AllWebsites from './pages/portfolio/AllWebsites';
 import BootstrapWebsites from './pages/portfolio/BootstrapWebsites';
 import ECatalogues from './pages/portfolio/E_Catalogues';
 import EmailerDesign from './pages/portfolio/EmailerDesign';
@@ -48,7 +51,10 @@ const Rout = () => {
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/about" element={<About/>}></Route>
                 <Route path="/services" element={<Services/>}></Route>
+
                 <Route path="/portfolio" element={<PortfolioCat/>}></Route>
+                
+                <Route path="/portfolio/all-websites" element={<AllWebsites/>}></Route>
                 <Route path="/portfolio/bootstrap-websites" element={<BootstrapWebsites/>}></Route>
                 <Route path="/portfolio/E-Catalogues" element={<ECatalogues/>}></Route>
                 <Route path="/portfolio/emailer-design" element={<EmailerDesign/>}></Route>

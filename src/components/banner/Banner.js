@@ -1,39 +1,94 @@
 import React from 'react';
 import { useLocation } from "react-router-dom";
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import arrow from '../../assets/svg/arrow.svg';
-import bannerimg from '../../assets/svg/Banner-Img.png';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { banner_responsive } from '../../APIs/LatestProjectApi';
+import arrow from '../../assets/svg/angle.svg';
+import banner1 from '../../assets/svg/Banner1.png';
+import banner from '../../assets/svg/Banner.png';
 import downarrow from '../../assets/svg/down-arrow.svg';
 import './Banner.scss';
 
 const BANNER_CONTENT = {
     "/": <section className='home_banner_section'>
             <Container className='p-0'>
-                <Row className='banner align-items-center m-0 flex-wrap'>
-                    <Col md={6} sm={12} className='banner_content p-0'>
-                        <p>Fast . Expandable . Protected</p>
-                        <h1 className='theme-color'>Building the</h1>
-                        <h2>Digital Future Together</h2>
-                        <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
-                        <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
-                    </Col>
-                    <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
-                        <img src={bannerimg} alt='banner-img' />
-                    </Col>
-                </Row>
+                <Carousel
+                    swipeable={true}
+                    itemClass='carouselItem'
+                    arrows={false}
+                    autoPlay={true}
+                    autoPlaySpeed={8000}
+                    infinite={true}
+                    partialVisible={true}
+                    responsive={banner_responsive}>
+                    <div className='item'>
+                        <Row className='banner align-items-center m-0 flex-wrap'>
+                            <Col md={6} sm={12} className='banner_content p-0'>
+                                <p>We are among the top <b className='theme-color'>5 Freelancers</b></p>
+                                <h2>At the <span className='theme-color'>pinnacle</span> on Freelancer</h2>
+                                <h5>we're the top-rated company, dedicated to excellent work and client happiness.</h5>
+                                <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
+                            </Col>
+                            <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
+                                <img src={banner1} alt='banner-img' />
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='item'>
+                        <Row className='banner align-items-center m-0 flex-wrap'>
+                            <Col md={6} sm={12} className='banner_content p-0'>
+                                <p>Fast . Expandable . Protected</p>
+                                <h2><span className='theme-color'>Building the</span> Digital Future Together</h2>
+                                <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
+                                <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
+                            </Col>
+                            <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
+                                <img src={banner} alt='banner-img' />
+                            </Col>
+                        </Row>
+                    </div>
+                </Carousel>
             </Container>
         </section>,
     "/home": <section className='home_banner_section'>
             <Container className='p-0'>
-                <Row className='banner align-items-center m-0 flex-wrap'>
-                    <Col md={6} sm={12} className='banner_content p-0'>
-                        <h1>Designing Your Digital Success</h1>
-                        <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
-                    </Col>
-                    <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
-                        <img src={bannerimg} alt='banner-img' />
-                    </Col>
-                </Row>
+                <Carousel
+                    swipeable={true}
+                    itemClass='carouselItem'
+                    arrows={true}
+                    autoPlay={true}
+                    autoPlaySpeed={8000}
+                    infinite={true}
+                    partialVisible={true}
+                    responsive={banner_responsive}>
+                    <div className='item'>
+                        <Row className='banner align-items-center m-0 flex-wrap'>
+                            <Col md={6} sm={12} className='banner_content p-0'>
+                                <p>We are among the top <b className='theme-color'>5 Freelancers</b></p>
+                                <h2>At the <span className='theme-color'>pinnacle</span> on Freelancer</h2>
+                                <h5>we're the top-rated company, dedicated to excellent work and client happiness.</h5>
+                                <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
+                            </Col>
+                            <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
+                                <img src={banner1} alt='banner-img' />
+                            </Col>
+                        </Row>
+                    </div>
+                    <div className='item'>
+                        <Row className='banner align-items-center m-0 flex-wrap'>
+                            <Col md={6} sm={12} className='banner_content p-0'>
+                                <p>Fast . Expandable . Protected</p>
+                                <h2><span className='theme-color'>Building the</span> Digital Future Together</h2>
+                                <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
+                                <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
+                            </Col>
+                            <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
+                                <img src={banner} alt='banner-img' />
+                            </Col>
+                        </Row>
+                    </div>
+                </Carousel>
             </Container>
         </section>,
     "/about": <section className='about_banner_section'>
@@ -73,6 +128,15 @@ const BANNER_CONTENT = {
                 </Row>
             </Container>
         </section>,
+    "/portfolio/all-websites": <section className='about_banner_section work_banner_section'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>All Websites</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
     "/portfolio/wordpress-websites": <section className='about_banner_section work_banner_section'>
         <Container className='p-0'>
             <Row className='banner align-items-center m-0'>

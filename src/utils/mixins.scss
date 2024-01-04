@@ -12,39 +12,29 @@
 @mixin header-button {
   background-color: $theme-color;
   border-radius: 50px;
-  width: 153px;
   margin: 0;
-  height: 52px;
-  line-height: 52px;
   font-size: $font-size-16;
-  font-weight: $font-weight-900;
+  font-weight: $font-weight-600;
   color: $white-color;
-  padding: 0px;
-  @include flex-center;
+  padding: 12px 20px;
+  white-space: nowrap;
   @media only screen and (max-width: $xl-large-1400) {
-    width: 135px;
-    height: 45px;
+    
   }
 }
 
 @mixin second-button {
   background-color: $theme-color;
   border-radius: 50px;
-  width: 259px;
-  height: 71px;
   border: 0px;
   font-size: $font-size-20;
-  line-height: 20px;
-  font-weight: $font-weight-900;
+  font-weight: $font-weight-600;
   color: $white-color;
-  padding: 0px;
+  padding: 14px 30px;
   @media only screen and (max-width: $xl-large-1400) {
-    width: 240px;
-    height: 60px;
     font-size: $font-size-20 - 2px;
   }
   @media only screen and (max-width: $large-1200) {
-    height: 50px;
     font-size: $font-size-20 - 4px;
   }
 }

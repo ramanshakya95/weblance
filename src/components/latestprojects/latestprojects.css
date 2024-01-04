@@ -44,7 +44,12 @@
   padding-right: 40px;
 }
 .latest_project_ .slider_container .latest_project_slider .carouselItem img {
-  border-radius: 32px;
+  border-radius: 20px;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 .latest_project_ .slider_container .latest_project_slider .carouselItem h3 {
   font-size: 30px;

@@ -4,7 +4,7 @@
 .services_section .row {
   background-color: #f7f7f7;
   padding: 105px;
-  border-radius: 32px;
+  border-radius: 20px;
   position: relative;
 }
 .services_section .row .first_column:before {
@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
   padding: 30px;
-  border-radius: 32px;
+  border-radius: 20px;
 }
 .services_section .row .second_column .each_service:nth-child(1) {
   position: absolute;
@@ -101,7 +101,6 @@
   background: #cf2129;
 }
 .services_section .row .second_column .each_service:nth-child(2).bg-light-color:hover {
-  background: #474747 !important;
   transform: rotate(0deg);
   transition: all 0.2s;
 }
@@ -115,9 +114,6 @@
   background: #474747;
   outline: 1px dashed #fff;
   outline-offset: -10px;
-}
-.services_section .row .second_column .each_service.bg-light-color:hover {
-  background-color: #cf2129 !important;
 }
 .services_section .row .second_column .each_service img {
   margin-right: 18px;

@@ -1,10 +1,10 @@
 .testimonial_section {
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 .testimonial_section .row {
-  padding: 80px 80px 120px;
+  padding: 60px 60px 100px;
   background: #f7f7f7;
-  border-radius: 32px;
+  border-radius: 20px;
 }
 .testimonial_section .row .first_column h1 {
   font-family: "Mulish";
@@ -56,7 +56,7 @@
   background: #fff;
   padding: 50px;
   margin-left: 90px;
-  border-radius: 32px;
+  border-radius: 20px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
   position: relative;
 }

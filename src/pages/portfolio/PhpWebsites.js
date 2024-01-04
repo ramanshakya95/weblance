@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
-import { design_dev_data } from '../../APIs/PortfolioCatApi';
 import Banner from '../../components/banner/Banner';
 import LinkIcon from '../../assets/icons/linkicon.svg';
 import PagArrow from '../../assets/svg/pag-arrow.svg';
@@ -47,14 +46,6 @@ const PhpWebsites = () => {
             <Banner />
             <div className='portfolio_view'>
                 <Container>
-                    <div className="sidebar">
-                        <h3>Categories</h3>
-                        <ul>
-                            {design_dev_data.map(categories => (
-                                <li key={categories.id}><Link to={`${categories.url}`}>{categories.category}</Link></li>
-                            ))}
-                        </ul>
-                    </div>
                     <div className="content">
                         <div className="our_all_work">
                             {items.map(work => (

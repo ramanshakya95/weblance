@@ -18,7 +18,7 @@ const MakeSomething = () => {
                         <div className='second_column'>
                             <h1>Let's collaborate to create something extraordinary,</h1>
                             <p>whether it's for a new venture or an existing brand.</p>
-                            <Button onClick={formShow} className='second_button'>Initiate a project <img src={arrow} alt='right-arrow' /></Button>
+                            <Button onClick={formShow} className='second_button'>Initiate a Project <img src={arrow} alt='right-arrow' /></Button>
                         </div>
                     </div>
                 </Container>

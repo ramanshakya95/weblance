@@ -17,6 +17,9 @@
         padding-right: 40px;
         img{
           border-radius: $border-radius;
+          height: 380px;
+          object-fit: cover;
+          object-position: top;
         }
         h3 {
           font-size: $font-size-30;

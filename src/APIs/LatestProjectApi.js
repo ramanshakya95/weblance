@@ -1,7 +1,15 @@
+export const latest_studio = [
+    { id: 1, image: require('../assets/latestprojects/beith.jpg'), title: 'beith', subTitle: 'Website Designing & Development' },
+    { id: 2, image: require('../assets/latestprojects/kmcutie.jpg'), title: 'kmcutie', subTitle: 'Website Designing & Development' },
+    { id: 3, image: require('../assets/latestprojects/vxs_training.jpg'), title: 'VSX training', subTitle: 'Website Designing & Development' },
+    { id: 3, image: require('../assets/latestprojects/vsx.jpg'), title: 'VSX', subTitle: 'Website Designing & Development' },
+    { id: 3, image: require('../assets/latestprojects/nextgen.jpg'), title: 'nextgen', subTitle: 'Website Designing & Development' },
+]
+
 export const web_data = [
-    { id: 1, image: require('../assets/latestprojects/skinbeautyandbeyond.jpg'), title: 'Skin Beauty and Beyond', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../assets/latestprojects/mamasista.jpg'), title: 'Mama Sista', subTitle: 'Website Designing & Development' },
-    { id: 3, image: require('../assets/latestprojects/berrimanestate.jpg'), title: 'Berriman Estate', subTitle: 'Website Designing & Development' }
+    { id: 1, image: require('../assets/latestprojects/beith.jpg'), title: 'beith', subTitle: 'Website Designing & Development' },
+    { id: 2, image: require('../assets/latestprojects/kmcutie.jpg'), title: 'kmcutie', subTitle: 'Website Designing & Development' },
+    { id: 3, image: require('../assets/latestprojects/vxs_training.jpg'), title: 'VSX', subTitle: 'Website Designing & Development' }
 ]
 
 export const brand_data = [
@@ -36,3 +44,10 @@ export const responsive = {
         partialVisibilityGutter: 20
     }
 };
+
+export const banner_responsive = {
+    lg_desktop: {
+        breakpoint: { max: 3000, min: 0 },
+        items: 1
+    }
+}
