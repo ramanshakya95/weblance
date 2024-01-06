@@ -55,7 +55,7 @@
         text-align: center;
         .item {
             border-radius: $border-radius;
-            padding: 12px;
+            padding: 10px;
             box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.08);
             &:nth-child(3n-1) {
                 margin-top: 20px;
@@ -66,7 +66,7 @@
                 overflow: hidden;
                 .preview_img {
                     height: 300px;
-                    object-fit: contain;
+                    object-fit: cover;
                 }
                 .overlay_icons {
                     opacity: 0;

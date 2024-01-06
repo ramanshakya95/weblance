@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { web_data, brand_data, digital_data } from '../../APIs/LatestProjectApi';
-import project2 from '../../assets/latestprojects/project2.jpg';
+import packaging from '../../assets/latestprojects/packaging.jpg';
 import './HomeLatest.scss';
 
 const HomeLatest = () => {
@@ -60,7 +60,7 @@ const HomeLatest = () => {
                             <h4>Brands</h4>
                         </Col>
                         <Col className='_column'>
-                            <img src={project2} alt='project2' />
+                            <img src={packaging} alt='project2' />
                             <h4>Label and Packaging</h4>
                         </Col>
                         <Col className='_column'>
