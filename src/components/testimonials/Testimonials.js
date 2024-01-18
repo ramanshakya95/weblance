@@ -8,7 +8,7 @@ import './Testimonials.scss';
 const Testimonials = () => {
     const freelance = () => {
         window.open('https://www.freelancer.com/u/ambalaonline1?w=f&ngsw-bypass=', "_blank");
-      };
+    };
     return (
         <>
             <section className='testimonial_section' id='testimonials'>

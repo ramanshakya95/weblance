@@ -22,7 +22,9 @@ const LatestProjects = () => {
                             responsive={responsive}>
                             {latest_studio.map(web_project => (
                                 <div className='item' key={web_project.id}>
-                                    <img className='w-100' src={web_project.image} alt={web_project.title} />
+                                    <a href={web_project.url} target='_blank' rel="noreferrer">
+                                        <img className='w-100' src={web_project.image} alt={web_project.title} />
+                                    </a>
                                     <h3>{web_project.title}</h3>
                                     <h5>{web_project.subTitle}</h5>
                                 </div>

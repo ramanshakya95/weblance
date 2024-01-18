@@ -4,7 +4,7 @@
   background-color: $bg-color;
   background-image: url("../../assets/Tablet_Image_bg.png");
   background-repeat: no-repeat;
-  padding: 70px 0px;
+  padding: 30px 20px;
   background-size: contain;
   background-position: -100px;
   .brand_first_section {
@@ -26,7 +26,6 @@
   }
 
   @media only screen and (max-width: $xl-large-1400) {
-    padding: 100px 0px;
     background-size: 50% 100%;
     .brand_first_section {
       img {
@@ -35,7 +34,6 @@
     }
   }
   @media only screen and (max-width: $large-1200) {
-    padding: 70px 0px;
     .brand_second_section {
       h1 {
         margin-bottom: 10px;
@@ -48,12 +46,20 @@
     }
   }
   @media only screen and (max-width: $tablet-1024) {
-    padding: 60px 0px;
     .brand_second_section {
       p {
         font-size: 16px;
         line-height: 20px;
         padding-right: 0px;
+      }
+    }
+  }
+  @media only screen and (max-width: $mobile-767) {
+    .making_brand_c {
+      flex-direction: column;
+      gap: 20px;
+      .brand_second_section {
+        text-align: center;
       }
     }
   }

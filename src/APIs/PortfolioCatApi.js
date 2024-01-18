@@ -7,7 +7,8 @@ export const design_dev_data = [
     { id: 6, category: 'Bootstrap Websites', url: 'bootstrap-websites' },
     { id: 7, category: 'Emailer Design', url: 'emailer-design' },
     { id: 8, category: 'Newsletter Design', url: 'newsletter-design' },
-    { id: 9, category: 'E-catalogues', url: 'E-catalogues' }
+    { id: 9, category: 'E-catalogues', url: 'E-catalogues' },
+    { id: 10, category: 'All Websites', url: 'all-websites' }
 ]
 
 export const graphic_data = [

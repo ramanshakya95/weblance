@@ -30,7 +30,7 @@ const project_points = {
                     <h1 className="text-white p-0">Project Perfection, Expertly Delivered.</h1>
                     <Row>
                         {digital_experts.map(experts => (
-                            <Col sm={6} key={experts.id} className='spacing'>
+                            <Col md={6} key={experts.id} className='spacing'>
                                 <div className='each-agency'>
                                     <div className='number'>
                                         {experts.id}

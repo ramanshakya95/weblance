@@ -1,5 +1,12 @@
 @import "../../utils/var.scss";
 
+.top_header {
+  background: $theme-color;
+  color: $white-color;
+  text-align: right;
+  padding: 2px 0px;
+  font-size: $font-size-15;
+}
 header {
   position: sticky;
   top: 0;
@@ -16,7 +23,6 @@ header {
   align-items: center;
   width: 100%;
   .nav-logo {
-    // flex-grow: 1;
     img {
       width: 300px;
     }
@@ -63,46 +69,98 @@ header {
 .nav-icon {
   display: none;
 }
-.main-container {
-  background-color: rgba(0, 0, 0, 0.3);
+
+@media screen and (max-width: $large-1200) {
+  header {
+    .navbar {
+      height: 90px;
+    }
+  }
+  .nav-container {
+    .nav-logo {
+      img {
+        width: 250px;
+      }
+    }
+    .nav-menu {
+      .nav-item {
+        padding: 0px 12px;
+        .nav-links {
+          font-size: $font-size-16;
+        }
+        .hireme-btn {
+          padding: 10px 15px;
+        }
+      }
+    }
+  } 
 }
 
-@media screen and (max-width: 960px) {
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border-top: 1px solid #fff;
-    position: absolute;
-    top: 80px;
-    left: -110%;
-    opacity: 1;
-    transition: all 0.5s ease;
-    &.active {
-      background: #1f5156;
-      left: 0px;
+@media screen and (max-width: $sm-tablet-991) {
+  .top_header {
+    font-size: 12px;
+    text-align: center;
+  }
+  header {
+    .navbar {
+      height: 70px;
+    }
+  }
+  .nav-container {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1px solid #fff;
+      position: absolute;
+      top: 72px;
+      left: -150%;
       opacity: 1;
       transition: all 0.5s ease;
-      z-index: 1;
-    }
-    .nav-item {
-      .active {
-        color: #ffdd40;
-        border: none;
+      &.active {
+        background: $white-color;
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        padding: 20px;
+        align-items: self-start;
+      }
+      .nav-item {
+        padding: 0px;
+        .nav-links {
+          padding: 8px 0px;
+          width: 100%;
+          text-align: left;
+          display: block;
+          &::after {
+            height: 2px !important;
+          }
+        }
       }
     }
   }
-  .nav-links {
-    padding: 8px 0px;
-    width: 100%;
-    display: table;
-  }
   .nav-icon {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-50%, 100%);
     cursor: pointer;
   }
+  .hireme {
+    display: none;
+  }
 }
+
+@media screen and (max-width: $mobile-767) {
+  header {
+    .navbar {
+      height: 70px;
+    }
+  } 
+  .nav-container  {
+    .nav-logo {
+      img {
+        width: 220px;
+      }
+    } 
+  }
+}
+

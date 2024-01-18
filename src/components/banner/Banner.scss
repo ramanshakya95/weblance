@@ -1,7 +1,7 @@
 @import "../../utils/var.scss";
 
 @mixin banner_bgdark {
-  padding: 80px 0px 58px;
+  padding: 40px 0px 50px;
   background: url("../../assets/service_bg.png") no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -27,7 +27,7 @@
       margin-top: $margin_bottom;
       margin-bottom: $margin_bottom_35;
     }
-    button {
+    a {
       @include header-button;
       padding: 5px 5px 5px 20px;
       img {
@@ -36,7 +36,7 @@
         padding: 10px;
         border-radius: 50%;
         animation: none;
-        margin-left: 20px;
+        margin-left: 10px;
       }
     }
   }
@@ -52,7 +52,7 @@
 }
 
 .about_banner_section {
-  padding: 54px 0px 135px;
+  padding: 40px 0px 70px;
   h1 {
     @include large_title;
     text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.15);
@@ -78,19 +78,15 @@
     color: $white-color;
     font-weight: $font-weight-900;
     margin-bottom: $margin_bottom;
-    // max-width: 900px;
     margin: 0 auto 20px;
   }
   p {
     font-size: $font-size-30;
     line-height: 40px;
     color: $white-color;
-    margin-bottom: 70px;
-    // max-width: 900px;
-    margin: 0 auto 70px;
+    margin: 0 auto 40px;
   }
   img {
-    padding: 10px;
     animation: topbottom 1.5s infinite;
   }
 }
@@ -105,16 +101,18 @@
   }
 }
 
-@media only screen and (max-width: $xl-large-1400) {
-
-}
-
-@media only screen and (max-width: $large-1200) {
+@media only screen and (max-width: 1366px) {
   .home_banner_section {
     .banner_content {
+      p {
+        font-size: $font-size-18;
+      }
+      h2 {
+        font-size: $font-size-45;
+      }
       h5 {
-        font-size: $font-size-30 - 8px;
-        line-height: $line-height-45 - 15px;
+        font-size: $font-size-20;
+        line-height: normal;
       }
     }
     .banner_img {
@@ -123,20 +121,155 @@
       }
     }
   }
+  .about_banner_section {
+    .banner_content {
+      padding: 0px 0px 0px 70px;
+    }
+  }
 }
 
-@media only screen and (max-width: $tablet-1024) {
+@media only screen and (max-width: $large-1200) {
   .home_banner_section {
     .banner_content {
+      p {
+        font-size: $font-size-16;
+      }
+      h2 {
+        font-size: $font-size-35;
+      }
       h5 {
-        font-size: $font-size-30 - 12px;
-        line-height: $line-height-45 - 21px;
+        font-size: $font-size-18;
+        margin-bottom: $margin_bottom;
+      }
+      a {
+        img {
+          padding: 8px;
+        }
       }
     }
     .banner_img {
       img {
-        max-width: 100%;
+        height: auto;
       }
+    } 
+  }
+  .about_banner_section {  
+    .banner_content {
+      h2 {
+        margin-bottom: $margin_bottom;
+      }
+      p {
+        font-size: $font-size-18;
+        line-height: inherit;
+      }
+    }
+    &.work_banner_section { 
+      border-radius: 0px 0px 60px 60px;
+    }
+  }
+  .services_banner_section {
+    border-radius: 0px 0px 60px 60px;
+    p {
+      font-size: $font-size-25;
+      line-height: normal;
+    }
+  } 
+}
+
+@media only screen and (max-width: $sm-tablet-991) {
+  .home_banner_section {
+    .banner_content {
+      p {
+        font-size: $font-size-15;
+      }
+      h2 {
+        font-size: $font-size-25;
+      }
+      h5 {
+        font-size: $font-size-16;
+        margin-top: 10px;
+      }
+      a {
+        font-size: $font-size-15;
+        img {
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .about_banner_section { 
+    padding: 20px 20px 60px;
+    .banner {
+      flex-direction: column;
+      .large-title {
+        h1 {
+          br {
+            display: none;
+          }
+        }
+      }
+      .banner_content {
+        padding: 0px;
+        text-align: center;
+        p {
+          font-size: $font-size-16;
+        }
+      }
+    }
+    &.work_banner_section { 
+      padding: 40px 20px;
+    }
+  }
+  .services_banner_section {
+    padding: 30px 20px;
+    p {
+      font-size: $font-size-18;
+      margin: 0 auto 25px;
+    }
+    img {
+      width: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile-767) {
+  .home_banner_section {
+    padding: 20px;
+    .banner {
+      flex-direction: column-reverse;
+      gap: 30px;
+      .banner_content {
+        text-align: center;
+      }
+      .banner_img {
+        img {
+          height: 280px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $sm-mobile-575) {
+  .home_banner_section {
+    .banner_content {
+      h5 {
+        font-size: $font-size-15;
+      }
+    }
+  }
+  .about_banner_section {
+    &.work_banner_section { 
+      border-radius: 0px 0px 30px 30px;
+    }
+  }
+  .services_banner_section {
+    border-radius: 0px 0px 30px 30px;
+    p {
+      font-size: $font-size-16;
+    }
+    img {
+      width: 40px;
     }
   }
 }

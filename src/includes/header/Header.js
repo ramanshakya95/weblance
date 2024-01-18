@@ -11,6 +11,11 @@ const Header = () => {
     const Close = () => setClick(false);
     return (
         <>
+        <div className='top_header'>
+            <div className='container'>
+                <p><span>Award Winning Company</span> | <span>2000+ Projects Completed</span> | <span>69% Returning Customers</span></p>
+            </div>        
+        </div>
             <header className={click ? "main-container" : ""} onClick={() => Close()}>
                 <Container>
                     <nav className="navbar" onClick={e => e.stopPropagation()}>

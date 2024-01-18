@@ -1,7 +1,7 @@
 @import "../../utils/var.scss";
 
 .latest_project_ {
-  padding: 80px 0px;
+  padding: 60px 0px;
   background: $theme-color;
   .slider_container {
     max-width: 1660px;
@@ -15,21 +15,17 @@
     .latest_project_slider {
       .carouselItem {
         padding-right: 40px;
-        img{
+        img {
           border-radius: $border-radius;
-          height: 380px;
-          object-fit: cover;
-          object-position: top;
         }
         h3 {
-          font-size: $font-size-30;
+          font-size: $font-size-25;
           margin-top: $margin_bottom - 10;
           color: $white-color;
           font-weight: $font-weight-900;
         }
         h5 {
-          font-size: $font-size-20;
-          // line-height: $line-height-30 + 10px;
+          font-size: $font-size-16;
           margin: 0px;
           color: $white-color;
         }
@@ -41,14 +37,34 @@
       max-width: 1270px;
     }
   }
-  @media only screen and (max-width: 1199px) {
+  @media only screen and (max-width: $large-1200) {
+    padding: 40px 0px;
     .slider_container {
       max-width: 1080px;
+      h2{
+        margin-bottom: $margin_bottom;
+      }
+      .latest_project_slider {
+        .carouselItem {
+          h3 {
+            font-size: $font-size-20;
+          }
+        }
+      }
     }
   }
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: $sm-tablet-991) {
     .slider_container {
       max-width: 855px;
+    }
+  }
+  @media only screen and (max-width: $mobile-767) {
+    .slider_container {
+      .latest_project_slider {
+        .carouselItem {
+          padding-right: 20px;
+        }
+      }
     }
   }
 }

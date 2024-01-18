@@ -1,20 +1,22 @@
 export const latest_studio = [
-    { id: 1, image: require('../assets/latestprojects/beith.jpg'), title: 'beith', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../assets/latestprojects/kmcutie.jpg'), title: 'kmcutie', subTitle: 'Website Designing & Development' },
-    { id: 3, image: require('../assets/latestprojects/vxs_training.jpg'), title: 'VSX training', subTitle: 'Website Designing & Development' },
-    { id: 3, image: require('../assets/latestprojects/vsx.jpg'), title: 'VSX', subTitle: 'Website Designing & Development' },
-    { id: 3, image: require('../assets/latestprojects/nextgen.jpg'), title: 'nextgen', subTitle: 'Website Designing & Development' },
+    { id: 1, image: require('../assets/latestprojects/Contractorgrowthpros.jpg'), title: 'Contractor', subTitle: 'Website Designing & Development', url: 'https://contractorgrowthpros.com/' },
+    { id: 2, image: require('../assets/latestprojects/KeeraOrganics.jpg'), title: 'Keera Organics', subTitle: 'Website Designing & Development', url: 'https://keeraorganics.com/' },
+    { id: 3, image: require('../assets/latestprojects/SangheraImmigration.jpg'), title: 'Sanghera Immigration', subTitle: 'Website Designing & Development', url: 'https://www.sangheraimmigration.com/' },
+    { id: 4, image: require('../assets/latestprojects/ACHwriters.jpg'), title: 'ACH writers', subTitle: 'Website Designing & Development', url: 'https://achwriters.com/' },
+    { id: 5, image: require('../assets/latestprojects/WildCardCasino.jpg'), title: 'Wild Card Casino', subTitle: 'Website Designing & Development', url: 'https://www.wildcardcasino.com/' }
 ]
 
 export const web_data = [
-    { id: 1, image: require('../assets/latestprojects/beith.jpg'), title: 'beith', subTitle: 'Website Designing & Development' },
-    { id: 2, image: require('../assets/latestprojects/kmcutie.jpg'), title: 'kmcutie', subTitle: 'Website Designing & Development' },
-    { id: 3, image: require('../assets/latestprojects/vxs_training.jpg'), title: 'VSX', subTitle: 'Website Designing & Development' }
+    { id: 1, image: require('../assets/latestprojects/Fernandez.jpg'), title: 'Fernandez Grillhouse', subTitle: 'Website Designing & Development' },
+    { id: 2, image: require('../assets/latestprojects/MamaSista.jpg'), title: 'Mama Sista', subTitle: 'Website Designing & Development' },
+    { id: 3, image: require('../assets/latestprojects/Pandemic.jpg'), title: 'Pandemic Studio', subTitle: 'Website Designing & Development' },
+    { id: 4, image: require('../assets/latestprojects/Costal.jpg'), title: 'Costal Wardrobe Solution', subTitle: 'Website Designing & Development' }
 ]
 
 export const brand_data = [
     { id: 1, image: require('../assets/latestprojects/brand.jpg') },
-    { id: 2, image: require('../assets/latestprojects/brand1.jpg') }
+    { id: 2, image: require('../assets/latestprojects/brand1.jpg') },
+    { id: 3, image: require('../assets/latestprojects/brand2.jpg') }
 ]
 
 export const digital_data = [

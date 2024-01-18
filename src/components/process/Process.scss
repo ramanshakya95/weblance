@@ -2,7 +2,7 @@
 
 .work_process_section {
 	position: relative;
-	padding: 80px 0px;
+	padding: 60px 0px;
 	h2 {
 		@include second_title;
 		margin-bottom: 40px;
@@ -96,12 +96,38 @@
 		margin: 0 auto;
 	}
 }
-@media (max-width: 1200px) {
-	#svg-container {
-		width: 85%;
+@media only screen and (max-width: $large-1200) {
+	.work_process_section {
+		h2 {
+			margin-bottom: $margin_bottom;
+		}
+		p {
+			font-size: $font-size-18;
+			line-height: normal;
+			margin: 0 auto 60px;
+		}
+		.work-process {
+			.step-desc {
+				h4 {
+					font-size: $font-size-20;
+				}
+			}
+		}
 	}
 }
-@media (max-width: 992px) {
+@media only screen and (max-width: $sm-tablet-991) {
+	.work_process_section {
+		padding: 40px 0px 60px;
+		p {
+			margin: 0 auto 40px;
+		}
+		#svg-container {
+			width: 100%;
+			transform: rotate(90deg);
+			top: 50%;
+			bottom: auto;
+		}
+	}
 	.md-mt-5 {
 		margin-top: 50px !important;
 	}
@@ -111,10 +137,16 @@
 			margin: 0 auto;
 		}
 	}
-	#svg-container {
-		width: 100%;
-		transform: rotate(90deg);
-		left: 0;
-		top: 50%;
+}
+@media only screen and (max-width: $mobile-767) {
+	.work_process_section {
+		padding: 40px 20px;
 	}
+}
+@media only screen and (max-width: $sm-mobile-575) {
+	.work_process_section {
+		p {
+			font-size: $font-size-16;
+		}
+	} 
 }

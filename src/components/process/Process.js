@@ -19,7 +19,7 @@ const Process = () => {
                         <div id="svg-container">
                             <img src={process} alt="process" />
                         </div>
-                        <Col className="col-lg-3 col-md-12">
+                        <Col className="col-lg-3 col-12">
                             <div className="work-process">
                                 <div className="step-num-box">
                                     <div className="step-icon"><span><img src={icon} alt="icon" /></span></div>
@@ -30,7 +30,7 @@ const Process = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-12 md-mt-5">
+                        <Col className="col-lg-3 col-12 md-mt-5">
                             <div className="work-process">
                                 <div className="step-num-box">
                                     <div className="step-icon"><span><img src={icon1} alt="icon" /></span>
@@ -42,7 +42,7 @@ const Process = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="col-lg-3 col-md-12 md-mt-5">
+                        <Col className="col-lg-3 col-12 md-mt-5">
                             <div className="work-process">
                                 <div className="step-num-box">
                                     <div className="step-icon"><span><img src={icon2} alt="icon" /></span>

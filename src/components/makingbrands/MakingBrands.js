@@ -8,7 +8,7 @@ const MakingBrands = () => {
         <>
             <section className='making_brand_section'>
                 <Container className='p-0'>
-                    <Row className='align-items-center m-0'>
+                    <Row className='align-items-center m-0 making_brand_c'>
                         <Col className='brand_first_section p-0 pe-xxl-3 pe-md-2 pe-0'>
                             <img src={Tablet_Img} alt='Tablet_Img' />
                         </Col>

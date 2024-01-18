@@ -1,7 +1,7 @@
 @import "../../utils/var.scss";
 
 .digital_services_section {
-  padding: 80px 0px;
+  padding: 60px 0px;
   background-image: url(../../assets/background.jpg);
   h2 {
     @include second_title;
@@ -39,4 +39,45 @@
       }
     }
   }
+  @media only screen and (max-width: $large-1200) {
+    padding: 40px 10px;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .digital_services_row {
+      gap: 20px;
+      .digital_services_ {
+        .digital_services_content {
+          padding: 20px;
+          h3 {
+            margin-bottom: 10px;
+            font-size: $font-size-20;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: $sm-tablet-991) {
+    .digital_services_row {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px
+    }
+  }
+  @media only screen and (max-width: $mobile-767) {
+    h2 {
+      margin-bottom: $margin_bottom;
+    }
+    .digital_services_row {
+      grid-template-columns: repeat(1, 1fr);
+      .digital_services_ {
+        border-radius: 12px;
+        .digital_services_content {
+          h3 {
+            font-size: $font-size-18;
+          }
+        }
+      }
+    }
+  }
 }
+
