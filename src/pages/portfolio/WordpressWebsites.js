@@ -10,18 +10,17 @@ import './Portfolio.scss';
 const WordpressWebsites = () => {
     const [items, setItems] = useState([]);
     const [pageCount, setpageCount] = useState(0);
-
     let limit = 9;
 
     useEffect(() => {
         const getComments = async () => {
             const res = await fetch(
-                `http://localhost:3005/wordpress_websites?_page=1&_limit=${limit}`
+                `https://www.weblance.co.in/api/wordpress?_page=1&_limit=${limit}`
             );
-            const data = await res.json();
+            const portfolio = await res.json();
             const total = res.headers.get("x-total-count");
             setpageCount(Math.ceil(total / limit));
-            setItems(data);
+            setItems(portfolio.data);
         };
 
         getComments();
@@ -29,7 +28,7 @@ const WordpressWebsites = () => {
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
-            `http://localhost:3005/wordpress_websites?_page=${currentPage}&_limit=${limit}`
+            `https://www.weblance.co.in/api/wordpress?_page=${currentPage}&_limit=${limit}`
         );
         const data = await res.json();
         return data;
@@ -41,6 +40,8 @@ const WordpressWebsites = () => {
         setItems(commentsFormServer);
     };
 
+    const imageUrl = `https://www.weblance.co.in/uploads/gallery/`;
+    
     return (
         <>
             <Banner />
@@ -48,18 +49,18 @@ const WordpressWebsites = () => {
                 <Container>
                     <div className="content">
                         <div className="our_all_work">
-                            {items.map(work => (
-                                <div className='item' key={work.id}>
+                            {items.map(data => (
+                                <div className='item' key={data.ID}>
                                     <div className='img_overlay'>
-                                        <img className='preview_img w-100' src={work.image} alt={work.title} loading='lazy' />
+                                        <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
                                         <div className='overlay_icons'>
                                             <Link to="#" className="icons">
                                                 <img src={LinkIcon} alt='link' />
                                             </Link>
                                         </div>
                                     </div>
-                                    <h3>{work.title}</h3>
-                                    <h5>{work.subTitle}</h5>
+                                    <h3>{data.project_name}</h3>
+                                    {/* <h5>{data.project_name}</h5> */}
                                 </div>
                             ))}
                         </div>

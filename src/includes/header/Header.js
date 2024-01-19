@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import logo from '../../assets/svg/logo.svg';
 import hire from '../../assets/svg/hire.svg';
+import menu from '../../assets/icons/menu.png';
+import close from '../../assets/icons/close.png';
 import './Header.scss';
 
 const Header = () => {
@@ -74,7 +76,7 @@ const Header = () => {
                                 </li>
                             </ul>
                             <div className="nav-icon" onClick={handleClick}>
-                                <i className={click ? "fa fa-times" : "fa fa-bars"}>click</i>
+                                <img src={click ? close : menu} alt="icons" />
                             </div>
                         </div>
                     </nav>
