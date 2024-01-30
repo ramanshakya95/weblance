@@ -53,25 +53,22 @@
     }
     .our_all_work {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         align-items: self-start;
-        row-gap: 10px;
-        column-gap: 30px;
+        gap: 30px;
         text-align: center;
         .item {
             border-radius: $border-radius;
-            padding: 10px;
+            padding: 10px 10px 20px 10px;
             box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.08);
-            &:nth-child(3n-1) {
-                margin-top: 20px;
-              }
             .img_overlay {
                 position: relative;
                 border-radius: $border-radius;
                 overflow: hidden;
                 .preview_img {
-                    height: 300px;
+                    height: 550px;
                     object-fit: cover;
+                    object-position: top;
                 }
                 .overlay_icons {
                     opacity: 0;
@@ -98,7 +95,7 @@
                 }
             }
             h3 {
-                margin-top: 15px;
+                margin-top: 20px;
                 font-size: $font-size-20;
                 font-weight: $font-weight-600;
                 color: $text-222;
