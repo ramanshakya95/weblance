@@ -57,6 +57,28 @@
         align-items: self-start;
         gap: 30px;
         text-align: center;
+        &.three_column {
+            column-count: 3;
+            gap: 30px;
+            display: block;
+            .item {
+                break-inside: avoid-column;
+                margin-bottom: 30px;
+            }
+        }
+        &.scroll_animation {
+            .img_overlay {
+                height: 550px;
+                &:hover {
+                    background-position: center bottom;
+                    transition: 7s ease all;
+                    .preview_img {
+                        transform: translateY(calc(-100% + 550px));
+                        transition: 7s ease all;
+                    }
+                }
+            }
+        }
         .item {
             border-radius: $border-radius;
             padding: 10px 10px 20px 10px;
@@ -66,9 +88,7 @@
                 border-radius: $border-radius;
                 overflow: hidden;
                 .preview_img {
-                    height: 550px;
                     object-fit: cover;
-                    object-position: top;
                 }
                 .overlay_icons {
                     opacity: 0;

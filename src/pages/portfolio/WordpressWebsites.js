@@ -10,6 +10,7 @@ import './Portfolio.scss';
 const WordpressWebsites = () => {
     const [items, setItems] = useState([]);
     const [pageCount, setpageCount] = useState(0);
+    
     let limit = 9;
 
     useEffect(() => {
@@ -48,7 +49,7 @@ const WordpressWebsites = () => {
             <div className='portfolio_view'>
                 <Container>
                     <div className="content">
-                        <div className="our_all_work">
+                        <div className="our_all_work scroll_animation">
                             {items.map(data => (
                                 <div className='item' key={data.ID}>
                                     <div className='img_overlay'>
@@ -60,7 +61,6 @@ const WordpressWebsites = () => {
                                         </div>
                                     </div>
                                     <h3>{data.project_name}</h3>
-                                    {/* <h5>{data.project_name}</h5> */}
                                 </div>
                             ))}
                         </div>

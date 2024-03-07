@@ -47,7 +47,7 @@ const E_Catalogues = () => {
             <div className='portfolio_view'>
                 <Container>
                     <div className="content">
-                        <div className="our_all_work">
+                        <div className="our_all_work scroll_animation">
                             {items.map(work => (
                                 <div className='item' key={work.id}>
                                     <div className='img_overlay'>
