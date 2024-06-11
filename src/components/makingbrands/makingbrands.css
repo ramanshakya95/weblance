@@ -2,7 +2,7 @@
   background-color: #f7f7f7;
   background-image: url("../../assets/Tablet_Image_bg.png");
   background-repeat: no-repeat;
-  padding: 70px 0px;
+  padding: 30px 20px;
   background-size: contain;
   background-position: -100px;
 }
@@ -23,22 +23,22 @@
 }
 @media only screen and (max-width: 1200px) {
   .making_brand_section .brand_second_section h1 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .making_brand_section .brand_second_section h1 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .making_brand_section .brand_second_section h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .making_brand_section .brand_second_section h1 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .making_brand_section .brand_second_section h1 {
+    font-size: 25px;
   }
 }
 .making_brand_section .brand_second_section p {
@@ -49,7 +49,6 @@
 }
 @media only screen and (max-width: 1400px) {
   .making_brand_section {
-    padding: 100px 0px;
     background-size: 50% 100%;
   }
   .making_brand_section .brand_first_section img {
@@ -57,9 +56,6 @@
   }
 }
 @media only screen and (max-width: 1200px) {
-  .making_brand_section {
-    padding: 70px 0px;
-  }
   .making_brand_section .brand_second_section h1 {
     margin-bottom: 10px;
   }
@@ -70,12 +66,18 @@
   }
 }
 @media only screen and (max-width: 1024px) {
-  .making_brand_section {
-    padding: 60px 0px;
-  }
   .making_brand_section .brand_second_section p {
     font-size: 16px;
     line-height: 20px;
     padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .making_brand_section .making_brand_c {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .making_brand_section .making_brand_c .brand_second_section {
+    text-align: center;
   }
 }/*# sourceMappingURL=MakingBrands.css.map */

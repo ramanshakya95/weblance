@@ -10776,26 +10776,25 @@ p {
 .second_button {
   background-color: #cf2129;
   border-radius: 50px;
-  width: 259px;
-  height: 71px;
   border: 0px;
   font-size: 20px;
-  line-height: 20px;
-  font-weight: 900;
+  font-weight: 600;
   color: #fff;
-  padding: 0px;
+  padding: 14px 30px;
 }
 @media only screen and (max-width: 1400px) {
   .second_button {
-    width: 240px;
-    height: 60px;
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .second_button {
-    height: 50px;
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .second_button {
+    padding: 12px 20px;
   }
 }
 .second_button img {

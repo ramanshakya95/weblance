@@ -1,14 +1,10 @@
 .home_banner_section {
-  padding: 15px 0px;
+  padding: 15px 0 0;
 }
 .home_banner_section .banner_content p {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
-}
-.home_banner_section .banner_content h1 {
-  font-size: 70px;
-  font-weight: 900;
 }
 .home_banner_section .banner_content h2 {
   font-size: 55px;
@@ -21,35 +17,35 @@
   margin-top: 20px;
   margin-bottom: 35px;
 }
-.home_banner_section .banner_content button {
+.home_banner_section .banner_content a {
   background-color: #cf2129;
   border-radius: 50px;
-  width: 153px;
   margin: 0;
-  height: 52px;
-  line-height: 52px;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 600;
   color: #fff;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 12px 20px;
+  white-space: nowrap;
+  padding: 5px 5px 5px 20px;
 }
-@media only screen and (max-width: 1400px) {
-  .home_banner_section .banner_content button {
-    width: 135px;
-    height: 45px;
-  }
+.home_banner_section .banner_content a img {
+  transform: rotate(90deg);
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  animation: none;
+  margin-left: 10px;
 }
 .home_banner_section .banner_img img {
   margin-bottom: 0px;
-  animation: topbottom 2s infinite;
   width: 100%;
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .about_banner_section {
-  padding: 54px 0px 135px;
+  padding: 40px 0px 70px;
 }
 .about_banner_section h1 {
   font-family: "Mulish";
@@ -76,14 +72,26 @@
 }
 @media only screen and (max-width: 1024px) {
   .about_banner_section h1 {
-    font-size: 160px;
-    line-height: 160px;
+    font-size: 140px;
+    line-height: 140px;
   }
 }
 @media only screen and (max-width: 991px) {
   .about_banner_section h1 {
-    font-size: 150px;
-    line-height: 150px;
+    font-size: 100px;
+    line-height: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about_banner_section h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .about_banner_section h1 {
+    font-size: 60px;
+    line-height: 60px;
   }
 }
 .about_banner_section .banner_content {
@@ -103,22 +111,22 @@
 }
 @media only screen and (max-width: 1200px) {
   .about_banner_section .banner_content h2 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .about_banner_section .banner_content h2 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .about_banner_section .banner_content h2 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .about_banner_section .banner_content h2 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .about_banner_section .banner_content h2 {
+    font-size: 25px;
   }
 }
 .about_banner_section .banner_content p {
@@ -128,7 +136,7 @@
 }
 
 .services_banner_section {
-  padding: 80px 0px 58px;
+  padding: 40px 0px 50px;
   background: url("../../assets/service_bg.png") no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -151,38 +159,36 @@
 }
 @media only screen and (max-width: 1200px) {
   .services_banner_section h1 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .services_banner_section h1 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .services_banner_section h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .services_banner_section h1 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .services_banner_section h1 {
+    font-size: 25px;
   }
 }
 .services_banner_section p {
   font-size: 30px;
   line-height: 40px;
   color: #fff;
-  margin-bottom: 70px;
-  margin: 0 auto 70px;
+  margin: 0 auto 40px;
 }
 .services_banner_section img {
-  padding: 10px;
   animation: topbottom 1.5s infinite;
 }
 
 .about_banner_section.work_banner_section {
-  padding: 80px 0px 58px;
+  padding: 40px 0px 50px;
   background: url("../../assets/service_bg.png") no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -193,21 +199,135 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1366px) {
+  .home_banner_section .banner_content p {
+    font-size: 18px;
+  }
+  .home_banner_section .banner_content h2 {
+    font-size: 45px;
+  }
   .home_banner_section .banner_content h5 {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: normal;
   }
   .home_banner_section .banner_img img {
     max-width: 100%;
+  }
+  .about_banner_section .banner_content {
+    padding: 0px 0px 0px 70px;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
+  .home_banner_section .banner_content p {
+    font-size: 16px;
+  }
+  .home_banner_section .banner_content h2 {
+    font-size: 35px;
+  }
   .home_banner_section .banner_content h5 {
     font-size: 18px;
-    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .home_banner_section .banner_content a img {
+    padding: 8px;
   }
   .home_banner_section .banner_img img {
-    max-width: 100%;
+    height: auto;
+  }
+  .about_banner_section .banner_content h2 {
+    margin-bottom: 20px;
+  }
+  .about_banner_section .banner_content p {
+    font-size: 18px;
+    line-height: inherit;
+  }
+  .about_banner_section.work_banner_section {
+    border-radius: 0px 0px 60px 60px;
+  }
+  .services_banner_section {
+    border-radius: 0px 0px 60px 60px;
+  }
+  .services_banner_section p {
+    font-size: 25px;
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .home_banner_section .banner_content p {
+    font-size: 15px;
+  }
+  .home_banner_section .banner_content h2 {
+    font-size: 25px;
+  }
+  .home_banner_section .banner_content h5 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .home_banner_section .banner_content a {
+    font-size: 15px;
+  }
+  .home_banner_section .banner_content a img {
+    padding: 5px;
+  }
+  .about_banner_section {
+    padding: 20px 20px 60px;
+  }
+  .about_banner_section .banner {
+    flex-direction: column;
+  }
+  .about_banner_section .banner .large-title h1 br {
+    display: none;
+  }
+  .about_banner_section .banner .banner_content {
+    padding: 0px;
+    text-align: center;
+  }
+  .about_banner_section .banner .banner_content p {
+    font-size: 16px;
+  }
+  .about_banner_section.work_banner_section {
+    padding: 40px 20px;
+  }
+  .services_banner_section {
+    padding: 30px 20px;
+  }
+  .services_banner_section p {
+    font-size: 18px;
+    margin: 0 auto 25px;
+  }
+  .services_banner_section img {
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home_banner_section {
+    padding: 20px;
+  }
+  .home_banner_section .banner {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .home_banner_section .banner .banner_content {
+    text-align: center;
+  }
+  .home_banner_section .banner .banner_img img {
+    height: 280px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .home_banner_section .banner_content h5 {
+    font-size: 15px;
+  }
+  .about_banner_section.work_banner_section {
+    border-radius: 0px 0px 30px 30px;
+  }
+  .services_banner_section {
+    border-radius: 0px 0px 30px 30px;
+  }
+  .services_banner_section p {
+    font-size: 16px;
+  }
+  .services_banner_section img {
+    width: 40px;
   }
 }/*# sourceMappingURL=Banner.css.map */

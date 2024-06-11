@@ -1,3 +1,11 @@
+.top_header {
+  background: #cf2129;
+  color: #fff;
+  text-align: right;
+  padding: 2px 0px;
+  font-size: 15px;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -53,23 +61,12 @@ header .navbar {
 .nav-container .nav-menu .nav-item .hireme-btn {
   background-color: #cf2129;
   border-radius: 50px;
-  width: 153px;
   margin: 0;
-  height: 52px;
-  line-height: 52px;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 600;
   color: #fff;
-  padding: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@media only screen and (max-width: 1400px) {
-  .nav-container .nav-menu .nav-item .hireme-btn {
-    width: 135px;
-    height: 45px;
-  }
+  padding: 12px 20px;
+  white-space: nowrap;
 }
 .nav-container .nav-menu .nav-item .hireme-btn:hover {
   background: #000;
@@ -79,44 +76,81 @@ header .navbar {
   display: none;
 }
 
-.main-container {
-  background-color: rgba(0, 0, 0, 0.3);
+@media screen and (max-width: 1200px) {
+  header .navbar {
+    height: 90px;
+  }
+  .nav-container .nav-logo img {
+    width: 250px;
+  }
+  .nav-container .nav-menu .nav-item {
+    padding: 0px 12px;
+  }
+  .nav-container .nav-menu .nav-item .nav-links {
+    font-size: 16px;
+  }
+  .nav-container .nav-menu .nav-item .hireme-btn {
+    padding: 10px 15px;
+  }
 }
-
-@media screen and (max-width: 960px) {
-  .nav-menu {
+@media screen and (max-width: 991px) {
+  .top_header {
+    font-size: 12px;
+    text-align: center;
+  }
+  header .navbar {
+    height: 70px;
+  }
+  .nav-container .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
     border-top: 1px solid #fff;
     position: absolute;
-    top: 80px;
-    left: -110%;
+    top: 72px;
+    left: -150%;
     opacity: 1;
     transition: all 0.5s ease;
   }
-  .nav-menu.active {
-    background: #1f5156;
+  .nav-container .nav-menu.active {
+    background: #fff;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    padding: 4px 12px;
+    align-items: self-start;
   }
-  .nav-menu .nav-item .active {
-    color: #ffdd40;
-    border: none;
+  .nav-container .nav-menu .nav-item {
+    padding: 0px;
+    width: 100%;
   }
-  .nav-links {
+  .nav-container .nav-menu .nav-item .nav-links {
     padding: 8px 0px;
     width: 100%;
-    display: table;
+    text-align: left;
+    display: block;
+    font-size: 15px;
+  }
+  .nav-container .nav-menu .nav-item .nav-links::after {
+    height: 2px !important;
   }
   .nav-icon {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-50%, 100%);
     cursor: pointer;
+  }
+  .nav-icon img {
+    width: 25px;
+  }
+  .hireme {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  header .navbar {
+    height: 70px;
+  }
+  .nav-container .nav-logo img {
+    width: 220px;
   }
 }/*# sourceMappingURL=Header.css.map */

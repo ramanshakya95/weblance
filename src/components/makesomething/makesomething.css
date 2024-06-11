@@ -28,27 +28,26 @@
 }
 @media only screen and (max-width: 1200px) {
   .make_something .something_row .second_column h1 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .make_something .something_row .second_column h1 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .make_something .something_row .second_column h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .make_something .something_row .second_column h1 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .make_something .something_row .second_column h1 {
+    font-size: 25px;
   }
 }
 .make_something .something_row .second_column p {
-  font-size: 33px;
-  line-height: 43px;
+  font-size: 25px;
   color: #555;
   margin-bottom: 48px;
 }
@@ -92,4 +91,30 @@
 .initiate_modal .modal-content .modal-body form input:focus, .initiate_modal .modal-content .modal-body form textarea:focus {
   box-shadow: none;
   border-color: #cf2129;
+}
+
+@media only screen and (max-width: 1200px) {
+  .make_something {
+    padding: 0 10px 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .make_something .something_row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .make_something .something_row .second_column {
+    margin: 0px;
+  }
+  .make_something .something_row .second_column h1, .make_something .something_row .second_column p {
+    margin-bottom: 20px;
+  }
+  .make_something .something_row .second_column p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .make_something .something_row .second_column p {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=MakeSomething.css.map */

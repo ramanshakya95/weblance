@@ -1,5 +1,5 @@
 .services_section {
-  padding: 0px 0px 180px;
+  padding: 0px 0px 160px;
 }
 .services_section .row {
   background-color: #f7f7f7;
@@ -50,22 +50,22 @@
 }
 @media only screen and (max-width: 1200px) {
   .services_section .row .first_column h1 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .services_section .row .first_column h1 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .services_section .row .first_column h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .services_section .row .first_column h1 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .services_section .row .first_column h1 {
+    font-size: 25px;
   }
 }
 .services_section .row .first_column p {
@@ -109,6 +109,12 @@
   bottom: -100px;
   width: 550px;
   right: 70px;
+  transform: rotate(3deg);
+  transition: all 0.2s;
+}
+.services_section .row .second_column .each_service:nth-child(3):hover {
+  transform: rotate(0deg);
+  transition: all 0.2s;
 }
 .services_section .row .second_column .each_service.bg-light-color {
   background: #474747;
@@ -138,5 +144,83 @@
   .services_section .row .second_column .each_service .content p {
     font-size: 15px;
     line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .services_section .row {
+    padding: 60px;
+  }
+  .services_section .row .second_column .each_service {
+    padding: 20px;
+  }
+  .services_section .row .second_column .each_service img {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .services_section {
+    padding: 40px 20px;
+  }
+  .services_section .row {
+    gap: 40px;
+    flex-direction: column;
+    padding: 40px;
+  }
+  .services_section .row .first_column {
+    position: relative;
+  }
+  .services_section .row .first_column:before {
+    background-size: 60px;
+    width: 70px;
+    height: 70px;
+    left: -70px;
+  }
+  .services_section .row .first_column:after {
+    left: auto;
+    right: -40px;
+    width: 50px;
+    background-size: 50px;
+  }
+  .services_section .row .first_column p {
+    font-size: 18px;
+    line-height: normal;
+    padding: 0;
+  }
+  .services_section .row .second_column {
+    padding: 0px !important;
+  }
+  .services_section .row .second_column .each_service:nth-child(1), .services_section .row .second_column .each_service:nth-child(2), .services_section .row .second_column .each_service:nth-child(3) {
+    position: static;
+    width: auto;
+    transform: none;
+  }
+  .services_section .row .second_column .each_service:nth-child(2) {
+    margin: 20px 0px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .services_section .row {
+    padding: 20px;
+  }
+  .services_section .row .first_column {
+    text-align: center;
+  }
+  .services_section .row .first_column:before {
+    left: -50px;
+  }
+  .services_section .row .first_column p {
+    font-size: 16px;
+  }
+  .services_section .row .second_column .each_service {
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .services_section .row .second_column .each_service img {
+    margin: 0;
+  }
+  .services_section .row .second_column .each_service .content h4 {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=Services.css.map */

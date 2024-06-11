@@ -1,10 +1,10 @@
 .vision_mision_section {
-  padding: 80px 0px 100px;
+  padding: 70px 0px;
 }
 .vision_mision_section .mision-vision {
   padding: 90px;
   background: #f7f7f7;
-  border-radius: 32px;
+  border-radius: 20px;
 }
 .vision_mision_section .mision-vision .first_column .nav-tabs {
   border: 0px;
@@ -38,22 +38,22 @@
 }
 @media only screen and (max-width: 1200px) {
   .vision_mision_section .mision-vision .first_column h1 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .vision_mision_section .mision-vision .first_column h1 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .vision_mision_section .mision-vision .first_column h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .vision_mision_section .mision-vision .first_column h1 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .vision_mision_section .mision-vision .first_column h1 {
+    font-size: 25px;
   }
 }
 .vision_mision_section .mision-vision .first_column p {
@@ -86,7 +86,7 @@
 }
 
 .freelance_section {
-  padding: 80px 0px;
+  padding: 60px 0px;
 }
 .freelance_section ._column {
   max-width: 1110px;
@@ -94,7 +94,7 @@
   position: relative;
   padding: 90px 0 0 100px;
   background: #f7f7f7;
-  border-radius: 32px;
+  border-radius: 20px;
 }
 .freelance_section ._column .profile {
   position: absolute;
@@ -143,4 +143,136 @@
 }
 .freelance_section ._column .badges_ .text_badges img {
   max-width: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .freelance_section ._column {
+    padding: 50px;
+    max-width: none;
+    display: flex;
+    gap: 30px;
+  }
+  .freelance_section ._column .profile {
+    position: static;
+    background-size: 100%;
+    height: 350px;
+  }
+  .freelance_section ._column .profile img {
+    width: 200px;
+  }
+  .freelance_section ._column .profile h2 {
+    font-size: 35px;
+    line-height: normal;
+  }
+  .freelance_section ._column .profile p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .freelance_section ._column .badges_ .text_badges h3 {
+    font-size: 35px;
+    line-height: normal;
+  }
+  .freelance_section ._column .badges_ .text_badges.earn_badges {
+    padding-top: 20px;
+  }
+  .freelance_section ._column .badges_ .text_badges.active_reward {
+    padding: 20px 0px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .freelance_section {
+    padding: 40px 5px;
+  }
+  .freelance_section ._column {
+    padding: 30px;
+  }
+  .freelance_section ._column .profile {
+    height: 260px;
+    width: 300px;
+  }
+  .freelance_section ._column .profile img {
+    width: 180px;
+  }
+  .freelance_section ._column .profile h2 {
+    font-size: 25px;
+  }
+  .freelance_section ._column .profile .profile_pic {
+    width: 80px;
+  }
+  .freelance_section ._column .badges_ .text_badges h3 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .vision_mision_section {
+    padding: 40px 5px;
+  }
+  .vision_mision_section .mision-vision {
+    padding: 40px;
+  }
+  .vision_mision_section .mision-vision .row {
+    flex-direction: column;
+  }
+  .vision_mision_section .mision-vision .row .first_column {
+    text-align: center;
+  }
+  .vision_mision_section .mision-vision .row .first_column .nav-tabs {
+    justify-content: center;
+  }
+  .vision_mision_section .mision-vision .row .first_column .nav-tabs li button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  .vision_mision_section .mision-vision .row .first_column p {
+    padding: 0;
+  }
+  .vision_mision_section .mision-vision .row .second_column {
+    background-position: center;
+    text-align: center;
+  }
+  .vision_mision_section .mision-vision .row .second_column img {
+    position: static;
+    width: 220px;
+  }
+  .freelance_section ._column .profile {
+    height: 240px;
+    min-width: 200px;
+  }
+  .freelance_section ._column .profile img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  .freelance_section ._column .profile h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .vision_mision_section .mision-vision {
+    padding: 20px;
+  }
+  .freelance_section ._column {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+  }
+  .freelance_section ._column .profile {
+    background-size: 100% 100%;
+    height: 280px;
+    min-width: 250px;
+    width: 250px;
+  }
+  .freelance_section ._column .profile p {
+    font-size: 16px;
+  }
+  .freelance_section ._column .badges_ .text_badges h3 {
+    font-size: 20px;
+  }
+  .freelance_section ._column .badges_ .text_badges.active_reward {
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .vision_mision_section .mision-vision {
+    padding: 10px;
+  }
 }/*# sourceMappingURL=About.css.map */

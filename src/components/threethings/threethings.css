@@ -1,5 +1,5 @@
 .three_things_section {
-  padding: 60px 0px 210px;
+  padding: 40px 0px 180px;
 }
 .three_things_section h1 {
   font-family: "Mulish";
@@ -16,22 +16,22 @@
 }
 @media only screen and (max-width: 1200px) {
   .three_things_section h1 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .three_things_section h1 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .three_things_section h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .three_things_section h1 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .three_things_section h1 {
+    font-size: 25px;
   }
 }
 .three_things_section .theme-color {
@@ -69,22 +69,22 @@
 }
 @media only screen and (max-width: 1200px) {
   .three_things_section .each-agency .number {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .three_things_section .each-agency .number {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .three_things_section .each-agency .number {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .three_things_section .each-agency .number {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .three_things_section .each-agency .number {
+    font-size: 25px;
   }
 }
 .three_things_section .each-agency .content h3 {
@@ -109,7 +109,8 @@
 }
 .three_things_section.digital_experts {
   background: #222;
-  padding: 100px 0px;
+  padding: 60px 0px;
+  position: relative;
 }
 .three_things_section.digital_experts .container {
   position: relative;
@@ -117,12 +118,12 @@
 .three_things_section.digital_experts .container:before {
   content: "";
   background: url("../../assets/svg/block.svg") no-repeat;
-  background-size: 126px;
-  width: 126px;
-  height: 136px;
+  background-size: 110px;
+  width: 110px;
+  height: 120px;
   position: absolute;
-  left: -60px;
-  top: -160px;
+  left: 0;
+  top: -100px;
   animation: topbottom 1.5s infinite;
 }
 .three_things_section.digital_experts .container:after {
@@ -132,8 +133,8 @@
   width: 69px;
   height: 74px;
   position: absolute;
-  right: -55px;
-  bottom: -130px;
+  right: 0;
+  bottom: -100px;
   animation: topbottom 1.5s infinite;
 }
 .three_things_section.digital_experts .container .spacing:nth-child(1) {
@@ -164,13 +165,10 @@
 }
 @media only screen and (max-width: 1400px) {
   .three_things_section {
-    padding: 100px 0px 165px;
+    padding: 40px 0px 160px;
   }
   .three_things_section h1 {
     margin-bottom: 50px;
-  }
-  .three_things_section h1 br {
-    display: none;
   }
   .three_things_section .each-agency .number {
     min-width: 90px;
@@ -183,5 +181,107 @@
   .three_things_section .each-agency .content h3 {
     font-size: 30px;
     line-height: 45px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .three_things_section {
+    padding: 40px 10px;
+  }
+  .three_things_section h1 {
+    margin-bottom: 30px;
+  }
+  .three_things_section .each-agency {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .three_things_section .each-agency .number {
+    min-width: 70px;
+    height: 60px;
+    margin-right: 0;
+    font-size: 30px;
+  }
+  .three_things_section .each-agency .content {
+    margin-top: 10px;
+  }
+  .three_things_section .each-agency .content h3 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .three_things_section .each-agency .content p {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .three_things_section.digital_experts {
+    padding: 40px 20px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .three_things_section .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .three_things_section.digital_experts .container::before {
+    width: 80px;
+    height: 90px;
+    background-size: 80px;
+    top: -70px;
+  }
+  .three_things_section.digital_experts .container::after {
+    background-size: 50px;
+    width: 50px;
+    height: 60px;
+    bottom: -80px;
+  }
+  .three_things_section.digital_experts .container .row {
+    flex-direction: row;
+    gap: 0;
+  }
+  .three_things_section.digital_experts .container .row .spacing:nth-child(1) {
+    padding: 0px 20px 20px 0px;
+  }
+  .three_things_section.digital_experts .container .row .spacing:nth-child(2) {
+    padding: 0px 0px 20px 20px;
+  }
+  .three_things_section.digital_experts .container .row .spacing:nth-child(3) {
+    padding: 20px 20px 0px 0px;
+  }
+  .three_things_section.digital_experts .container .row .spacing:nth-child(4) {
+    padding: 20px 0px 0px 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .three_things_section .each-agency {
+    padding: 10px;
+  }
+  .three_things_section .each-agency .number {
+    min-width: 60px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .three_things_section .each-agency .content h3 {
+    font-size: 20px;
+  }
+  .three_things_section.digital_experts .container::before {
+    background-size: 60px;
+    height: 70px;
+    top: -60px;
+    width: 60px;
+  }
+  .three_things_section.digital_experts .container .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .three_things_section.digital_experts .container .row .spacing {
+    border: 0px;
+    border-bottom: 1px dashed #757575;
+  }
+  .three_things_section.digital_experts .container .row .spacing:nth-child(1), .three_things_section.digital_experts .container .row .spacing:nth-child(2), .three_things_section.digital_experts .container .row .spacing:nth-child(3) {
+    padding: 0 0 20px 0;
+  }
+  .three_things_section.digital_experts .container .row .spacing:nth-child(4) {
+    padding: 0px;
+    border: 0;
   }
 }/*# sourceMappingURL=ThreeThings.css.map */

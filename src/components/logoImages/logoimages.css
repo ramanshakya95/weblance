@@ -12,26 +12,26 @@
 }
 @media only screen and (max-width: 1200px) {
   .logo_section h2 {
-    font-size: 42px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .logo_section h2 {
     font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .logo_section h2 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 767px) {
   .logo_section h2 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .logo_section h2 {
+    font-size: 25px;
   }
 }
 .logo_section.client_section {
-  padding: 0px 0px 80px;
+  padding: 0px 0px 60px;
 }
 .logo_section.client_section img {
   width: 100%;
@@ -40,6 +40,18 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .logo_section.client_section .logo_row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .logo_section.client_section .logo_row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
 .logo_section.client_section .logo_row .logos {
   padding: 20px;
@@ -56,6 +68,18 @@
   gap: 30px;
   grid-template-columns: repeat(6, 1fr);
   row-gap: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .logo_section.skill_section .logo_row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .logo_section.skill_section .logo_row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
 .logo_section.skill_section .logo_row .logos {
   padding: 20px;
@@ -83,7 +107,7 @@
 }
 .logo_section.expertise_section {
   background: #f7f7f7;
-  padding: 80px 0px;
+  padding: 60px 0px;
   border-radius: 100px 100px 0px 0px;
 }
 .logo_section.expertise_section p {
@@ -102,16 +126,123 @@
        column-gap: 22px;
   row-gap: 30px;
 }
+@media only screen and (max-width: 991px) {
+  .logo_section.expertise_section .logo_row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .logo_section.expertise_section .logo_row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
 .logo_section.expertise_section .logo_row .logos {
-  height: 110px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #fff;
   border-radius: 20px;
 }
+.logo_section.expertise_section .logo_row .logos img {
+  width: 140px;
+}
+
 @media only screen and (max-width: 1400px) {
-  .logo_section.expertise_section .logo_row .logos img {
+  .logo_section.client_section .logo_row .logos {
+    padding: 12px;
+  }
+  .logo_row .logos img {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .logo_section.skill_section .logo_row .logos {
+    min-height: 165px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .logo_section h2 {
+    margin-bottom: 20px;
+  }
+  .logo_section.client_section {
+    padding: 0px 20px 40px;
+  }
+  .logo_section.skill_section .logo_row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .logo_section.expertise_section {
+    border-radius: 60px 60px 0px 0px;
+  }
+  .logo_section.expertise_section p {
+    font-size: 18px;
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .logo_section h2 br {
+    display: none;
+  }
+  .logo_section.client_section .logo_row .logos {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .logo_section.skill_section .logo_row {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0;
+  }
+  .logo_section.skill_section .logo_row .logos {
+    min-height: auto;
+  }
+  .logo_section.skill_section .logo_row .logos:nth-child(odd) {
+    margin-top: 20px;
+  }
+  .logo_section.skill_section .logo_row .logos img {
+    width: 80px;
+    height: 80px;
+  }
+  .logo_section.expertise_section {
+    padding: 40px 10px;
+    border-radius: 40px 40px 0px 0px;
+  }
+  .logo_section.expertise_section p {
+    max-width: 100%;
+    margin: 0 auto 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .logo_section .logo_row .logos img {
+    height: 50px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .logo_section.skill_section {
+    padding: 0px 20px;
+  }
+  .logo_section.skill_section .logo_row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .logo_section.skill_section .logo_row .logos:nth-child(odd) {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .logo_section.skill_section .logo_row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo_section.expertise_section {
+    border-radius: 30px 30px 0px 0px;
+  }
+  .logo_section.expertise_section p {
+    font-size: 16px;
+  }
+  .logo_section.expertise_section .logo_row .logos {
+    height: 80px;
+  }
+  .logo_section.expertise_section .logo_row .logos img {
+    width: 120px;
   }
 }/*# sourceMappingURL=LogoImages.css.map */
