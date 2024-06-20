@@ -7,7 +7,7 @@ import LinkIcon from '../../assets/icons/linkicon.svg';
 import PagArrow from '../../assets/svg/pag-arrow.svg';
 import './Portfolio.scss';
 
-const ContentWriting = () => {
+const BlogPosts = () => {
     const [items, setItems] = useState([]);
     const [pageCount, setpageCount] = useState(0);
 
@@ -16,7 +16,7 @@ const ContentWriting = () => {
     useEffect(() => {
         const getComments = async () => {
             const res = await fetch(
-                `https://www.weblance.co.in/api/contentwriting?_page=1&_limit=${limit}`
+                `https://www.weblance.co.in/api/websiteaudit?_page=1&_limit=${limit}`
             );
             const portfolio = await res.json();
             const total = res.headers.get("x-total-count");
@@ -29,7 +29,7 @@ const ContentWriting = () => {
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
-            `https://www.weblance.co.in/api/contentwriting?_page=${currentPage}&_limit=${limit}`
+            `https://www.weblance.co.in/api/websiteaudit?_page=${currentPage}&_limit=${limit}`
         );
         const data = await res.json();
         return data;
@@ -49,7 +49,7 @@ const ContentWriting = () => {
             <div className='portfolio_view'>
                 <Container>
                     <div className="content">
-                        <div className="our_all_work">
+                        <div className="our_all_work three_column">
                             {items.map(data => (
                                 <div className='item' key={data.ID}>
                                     <div className='img_overlay'>
@@ -91,4 +91,4 @@ const ContentWriting = () => {
     );
 };
 
-export default ContentWriting;
+export default BlogPosts;

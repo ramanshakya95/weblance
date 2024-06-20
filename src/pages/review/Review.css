@@ -1,0 +1,89 @@
+#reviews_section {
+  padding: 60px 0px;
+}
+#reviews_section .columns_ {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  gap: 40px;
+}
+#reviews_section .columns_ .left_column small {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #cf2129;
+}
+#reviews_section .columns_ .left_column small:before {
+  content: "";
+  width: 30px;
+  display: block;
+  height: 2px;
+  background: #cf2129;
+}
+#reviews_section .columns_ .left_column h1 {
+  font-family: "Mulish";
+  font-weight: 900;
+  color: #222;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 20px 0px;
+}
+@media only screen and (max-width: 1400px) {
+  #reviews_section .columns_ .left_column h1 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #reviews_section .columns_ .left_column h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #reviews_section .columns_ .left_column h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #reviews_section .columns_ .left_column h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #reviews_section .columns_ .left_column h1 {
+    font-size: 25px;
+  }
+}
+#reviews_section .columns_ .right_column .reviews_ {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+#reviews_section .columns_ .right_column .reviews_ .review {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+}
+#reviews_section .columns_ .right_column .reviews_ .review .des_ {
+  font-size: 15px;
+  display: -webkit-box;
+  max-width: 500px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#reviews_section .columns_ .right_column .reviews_ .review .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+#reviews_section .columns_ .right_column .reviews_ .review .info img {
+  width: 30px;
+  border-radius: 50%;
+}
+#reviews_section .columns_ .right_column .reviews_ .review .info h5 {
+  font-size: 16px;
+  font-weight: 600;
+}/*# sourceMappingURL=Review.css.map */

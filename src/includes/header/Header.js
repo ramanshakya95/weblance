@@ -64,7 +64,7 @@ const Header = () => {
                                 </li>
                                 <li className="nav-item">
                                     <NavLink
-                                        to="/review"
+                                        to="/reviews"
                                         className="nav-links"
                                         onClick={click ? handleClick : null}
                                     >

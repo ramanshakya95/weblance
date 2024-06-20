@@ -37,17 +37,17 @@ export const content_data = [
     { id: 4, category: 'Website Content Writing', url: 'content-writing' },
     { id: 5, category: 'Blog Writing', url: 'blog-writing' },
     { id: 6, category: 'Essay Writing', url: 'essay-writing' },
-    { id: 7, category: 'Proofreading', url: 'proofreading' }
+    { id: 7, category: 'Proof Reading', url: 'proof-reading' }
 ]
 
 export const seo_data = [
     { id: 1, category: 'Website Audit', url: 'website-audit' },
     { id: 2, category: 'Competitor Analyse', url: 'competitor-analyse' },
-    { id: 3, category: 'Technical SEO', url: 'technical-SEO' },
+    { id: 3, category: 'Technical SEO', url: 'technical-seo' },
     { id: 4, category: 'Website Content', url: 'website-content' },
     { id: 5, category: 'Blog Posts', url: 'blog-posts' },
     { id: 6, category: 'Article Writing', url: 'article-writing' },
-    { id: 7, category: 'SEO Writing', url: 'SEO-writing' },
+    { id: 7, category: 'SEO Writing', url: 'seo-writing' },
     { id: 8, category: 'Quality Backlinks', url: 'quality-backlinks' },
     { id: 9, category: 'Guest Posts', url: 'guest-posts' },
     { id: 10, category: 'Social Media Content', url: 'social-media-content' },

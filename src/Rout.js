@@ -3,8 +3,8 @@ import {Routes,Route, useLocation} from "react-router-dom";
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Services from './pages/services/Services';
-
 import PortfolioCat from './pages/portfolioCat/PortfolioCat_';
+import Review from './pages/review/Review';
 
 import AllWebsites from './pages/portfolio/AllWebsites';
 import BootstrapWebsites from './pages/portfolio/BootstrapWebsites';
@@ -40,7 +40,18 @@ import ProductDescriptions from './pages/portfolio/ProductDescriptions';
 import ContentWriting from './pages/portfolio/ContentWriting';
 import BlogWriting from './pages/portfolio/BlogWriting';
 import EssayWriting from './pages/portfolio/EssayWriting';
-import Proofreading from './pages/portfolio/Proofreading';
+import ProofReading from './pages/portfolio/ProofReading';
+
+import WebsiteAudit from './pages/portfolio/WebsiteAudit';
+import CompetitorAnalyse from './pages/portfolio/CompetitorAnalyse';
+import TechnicalSeo from './pages/portfolio/TechnicalSeo';
+import BlogPosts from './pages/portfolio/BlogPosts';
+import WebsiteContent from './pages/portfolio/WebsiteContent';
+import SeoWriting from './pages/portfolio/SeoWriting';
+import QualityBacklinks from './pages/portfolio/QualityBacklinks';
+import GuestPosts from './pages/portfolio/GuestPosts';
+import SocialMediaContent from './pages/portfolio/SocialMediaContent';
+import PressReleases from './pages/portfolio/PressReleases';
 
 import Error from './pages/Error';
 
@@ -57,8 +68,8 @@ const Rout = () => {
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/about" element={<About/>} exact></Route>
                 <Route path="/services" element={<Services/>} exact></Route>
-
                 <Route path="/portfolio" element={<PortfolioCat/>} exact></Route>
+                <Route path="/reviews" element={<Review/>} exact></Route>
 
                 <Route path="/portfolio/all-websites" element={<AllWebsites/>} exact></Route>
                 <Route path="/portfolio/bootstrap-websites" element={<BootstrapWebsites/>} exact></Route>
@@ -94,7 +105,19 @@ const Rout = () => {
                 <Route path="/portfolio/content-writing" element={<ContentWriting/>} exact></Route>
                 <Route path="/portfolio/blog-writing" element={<BlogWriting/>} exact></Route>
                 <Route path="/portfolio/essay-writing" element={<EssayWriting/>} exact></Route>
-                <Route path="/portfolio/proofreading" element={<Proofreading/>} exact></Route>
+                <Route path="/portfolio/proof-reading" element={<ProofReading/>} exact></Route>
+
+                <Route path="/portfolio/website-audit" element={<WebsiteAudit/>} exact></Route>
+                <Route path="/portfolio/competitor-analyse" element={<CompetitorAnalyse/>} exact></Route>
+                <Route path="/portfolio/technical-seo" element={<TechnicalSeo/>} exact></Route>
+                <Route path="/portfolio/website-content" element={<WebsiteContent/>} exact></Route>
+                <Route path="/portfolio/blog-posts" element={<BlogPosts/>} exact></Route>
+                <Route path="/portfolio/article-writing" element={<ArticleWriting/>} exact></Route>
+                <Route path="/portfolio/seo-writing" element={<SeoWriting/>} exact></Route>
+                <Route path="/portfolio/quality-backlinks" element={<QualityBacklinks/>} exact></Route>
+                <Route path="/portfolio/guest-posts" element={<GuestPosts/>} exact></Route>
+                <Route path="/portfolio/social-media-content" element={<SocialMediaContent/>} exact></Route>
+                <Route path="/portfolio/press-releases" element={<PressReleases/>} exact></Route>
 
                 <Route path="*" element={<Error/>}></Route>
             </Routes>

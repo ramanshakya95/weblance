@@ -187,7 +187,7 @@
   animation: topbottom 1.5s infinite;
 }
 
-.about_banner_section.work_banner_section {
+.about_banner_section.work_banner_section, .about_banner_section.work_inner_banner {
   padding: 40px 0px 50px;
   background: url("../../assets/service_bg.png") no-repeat;
   background-size: cover;
@@ -195,8 +195,15 @@
   border-radius: 0px 0px 100px 100px;
 }
 .about_banner_section.work_banner_section h2,
-.about_banner_section.work_banner_section p {
+.about_banner_section.work_banner_section p, .about_banner_section.work_inner_banner h2,
+.about_banner_section.work_inner_banner p {
   color: #fff;
+}
+.about_banner_section.work_inner_banner .banner_content {
+  padding: 0px;
+}
+.about_banner_section.work_inner_banner .banner_content h2 {
+  margin: 0px;
 }
 
 @media only screen and (max-width: 1366px) {

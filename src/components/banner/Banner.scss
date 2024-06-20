@@ -92,11 +92,19 @@
 }
 
 .about_banner_section {
-  &.work_banner_section {
+  &.work_banner_section, &.work_inner_banner {
     @include banner_bgdark;
     h2,
     p {
       color: $white-color;
+    }
+  }
+  &.work_inner_banner {
+    .banner_content {
+      padding: 0px;
+      h2 {
+        margin: 0px;
+      }
     }
   }
 }
