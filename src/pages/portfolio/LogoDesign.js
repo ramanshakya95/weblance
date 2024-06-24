@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
+import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react';
 import ReactPaginate from "react-paginate";
-import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Banner from '../../components/banner/Banner';
-import LinkIcon from '../../assets/icons/linkicon.svg';
 import PagArrow from '../../assets/svg/pag-arrow.svg';
 import './Portfolio.scss';
+import 'lightbox.js-react/dist/index.css';
 
 const LogoDesign = () => {
     const [items, setItems] = useState([]);
@@ -26,6 +26,10 @@ const LogoDesign = () => {
 
         getComments();
     }, [limit]);
+
+    useEffect(() => {
+        initLightboxJS("Insert your License Key here", "Insert plan type here");
+      }, []);
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
@@ -53,12 +57,14 @@ const LogoDesign = () => {
                             {items.map(data => (
                                 <div className='item' key={data.ID}>
                                     <div className='img_overlay'>
-                                        <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
-                                        <div className='overlay_icons'>
+                                        <SlideshowLightbox modalClose="clickOutside" disableImageZoom="true" backgroundColor="rgb(255 228 228 / 98%)">
+                                            <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
+                                        </SlideshowLightbox>
+                                        {/* <div className='overlay_icons'>
                                             <Link to="#" className="icons">
-                                                <img src={LinkIcon} alt='link' />
+                                                <img src={ViewIcon} alt='link' />
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <h3>{data.project_name}</h3>
                                 </div>

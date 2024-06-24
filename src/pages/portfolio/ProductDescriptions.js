@@ -49,7 +49,7 @@ const ProductDescriptions = () => {
             <div className='portfolio_view'>
                 <Container>
                     <div className="content">
-                        <div className="our_all_work">
+                        <div className="our_all_work three_column">
                             {items.map(data => (
                                 <div className='item' key={data.ID}>
                                     <div className='img_overlay'>
