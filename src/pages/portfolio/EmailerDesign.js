@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
+import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react';
 import ReactPaginate from "react-paginate";
-import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Banner from '../../components/banner/Banner';
-import LinkIcon from '../../assets/icons/linkicon.svg';
 import PagArrow from '../../assets/svg/pag-arrow.svg';
 import './Portfolio.scss';
+import 'lightbox.js-react/dist/index.css';
 
 const EmailerDesign = () => {
     const [items, setItems] = useState([]);
@@ -26,6 +26,10 @@ const EmailerDesign = () => {
 
         getComments();
     }, [limit]);
+
+    useEffect(() => {
+        initLightboxJS("Image lightbox");
+    }, []);
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
@@ -53,12 +57,9 @@ const EmailerDesign = () => {
                             {items.map(data => (
                                 <div className='item' key={data.ID}>
                                     <div className='img_overlay'>
-                                        <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
-                                        <div className='overlay_icons'>
-                                            <Link to="#" className="icons">
-                                                <img src={LinkIcon} alt='link' />
-                                            </Link>
-                                        </div>
+                                        <SlideshowLightbox modalClose="clickOutside" backgroundColor="rgb(255 228 228 / 98%)" fullScreen={true}>
+                                            <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
+                                        </SlideshowLightbox>
                                     </div>
                                     <h3>{data.project_name}</h3>
                                 </div>

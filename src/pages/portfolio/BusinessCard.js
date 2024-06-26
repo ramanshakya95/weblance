@@ -56,14 +56,9 @@ const BusinessCard = () => {
                             {items.map(data => (
                                 <div className='item' key={data.ID}>
                                     <div className='img_overlay'>
-                                        <SlideshowLightbox modalClose="clickOutside" disableImageZoom="true" backgroundColor="rgb(255 228 228 / 98%)">
+                                        <SlideshowLightbox modalClose="clickOutside" disableImageZoom={true} backgroundColor="rgb(255 228 228 / 98%)">
                                             <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
                                         </SlideshowLightbox>
-                                        {/* <div className='overlay_icons'>
-                                            <Link to="#" className="icons">
-                                                <img src={LinkIcon} alt='link' />
-                                            </Link>
-                                        </div> */}
                                     </div>
                                     <h3>{data.project_name}</h3>
                                 </div>
