@@ -4,8 +4,10 @@
   padding: 60px 0px;
   .work_category_row {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     .each_cat {
+      flex-basis: calc(50% - 15px);
       background: $bg-color;
       border-radius: $border-radius;
       overflow: hidden;
@@ -21,17 +23,20 @@
       }
       .category_list {
         padding: 20px 20px 15px;
-        height: 370px;
         overflow-y: auto;
         ul {
           padding: 0px;
           margin: 0px;
+          display: flex;
+          flex-wrap: wrap;
+          column-gap: 20px;
           li {
             list-style: none;
             font-size: 14px;
             line-height: $line-height-35;
             display: flex;
             align-items: center;
+            flex-basis: calc(50% - 10px);
             &:before {
               content: "";
               background: url("../../assets/icons/listicon.svg") no-repeat;
