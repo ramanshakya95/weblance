@@ -34,25 +34,6 @@ import PPTDesigns from './pages/portfolio/PPT_Designs';
 import StandyDesign from './pages/portfolio/StandyDesign';
 import TshirtDesign from './pages/portfolio/TshirtDesign';
 
-import ArticleWriting from './pages/portfolio/ArticleWriting';
-import BusinessWriting from './pages/portfolio/BusinessWriting';
-import ProductDescriptions from './pages/portfolio/ProductDescriptions';
-import ContentWriting from './pages/portfolio/ContentWriting';
-import BlogWriting from './pages/portfolio/BlogWriting';
-import EssayWriting from './pages/portfolio/EssayWriting';
-import ProofReading from './pages/portfolio/ProofReading';
-
-import WebsiteAudit from './pages/portfolio/WebsiteAudit';
-import CompetitorAnalyse from './pages/portfolio/CompetitorAnalyse';
-import TechnicalSeo from './pages/portfolio/TechnicalSeo';
-import BlogPosts from './pages/portfolio/BlogPosts';
-import WebsiteContent from './pages/portfolio/WebsiteContent';
-import SeoWriting from './pages/portfolio/SeoWriting';
-import QualityBacklinks from './pages/portfolio/QualityBacklinks';
-import GuestPosts from './pages/portfolio/GuestPosts';
-import SocialMediaContent from './pages/portfolio/SocialMediaContent';
-import PressReleases from './pages/portfolio/PressReleases';
-
 import Error from './pages/Error';
 
 const Rout = () => {
@@ -98,26 +79,6 @@ const Rout = () => {
                 <Route path="/portfolio/PPT-designs" element={<PPTDesigns/>} exact></Route>
                 <Route path="/portfolio/standy-design" element={<StandyDesign/>} exact></Route>
                 <Route path="/portfolio/Tshirt-design" element={<TshirtDesign/>} exact></Route>
-
-                <Route path="/portfolio/article-writing" element={<ArticleWriting/>} exact></Route>
-                <Route path="/portfolio/business-writing" element={<BusinessWriting/>} exact></Route>
-                <Route path="/portfolio/product-descriptions" element={<ProductDescriptions/>} exact></Route>
-                <Route path="/portfolio/content-writing" element={<ContentWriting/>} exact></Route>
-                <Route path="/portfolio/blog-writing" element={<BlogWriting/>} exact></Route>
-                <Route path="/portfolio/essay-writing" element={<EssayWriting/>} exact></Route>
-                <Route path="/portfolio/proof-reading" element={<ProofReading/>} exact></Route>
-
-                <Route path="/portfolio/website-audit" element={<WebsiteAudit/>} exact></Route>
-                <Route path="/portfolio/competitor-analyse" element={<CompetitorAnalyse/>} exact></Route>
-                <Route path="/portfolio/technical-seo" element={<TechnicalSeo/>} exact></Route>
-                <Route path="/portfolio/website-content" element={<WebsiteContent/>} exact></Route>
-                <Route path="/portfolio/blog-posts" element={<BlogPosts/>} exact></Route>
-                <Route path="/portfolio/article-writing" element={<ArticleWriting/>} exact></Route>
-                <Route path="/portfolio/seo-writing" element={<SeoWriting/>} exact></Route>
-                <Route path="/portfolio/quality-backlinks" element={<QualityBacklinks/>} exact></Route>
-                <Route path="/portfolio/guest-posts" element={<GuestPosts/>} exact></Route>
-                <Route path="/portfolio/social-media-content" element={<SocialMediaContent/>} exact></Route>
-                <Route path="/portfolio/press-releases" element={<PressReleases/>} exact></Route>
 
                 <Route path="*" element={<Error/>}></Route>
             </Routes>

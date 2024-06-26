@@ -37,7 +37,7 @@ const PortfolioCat = () => {
                             <div className='category_list'>
                                 <ul>
                                     {content_data.map(categories => (
-                                        <li key={categories.id}><Link to={`${categories.url}`}>{categories.category}</Link></li>
+                                        <li key={categories.id}>{categories.category}</li>
                                     ))}
                                 </ul>
                             </div>
@@ -47,7 +47,7 @@ const PortfolioCat = () => {
                             <div className='category_list'>
                                 <ul>
                                     {seo_data.map(categories => (
-                                        <li key={categories.id}><Link to={`${categories.url}`}>{categories.category}</Link></li>
+                                        <li key={categories.id}>{categories.category}</li>
                                     ))}
                                 </ul>
                             </div>
