@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
-import { Link } from "react-router-dom";
 import { Container } from 'react-bootstrap';
 import Banner from '../../components/banner/Banner';
 import LinkIcon from '../../assets/icons/linkicon.svg';
@@ -55,9 +54,9 @@ const Shopify = () => {
                                     <div className='img_overlay'>
                                         <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
                                         <div className='overlay_icons'>
-                                            <Link to="#" className="icons">
+                                            <a href={data.project_link} className="icons" target="blank">
                                                 <img src={LinkIcon} alt='link' />
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                     <h3>{data.project_name}</h3>

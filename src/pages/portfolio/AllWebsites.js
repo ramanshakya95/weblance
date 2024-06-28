@@ -65,9 +65,9 @@ const AllWebsites = () => {
                                         <div className='img_overlay'>
                                             <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
                                             <div className='overlay_icons'>
-                                                <Link to="#" className="icons">
+                                                <a href={data.project_link} className="icons" target="blank_">
                                                     <img src={LinkIcon} alt='link' />
-                                                </Link>
+                                                </a>
                                             </div>
                                         </div>
                                         <h3>{data.project_name}</h3>

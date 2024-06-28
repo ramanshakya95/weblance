@@ -1,7 +1,7 @@
 export const design_dev_data = [
     { id: 1, category: 'Wordpress Websites', url: 'wordpress-websites' },
     { id: 2, category: 'Woocommerce Websites', url: 'woocommerce-websites' },
-    { id: 3, category: 'Shopify', url: 'shopify' },
+    { id: 3, category: 'Shopify Websites', url: 'shopify-websites' },
     { id: 4, category: 'Php Websites', url: 'php-websites' },
     { id: 5, category: 'XD Templates', url: 'XD-templates' },
     { id: 6, category: 'Bootstrap Websites', url: 'bootstrap-websites' },

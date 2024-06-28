@@ -12,7 +12,7 @@ import ECatalogues from './pages/portfolio/E_Catalogues';
 import EmailerDesign from './pages/portfolio/EmailerDesign';
 import NewsletterDesign from './pages/portfolio/NewsletterDesign';
 import PhpWebsites from './pages/portfolio/PhpWebsites';
-import Shopify from './pages/portfolio/Shopify';
+import ShopifyWebsites from './pages/portfolio/ShopifyWebsites';
 import WoocommerceWebsites from './pages/portfolio/WoocommerceWebsites';
 import WordpressWebsites from './pages/portfolio/WordpressWebsites';
 import XDTemplates from './pages/portfolio/XD_Templates';
@@ -45,7 +45,7 @@ const Rout = () => {
 
     return (
         <>
-             <Routes>
+            <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/about" element={<About/>} exact></Route>
                 <Route path="/services" element={<Services/>} exact></Route>
@@ -58,7 +58,7 @@ const Rout = () => {
                 <Route path="/portfolio/emailer-design" element={<EmailerDesign/>} exact></Route>
                 <Route path="/portfolio/newsletter-design" element={<NewsletterDesign/>} exact></Route>
                 <Route path="/portfolio/php-websites" element={<PhpWebsites/>} exact></Route>
-                <Route path="/portfolio/shopify" element={<Shopify/>} exact></Route>
+                <Route path="/portfolio/shopify-websites" element={<ShopifyWebsites/>} exact></Route>
                 <Route path="/portfolio/woocommerce-websites" element={<WoocommerceWebsites/>} exact></Route>
                 <Route path="/portfolio/wordpress-websites" element={<WordpressWebsites/>} exact></Route>
                 <Route path="/portfolio/XD-templates" element={<XDTemplates/>} exact></Route>

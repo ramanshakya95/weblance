@@ -164,11 +164,11 @@ const BANNER_CONTENT = {
             </Row>
         </Container>
     </section>,
-    "/portfolio/shopify": <section className='about_banner_section work_inner_banner'>
+    "/portfolio/shopify-websites": <section className='about_banner_section work_inner_banner'>
         <Container className='p-0'>
             <Row className='banner align-items-center m-0'>
                 <Col className='banner_content'>
-                    <h2 className='text-center'>Shopify</h2>
+                    <h2 className='text-center'>Shopify Websites</h2>
                 </Col>
             </Row>
         </Container>
