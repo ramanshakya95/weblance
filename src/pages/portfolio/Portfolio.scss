@@ -167,3 +167,55 @@
         }
     }
 }
+
+@media only screen and (max-width: $sm-tablet-991) {    
+    .portfolio_view {
+        .our_all_work { 
+            .item {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+            &.three_column {
+                gap: 20px;
+                .item {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 53em) {
+    ._2yYOi {
+        align-items: start !important;
+    }
+}
+
+@media only screen and (max-width: $mobile-767) {
+    .portfolio_view {
+        padding: 40px 5px;
+        .our_all_work {
+            .item {
+                h3 {
+                    font-size: 16px;
+                }
+            }
+            &.three_column {
+                column-count: 2;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $sm-mobile-575) {
+    .portfolio_view {
+        .our_all_work {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            &.three_column { 
+                column-count: 1;
+            }
+        }
+    } 
+}

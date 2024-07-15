@@ -227,6 +227,9 @@
     &.work_banner_section { 
       padding: 40px 20px;
     }
+    &.work_inner_banner {
+      border-radius: 0px 0px 60px 60px;
+    }
   }
   .services_banner_section {
     padding: 30px 20px;
@@ -255,6 +258,10 @@
         }
       }
     }
+  }
+  .about_banner_section.work_inner_banner {
+      padding: 25px 0px;
+      border-radius: 0px 0px 30px 30px;
   }
 }
 

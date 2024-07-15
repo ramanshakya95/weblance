@@ -164,4 +164,10 @@
 .portfolio_view .pagination .page-item.active .page-link {
   background: #cf2129;
   border: 0px;
+}
+
+@media screen and (max-width: 53em) {
+  ._2yYOi {
+    align-items: start !important;
+  }
 }/*# sourceMappingURL=Portfolio.css.map */

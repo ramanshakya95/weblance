@@ -79,6 +79,7 @@
       @include grid-layout;
       column-gap: 22px;
       row-gap: 30px;
+      margin: 0px;
       .logos {
         height: 100px;
         @include flex-center;

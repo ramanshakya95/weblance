@@ -65,3 +65,39 @@
         }
     }
 }
+
+@media only screen and (max-width: $sm-tablet-991) {
+    #reviews_section {
+        padding: 40px 5px;
+        .columns_ {
+            grid-template-columns: 1fr;
+            .right_column {
+                .reviews_ {
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile-767) {
+    #reviews_section {
+        .columns_ {
+            .left_column {
+                h1 {
+                    margin: 10px 0px;
+                    line-height: normal;
+                }
+            }
+            .right_column {
+                .reviews_ {
+                    grid-template-columns: repeat(1, 1fr);
+                    .review {
+                        padding: 15px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

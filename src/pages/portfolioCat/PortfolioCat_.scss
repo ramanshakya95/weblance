@@ -92,7 +92,6 @@
         }
         .category_list {
           padding: 10px;
-          height: 285px;
           ul {
             li {
               line-height: 30px;
@@ -102,4 +101,21 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: $sm-mobile-575) {
+  .work_category_section {
+    .work_category_row {
+      .each_cat {
+        .category_list {
+          max-height: 225px;
+          ul {
+            li {
+              flex-basis: 100%;
+            }
+          }
+        }
+      }
+    } 
+  } 
 }
