@@ -18,6 +18,7 @@ import WordpressWebsites from './pages/portfolio/WordpressWebsites';
 import XDTemplates from './pages/portfolio/XD_Templates';
 
 import Animation from './pages/portfolio/Animation';
+import Branding from './pages/portfolio/Branding';
 import BannerDesign from './pages/portfolio/BannerDesign';
 import BrochureDesign from './pages/portfolio/BrochureDesign';
 import BusinessCard from './pages/portfolio/BusinessCard';
@@ -64,6 +65,7 @@ const Rout = () => {
                 <Route path="/portfolio/XD-templates" element={<XDTemplates/>} exact></Route>
 
                 <Route path="/portfolio/animation" element={<Animation/>} exact></Route>
+                <Route path="/portfolio/branding" element={<Branding/>} exact></Route>
                 <Route path="/portfolio/banner-design" element={<BannerDesign/>} exact></Route>
                 <Route path="/portfolio/brochure-design" element={<BrochureDesign/>} exact></Route>
                 <Route path="/portfolio/business-card" element={<BusinessCard/>} exact></Route>

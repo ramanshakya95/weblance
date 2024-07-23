@@ -14,7 +14,7 @@ export const design_dev_data = [
 export const graphic_data = [
     { id: 1, category: 'Logo Design', url: 'logo-design' },
     { id: 2, category: 'Brochure Design', url: 'brochure-design' },
-    { id: 3, category: 'T-shirt Design', url: 'Tshirt-design' },
+    { id: 3, category: 'Branding', url: 'branding' },
     { id: 4, category: 'Infograhic Design', url: 'infograhic-design' },
     { id: 5, category: 'Business Card', url: 'business-card' },
     { id: 6, category: 'Banner Design', url: 'banner-design' },
@@ -27,7 +27,8 @@ export const graphic_data = [
     { id: 13, category: 'Standy Design', url: 'standy-design' },
     { id: 14, category: 'PPT Designs', url: 'PPT-designs' },
     { id: 15, category: 'Flyer', url: 'flyer' },
-    { id: 16, category: 'Company Profile', url: 'company-profile' }
+    { id: 16, category: 'Company Profile', url: 'company-profile' },
+    { id: 17, category: 'T-shirt Design', url: 'Tshirt-design' }
 ]
 
 export const content_data = [

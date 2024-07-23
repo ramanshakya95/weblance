@@ -236,6 +236,15 @@ const BANNER_CONTENT = {
             </Row>
         </Container>
     </section>,
+    "/portfolio/branding": <section className='about_banner_section work_inner_banner'>
+        <Container className='p-0'>
+            <Row className='banner align-items-center m-0'>
+                <Col className='banner_content'>
+                    <h2 className='text-center'>Branding</h2>
+                </Col>
+            </Row>
+        </Container>
+    </section>,
     "/portfolio/banner-design": <section className='about_banner_section work_inner_banner'>
         <Container className='p-0'>
             <Row className='banner align-items-center m-0'>
