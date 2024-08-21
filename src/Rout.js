@@ -16,6 +16,7 @@ import ShopifyWebsites from './pages/portfolio/ShopifyWebsites';
 import WoocommerceWebsites from './pages/portfolio/WoocommerceWebsites';
 import WordpressWebsites from './pages/portfolio/WordpressWebsites';
 import XDTemplates from './pages/portfolio/XD_Templates';
+import TopWebsites from './pages/portfolio/TopWebsites';
 
 import Animation from './pages/portfolio/Animation';
 import Branding from './pages/portfolio/Branding';
@@ -63,6 +64,7 @@ const Rout = () => {
                 <Route path="/portfolio/woocommerce-websites" element={<WoocommerceWebsites/>} exact></Route>
                 <Route path="/portfolio/wordpress-websites" element={<WordpressWebsites/>} exact></Route>
                 <Route path="/portfolio/XD-templates" element={<XDTemplates/>} exact></Route>
+                <Route path="/portfolio/top-websites" element={<TopWebsites/>} exact></Route>
 
                 <Route path="/portfolio/animation" element={<Animation/>} exact></Route>
                 <Route path="/portfolio/branding" element={<Branding/>} exact></Route>
