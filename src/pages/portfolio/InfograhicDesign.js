@@ -15,7 +15,7 @@ const InfograhicDesign = () => {
     useEffect(() => {
         const getComments = async () => {
             const res = await fetch(
-                `https://www.weblance.co.in/dev/api/infographic?_page=1&_limit=${limit}`
+                `https://www.weblance.co.in/api/infographic?_page=1&_limit=${limit}`
             );
             const portfolio = await res.json();
             const total = res.headers.get("x-total-count");
@@ -32,7 +32,7 @@ const InfograhicDesign = () => {
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
-            `https://www.weblance.co.in/dev/api/infographic?_page=${currentPage}&_limit=${limit}`
+            `https://www.weblance.co.in/api/infographic?_page=${currentPage}&_limit=${limit}`
         );
         const data = await res.json();
         return data;

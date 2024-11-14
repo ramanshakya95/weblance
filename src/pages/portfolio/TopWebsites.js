@@ -15,7 +15,7 @@ const TopWebsites = () => {
     useEffect(() => {
         const getComments = async () => {
             const res = await fetch(
-                `https://www.weblance.co.in/dev/api/topwebsite?_page=1&_limit=${limit}`
+                `https://www.weblance.co.in/api/topwebsite?_page=1&_limit=${limit}`
             );
             const portfolio = await res.json();
             const total = res.headers.get("x-total-count");
@@ -28,7 +28,7 @@ const TopWebsites = () => {
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
-            `https://www.weblance.co.in/dev/api/topwebsite?_page=${currentPage}&_limit=${limit}`
+            `https://www.weblance.co.in/api/topwebsite?_page=${currentPage}&_limit=${limit}`
         );
         const data = await res.json();
         return data;
