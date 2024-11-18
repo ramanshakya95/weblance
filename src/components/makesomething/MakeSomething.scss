@@ -70,6 +70,11 @@
             border-color: $theme-color;
           }
         }
+        button {
+          @include header-button;
+          width: 150px;
+          border: 0px;
+        }
       }
     }
   }

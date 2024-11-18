@@ -41,9 +41,12 @@ const MakeSomething = () => {
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
-                        <Form.Group className="" controlId="Attachment">
+                        <Form.Group className="mb-4" controlId="Attachment">
                             <Form.Label>Attachment</Form.Label>
                             <Form.Control type="file" autoFocus />
+                        </Form.Group>
+                        <Form.Group className="text-end" controlId="Attachment">
+                            <Button className="submit-btn" type="submit">Submit</Button>
                         </Form.Group>
                     </Form>
                 </Modal.Body>

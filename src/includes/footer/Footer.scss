@@ -65,10 +65,10 @@
             text-decoration: none;
             display: flex;
             align-items: center;
-            img {
-              width: 28px;
-              filter: brightness(0) invert(1);
-            }
+          }
+          img {
+            width: 28px;
+            filter: brightness(0) invert(1);
           }
         }
       }
@@ -161,10 +161,8 @@
       .second_column {
         ul {
           li {
-            a {
-              img {
-                width: 22px;
-              }
+            img {
+              width: 22px;
             }
           }
         }

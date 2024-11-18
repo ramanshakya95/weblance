@@ -28,7 +28,7 @@ const BANNER_CONTENT = {
                                 <p>We are among the top <b className='theme-color'>5 Freelancers</b></p>
                                 <h2>At the <span className='theme-color'>pinnacle</span> on Freelancer</h2>
                                 <h5>we're the top-rated company, dedicated to excellent work and client happiness.</h5>
-                                <Button href="/weblance/portfolio" className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
+                                <Button href="/portfolio" className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
                             </Col>
                             <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
                                 <img src={banner1} alt='banner-img' />
@@ -41,47 +41,7 @@ const BANNER_CONTENT = {
                                 <p>Fast | Expandable | Protected</p>
                                 <h2><span className='theme-color'>Building the</span> Digital Future Together</h2>
                                 <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
-                                <Button href="/weblance/portfolio" className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
-                            </Col>
-                            <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
-                                <img src={banner} alt='banner-img' />
-                            </Col>
-                        </Row>
-                    </div>
-                </Carousel>
-            </Container>
-        </section>,
-    "/home": <section className='home_banner_section'>
-            <Container className='p-0'>
-                <Carousel
-                    swipeable={true}
-                    itemClass='carouselItem'
-                    arrows={true}
-                    autoPlay={true}
-                    autoPlaySpeed={8000}
-                    infinite={true}
-                    partialVisible={true}
-                    responsive={banner_responsive}>
-                    <div className='item'>
-                        <Row className='banner align-items-center m-0 flex-wrap'>
-                            <Col md={6} sm={12} className='banner_content p-0'>
-                                <p>We are among the top <b className='theme-color'>5 Freelancers</b></p>
-                                <h2>At the <span className='theme-color'>pinnacle</span> on Freelancer</h2>
-                                <h5>we're the top-rated company, dedicated to excellent work and client happiness.</h5>
-                                <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
-                            </Col>
-                            <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
-                                <img src={banner1} alt='banner-img' />
-                            </Col>
-                        </Row>
-                    </div>
-                    <div className='item'>
-                        <Row className='banner align-items-center m-0 flex-wrap'>
-                            <Col md={6} sm={12} className='banner_content p-0'>
-                                <p>Fast . Expandable . Protected</p>
-                                <h2><span className='theme-color'>Building the</span> Digital Future Together</h2>
-                                <h5>The key to great web design is capturing the spirit of the client and the essence of the brand!</h5>
-                                <Button className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
+                                <Button href="/portfolio" className='second_button'>Explore <img src={arrow} alt='right-arrow' /></Button>
                             </Col>
                             <Col md={6} sm={12} className='banner_img ps-xxl-5 ps-lg-4 ps-md-3 ps-sm-2 ps-0 p-0 text-right'>
                                 <img src={banner} alt='banner-img' />
