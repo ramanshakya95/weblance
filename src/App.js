@@ -7,7 +7,7 @@ import Rout from './Rout';
 function App() {
   return (
     <>
-      <Router basename="/weblance">
+      <Router basename="/">
         <Header />
           <main>
             <Rout />
