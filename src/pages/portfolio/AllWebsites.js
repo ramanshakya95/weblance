@@ -17,7 +17,7 @@ const AllWebsites = () => {
     useEffect(() => {
         const getComments = async () => {
             const res = await fetch(
-                `https://www.weblance.co.in/api/wordpress?_page=1&_limit=${limit}`
+                `https://www.weblance.co.in/dev/api/wordpress?_page=1&_limit=${limit}`
             );
             const portfolio = await res.json();
             const total = res.headers.get("x-total-count");
@@ -30,7 +30,7 @@ const AllWebsites = () => {
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
-            `https://www.weblance.co.in/api/wordpress?_page=${currentPage}&_limit=${limit}`
+            `https://www.weblance.co.in/dev/api/wordpress?_page=${currentPage}&_limit=${limit}`
         );
         const data = await res.json();
         return data;
@@ -42,7 +42,7 @@ const AllWebsites = () => {
         setItems(commentsFormServer);
     };
 
-    const imageUrl = `https://www.weblance.co.in/uploads/gallery/`;
+    const imageUrl = `https://www.weblance.co.in/dev/uploads/gallery/`;
 
     return (
         <>

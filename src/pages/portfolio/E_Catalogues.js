@@ -32,7 +32,7 @@ const E_Catalogues = () => {
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
-            `https://www.weblance.co.in/api/ecatalogues?_page=${currentPage}&_limit=${limit}`
+            `https://www.weblance.co.in/dev/api/ecatalogues?_page=${currentPage}&_limit=${limit}`
         );
         const data = await res.json();
         return data;
@@ -44,7 +44,7 @@ const E_Catalogues = () => {
         setItems(commentsFormServer);
     };
 
-    const imageUrl = `https://www.weblance.co.in/uploads/gallery/`;
+    const imageUrl = `https://www.weblance.co.in/dev/uploads/gallery/`;
 
     return (
         <>

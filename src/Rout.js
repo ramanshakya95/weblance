@@ -49,7 +49,7 @@ const Rout = () => {
         <>
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
-                <Route path="/about" element={<About/>} exact></Route>
+                <Route path="/about" element={<About/>}></Route>
                 <Route path="/services" element={<Services/>} exact></Route>
                 <Route path="/portfolio" element={<PortfolioCat/>} exact></Route>
                 <Route path="/reviews" element={<Review/>} exact></Route>
