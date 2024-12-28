@@ -3,6 +3,7 @@ import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react';
 import ReactPaginate from "react-paginate";
 import { Container } from 'react-bootstrap';
 import Banner from '../../components/banner/Banner';
+import PDFIcon from '../../assets/icons/pdficon.svg';
 import PagArrow from '../../assets/svg/pag-arrow.svg';
 import './Portfolio.scss';
 
@@ -15,7 +16,7 @@ const BrochureDesign = () => {
     useEffect(() => {
         const getComments = async () => {
             const res = await fetch(
-                `https://weblance.co.in/dev/api/brochure?_page=1&_limit=${limit}`
+                `https://www.weblance.co.in/dev/api/brochure?_page=1&_limit=${limit}`
             );
             const portfolio = await res.json();
             const total = res.headers.get("x-total-count");
@@ -32,7 +33,7 @@ const BrochureDesign = () => {
 
     const fetchComments = async (currentPage) => {
         const res = await fetch(
-            `https://weblance.co.in/dev/api/brochure?_page=${currentPage}&_limit=${limit}`
+            `https://www.weblance.co.in/dev/api/brochure?_page=${currentPage}&_limit=${limit}`
         );
         const data = await res.json();
         return data;
@@ -59,6 +60,11 @@ const BrochureDesign = () => {
                                         <SlideshowLightbox modalClose="clickOutside" disableImageZoom={true} backgroundColor="rgb(255 228 228 / 98%)" fullScreen={true}>
                                             <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
                                         </SlideshowLightbox>
+                                        <div className='overlay_icons'>
+                                            <a href={imageUrl+data.project_pdf} className="icons" target="blank_">
+                                                <img src={PDFIcon} alt='link' />
+                                            </a>
+                                        </div>
                                     </div>
                                     <h3>{data.project_name}</h3>
                                 </div>

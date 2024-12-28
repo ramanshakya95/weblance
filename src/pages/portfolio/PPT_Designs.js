@@ -61,7 +61,7 @@ const PPT_Designs = () => {
                                             <img className='preview_img w-100' src={imageUrl+data.project_image} alt={data.project_name} loading='lazy' />
                                         </SlideshowLightbox>
                                         <div className='overlay_icons'>
-                                            <a href={data.project_pdf} className="icons" target="blank_">
+                                            <a href={imageUrl+data.project_pdf} className="icons" target="blank_">
                                                 <img src={PDFIcon} alt='link' />
                                             </a>
                                         </div>
