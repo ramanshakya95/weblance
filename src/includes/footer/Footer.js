@@ -75,11 +75,11 @@ const Footer = () => {
             </section>
 
             <section className='copyright_section'>
-                <p className='text-center'>© 2024 Weblance. All Rights Reserved.</p>
+                <p className='text-center'>© 2025 Weblance. All Rights Reserved.</p>
             </section>
 
             <div className='fixed_element'>
-                <p><a href='/#' rel='noreferrer'><span>1000+</span>Websites</a></p>
+                <p><a href='portfolio/all-websites' rel='noreferrer'><span>1000+</span>Websites</a></p>
                 <p><a href='https://www.freelancer.com/u/ambalaonline1' target='_blank' rel='noreferrer'><span><img src={hire} alt='hire' /></span>Hire Us</a></p>
             </div>
         </>
