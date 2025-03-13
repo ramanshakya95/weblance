@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap';
 import footerlogo from '../../assets/svg/f_logo.svg';
 import freelance from '../../assets/svg/freelance.svg';
@@ -47,8 +48,7 @@ const Footer = () => {
                             <h3>Expertise in</h3>
                             <ul className='list-unstyled'>
                                 {expertdata.map(expert => (
-                                    <li key={expert.id}><img src={expert.icon} alt="" /> {expert.title}</li>
-                                    // <li key={expert.id}><Link to='/'><img src={expert.icon} alt="" /> {expert.title}</Link></li>
+                                    <li key={expert.id}><Link to='/portfolio'><img src={expert.icon} alt="" /> {expert.title}</Link></li>
                                 ))}
                             </ul>
                         </Col>
@@ -79,7 +79,7 @@ const Footer = () => {
             </section>
 
             <div className='fixed_element'>
-                <p><a href='portfolio/all-websites' rel='noreferrer'><span>1000+</span>Websites</a></p>
+                <p><Link to='/portfolio'><span>1000+</span>Websites</Link></p>
                 <p><a href='https://www.freelancer.com/u/ambalaonline1' target='_blank' rel='noreferrer'><span><img src={hire} alt='hire' /></span>Hire Us</a></p>
             </div>
         </>
